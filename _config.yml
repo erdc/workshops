@@ -1,0 +1,5 @@
+name: ERDC-FSI April 2016
+markdown: kramdown
+pygments: true
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
