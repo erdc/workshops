@@ -5,8 +5,9 @@ title: ERDC-FSI April 2016
 
 # ERDC Fluid-Structure Interaction R&D Workshop
 
-There is growing demand for high-fidelity models of FSI within the DoD and
-industry. Examples include waves and currents interacting with
+Both the DoD and industry increasingly demand high-fidelity models of
+Fluid-Structure Interaction (FSI). Examples include waves and currents
+interacting with
 
 - moored platforms and bridges,
 - flood protection structures,
