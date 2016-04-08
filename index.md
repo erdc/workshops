@@ -37,7 +37,7 @@ Time | Topic | Presenter
 1345 | [Adaptive unstructured approaches for problems with fluid-structure and multiphase interactions at extreme scale](abstracts/Sahni.html) | Onkar Sahni and Mark Shephard
 1430 | Coffee Break |
 1445 | [The shifted Nitsche method: a new approach to embedded/immersed boundary conditions](abstracts/Scovazzi.html) | Guglielmo Scovazzi
-1530 | [Invariant domains preserving ale approximation of hyperbolic systems with continuous finite elements](abstracts/Guermond.html) | Jean-Luc Guermond and Bojan Popov
+1530 | [Invariant domains preserving ALE approximation of hyperbolic systems with continuous finite elements](abstracts/Guermond.html) | Jean-Luc Guermond and Bojan Popov
 1615 | [ERDC-CHL wave-vegetation interaction R&D](abstracts/Anderson.html) | Mary Anderson
 1635 | [ERDC-EL fish and autonomous agent R&D](abstracts/Goodwin.html) | Andy Goodwin and David Smith
 1700 | Closing |
@@ -47,12 +47,12 @@ Time | Topic | Presenter
 
 Time | Topic | Presenter
 -----|-------|----------
-0800 | Introduction to the proteus package and basic tutorials | Chris Kees
+0800 | Introduction to Proteus and basic tutorials | Chris Kees
 0845 | Simulating waves: proteus.WaveTools and wave/structure tutorials | Aggelos Dimakopolous
 0930 | Simulating structures: proteus.Geometry and floating structure tutorials | Tristan de Lataillade
 1015 | Coffee Break |
 1030 | Using the hashdist tool to manage HPC software distributions | Chris Kees
-1045 | Using proteus for fast prototyping and numerical methods research | Alistair Bentley
+1045 | Using Proteus for fast prototyping and numerical methods research | Alistair Bentley
 1100 | Proteus roadmap and discussion | Chris Kees 
 1200 | Lunch |
 1300 | Prioritization of FSI applications |
