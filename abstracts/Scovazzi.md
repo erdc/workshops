@@ -6,7 +6,7 @@ author: Guglielmo Scovazzi
 level: intermediate
 ---
 
-# The shifted Nitsche method: A new approach to embedded/immersed boundary conditions
+# The shifted Nitsche method: a new approach to embedded/immersed boundary conditions
 
 Guglielmo Scovazzi, Duke
 
