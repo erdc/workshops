@@ -3,7 +3,7 @@ layout: default
 title: ERDC-FSI April 2016
 ---
 
-# ERDC Fluid-Structure Interaction R&D Workshop
+# ERDC Fluid-Structure Interaction R&D Workshop, April 14-15, 2016
 
 Both the DoD and industry increasingly demand high-fidelity models of
 Fluid-Structure Interaction (FSI). Examples include waves and currents
@@ -26,7 +26,7 @@ interacting with
 
 Time | Topic | Presenter
 -----|-------|----------
-0800 | Opening Remarks | Jose Sanchez 
+0800 | Opening Remarks | José Sánchez, Jane Smith, and Stacy Howington
 0845 | [Chrono: An open-source physics engine](abstracts/Negrut.html) | Dan Negrut 
 0930 | [Numerical modeling of wet particulate media in various limits](abstracts/Kamrin.html) |  Ken Kamrin 
 1015 | Coffee Break |
@@ -67,6 +67,8 @@ Time | Topic | Presenter
 ## Location and Directions
 
 *Conference Facility*, Coastal and Hydraulics Laboratory, US Army Engineer Research and Development Center, 3909 Halls Ferry Road, Vicksburg, MS 39180 ([Map](https://goo.gl/maps/5ZGQaCggdZk))
+
+You will proceed through the front gate on Halls Ferry and continue down the hill past the red brick ACE-IT building, over the spillway, and to a four-way stop. Turn left at the four-way stop onto Delaware road and proceed up the hill and into the CHL parking lot on the left. Park in any spot labeled visitor  or any unlabeled spot. Check in and receive your badge in the CHL foyer.
 
 ## Point of Contact
 
