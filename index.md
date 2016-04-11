@@ -48,13 +48,13 @@ Time | Topic | Presenter
 
 Time | Topic | Presenter
 -----|-------|----------
-0800 | Introduction to Proteus and basic tutorials | Chris Kees
-0845 | Simulating waves: proteus.WaveTools and wave/structure tutorials | Aggelos Dimakopolous
-0930 | Simulating structures: proteus.Geometry and floating structure tutorials | Tristan de Lataillade
+0800 | [Introduction to Proteus and basic tutorials](abstracts/Kees1.html) | Chris Kees
+0845 | [Simulating waves: proteus.WaveTools and wave/structure tutorials](abstracts/Dimakopoulos.html) | Aggelos Dimakopoulos
+0930 | [Simulating structures: proteus.Geometry and floating structure tutorials](abstracts/deLataillade.html) | Tristan de Lataillade
 1015 | Coffee Break |
-1030 | Using the hashdist tool to manage HPC software distributions | Chris Kees
-1045 | Using Proteus for fast prototyping and numerical methods research | Alistair Bentley
-1100 | Proteus roadmap and discussion | Chris Kees 
+1030 | [Using the hashdist tool to manage HPC software distributions](abstracts/Kees2.html) | Chris Kees
+1045 | [Using Proteus for fast prototyping and numerical methods research](abstracts/Bentley.html) | Alistair Bentley
+1100 | [Proteus roadmap and discussion](abstracts/Kees3.html) | Chris Kees 
 1200 | Lunch |
 1300 | Prioritization of FSI applications |
 1345 | Identification of short-term technological gaps |
@@ -66,7 +66,7 @@ Time | Topic | Presenter
 
 ## Location and Directions
 
-*Conference Facility*, Coastal and Hydraulics Laboratory, US Army Engineer Research and Development Center, 3909 Halls Ferry Road, Vicksburg, MS 39180 ([Map](https://goo.gl/maps/5ZGQaCggdZk))
+*Conference Facility*, Coastal and Hydraulics Laboratory, US Army Engineer Research and Development Center, 3909 Halls Ferry Road, Vicksburg, MS 39180 ([Courtyard to ERDC](https://goo.gl/maps/SvoHVF2zV7q), [ERDC/WES Map](images/ERDC-Map.jpg))
 
 You will proceed through the front gate on Halls Ferry and continue down the hill past the red brick ACE-IT building, over the spillway, and to a four-way stop. Turn left at the four-way stop onto Delaware road and proceed up the hill and into the CHL parking lot on the left. Park in any spot labeled visitor  or any unlabeled spot. Check in and receive your badge in the CHL foyer.
 
