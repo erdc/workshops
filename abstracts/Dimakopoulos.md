@@ -18,6 +18,6 @@ setting up a numerical flume for modelling wave interaction with fixed and
 mobile structures will be presented to the audience and animations from recent
 work in progress will be shown.
 
-<img src="/images/LCS.png">
+<img src="/workshops/images/LCS.png">
 
-<img src="/images/MovingCaisson.png">
+<img src="/workshops/images/MovingCaisson.png">
