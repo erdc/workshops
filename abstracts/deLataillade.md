@@ -22,4 +22,4 @@ geometries or on regions of the domain. Validation cases for free oscillation
 produced with Proteus will also be presented and compared with experimental
 results and other numerical models.
 
-![Caisson](/images/domain.png "Caisson Doman")
+<img src="/images/domain.png">
