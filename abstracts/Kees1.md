@@ -19,8 +19,12 @@ to run simulations
 3. as a [Jupyter](http://jupyter.org) notebook.
 
 The two main objectives of Proteus's design were to make it easy to add new
-models ("physics") that can be solved easily with multiple numerical methods
-("numerics"). To illustrate these capabilities several examples sets of physics
-will be developed and run with some of the available sets of numerics. Finally
+models ("physics") and to enable their solution with multiple numerical methods
+("numerics"). To illustrate these capabilities, several sets of physics
+will be developed and solved with some of the available sets of numerics. Finally,
 a brief overview of how the toolkit supports a computational simulator for wave
 flumes will provided.
+
+![kpp](/workshops/images/kppAll10k.png)
+![waves](/workshops/images/s3frame006.png)
+![tank](/workshops/images/wavetank.png)
