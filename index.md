@@ -70,6 +70,8 @@ Time | Topic | Presenter
 
 You will proceed through the front gate on Halls Ferry and continue down the hill past the red brick ACE-IT building, over the spillway, and to a four-way stop. Turn left at the four-way stop onto Delaware road and proceed up the hill and into the CHL parking lot on the left. Park in any spot labeled visitor  or any unlabeled spot. Check in and receive your badge in the CHL foyer.
 
+## [Wiki](https://github.com/erdc-cm/workshops/wiki)
+
 ## Point of Contact
 
 Chris Kees <christopher.e.kees@usace.army.mil>
