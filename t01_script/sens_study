@@ -1,0 +1,131 @@
+#!/usr/bin/env  python
+
+from proteus.iproteus import *
+from proteus import default_p as p
+from adr import LAD
+from matplotlib import pyplot as plt
+import tables
+import numpy as np
+from math import pi, sin, cos
+Profiling.logLevel=3
+Profiling.verbose=True
+
+def run_with_vel(theta=0.0):
+    assert 0.0 <= theta <= pi/2.0
+    #
+    #physics
+    #
+    p.name = "ladr_2d_"+`theta`
+    p.nd = 2; #Two dimensions
+
+    p.domain = Domain.RectangularDomain(L=[1.0,1.0],
+                                        x=[0.0,0.0])
+
+    p.T=1.0
+
+    p.coefficients=LAD(M=1.0,
+                       A=[[0.001,0.0],
+                          [0.0,0.001]],
+                       B=[cos(theta), sin(theta)])
+
+    #set boundary conditions based on coordinates
+    test_eps = 1.0e-8
+
+    #set boundary conditions based on flags
+    def on_inflow(x, flag):
+        if flag in [p.domain.boundaryTags['left'],
+                    p.domain.boundaryTags['bottom']]:
+            return True
+        else:
+            return False
+
+    def on_outflow(x, flag):
+        if flag in [p.domain.boundaryTags['right'],
+                    p.domain.boundaryTags['top']]:
+            return True
+
+    def getDirichletBC(x, flag):
+        if on_inflow(x, flag):
+            return lambda x,t: 1.0
+
+    def getNeumannBC_advective(x, flag):
+        return None
+
+    def getNeumannBC_diffusive(x, flag):
+        if on_outflow(x, flag):
+            return lambda x,t: 0.0
+
+    p.dirichletConditions = {0:getDirichletBC}
+    p.advectiveFluxBoundaryConditions = {0:getNeumannBC_advective}
+    p.diffusiveFluxBoundaryConditions = {0:{0:getNeumannBC_diffusive}}
+
+    class IC:
+        def __init__(self):
+            pass
+        def uOfXT(self,x,t):
+            if x[0] <= 0.0 or x[1] <= 0.0:
+                return 1.0
+            else:
+                return 0.0
+
+    p.initialConditions  = {0:IC()}
+
+    #
+    #numerics
+    #
+    import proteus.default_n as n
+    n.timeIntegration = TimeIntegration.BackwardEuler_cfl
+    n.stepController = StepControl.Min_dt_cfl_controller
+    n.runCFL=1.0
+    n.femSpaces = {0:FemTools.C0_AffineLinearOnSimplexWithNodalBasis}
+    n.elementQuadrature = Quadrature.SimplexGaussQuadrature(p.nd,3)
+    n.elementBoundaryQuadrature = Quadrature.SimplexGaussQuadrature(p.nd-1,3)
+    n.subgridError = SubgridError.AdvectionDiffusionReaction_ASGS(p.coefficients,
+                                                                  p.nd,lag=False)
+    n.shockCapturing = ShockCapturing.ResGradQuad_SC(p.coefficients,p.nd,
+                                                     shockCapturingFactor=0.99,
+                                                     lag=True)
+    n.numericalFluxType = NumericalFlux.Advection_DiagonalUpwind_Diffusion_SIPG_exterior
+    n.nnx=41; n.nny=41
+    n.tnList=[float(i)/40.0 for i in range(11)]
+    n.matrix = LinearAlgebraTools.SparseMatrix
+    n.multilevelLinearSolver = LinearSolvers.KSP_petsc4py
+    n.linearSmoother = None
+    n.l_atol_res = 1.0e-8
+    n.parallelPartitioningType = MeshTools.MeshParallelPartitioningTypes.node
+    n.nLayersOfOverlapForParallel =0
+
+    from petsc4py import PETSc
+    OptDB = PETSc.Options()
+    OptDB.setValue("ksp_type", "preonly")
+    OptDB.setValue("pc_type", "lu")
+    OptDB.setValue("pc_factor_mat_solver_package", "superlu_dist")
+    #
+    #build numerical  solution
+    pList = [p]
+    nList = [n]
+    so = default_so
+    so.name = pList[0].name
+    so.tnList = n.tnList
+    so.sList=[default_s]
+    opts.logLevel=7
+    opts.verbose=True
+    opts.profile=True
+    opts.gatherArchive=True
+    Profiling.openLog(p.name+".log", level=3)
+    ns = NumericalSolution.NS_base(so,pList,nList,so.sList,opts)
+    ns.calculateSolution('poisson_3d_c0p1')
+    Profiling.closeLog()
+    with tables.openFile(so.name+".h5","r") as data:
+        x = data.root.nodesSpatial_Domain10[:,0]
+        y = data.root.nodesSpatial_Domain10[:,1]
+        elements = data.root.elementsSpatial_Domain10
+        u = data.root.u_t10[:]
+        plt.tricontourf(x,
+                        y,
+                        elements,
+                        u)
+        plt.savefig(so.name+".png")
+
+for theta in np.linspace(0,pi/2.0,5):
+    run_with_vel(theta)
