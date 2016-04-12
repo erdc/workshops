@@ -26,3 +26,5 @@ scientific software developers to develop
 [HashDist](http://hashdist.github.io), which is a tool for reproducing complex
 software stacks across platforms. This short tutorial will show how to modify
 and build the software stack for [Proteus](http://proteustoolkit.org).
+
+![roams](/workshops/images/roams.png)
