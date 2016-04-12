@@ -26,5 +26,5 @@ a brief overview of how the toolkit supports a computational simulator for wave
 flumes will provided.
 
 ![kpp](/workshops/images/kppAll10k.png)
-![waves](/workshops/images/s3frame006.png)
+![waves](/workshops/images/s3frame0006.png)
 ![tank](/workshops/images/wavetank.png)
