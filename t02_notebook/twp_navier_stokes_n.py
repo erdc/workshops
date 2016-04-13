@@ -1,6 +1,6 @@
 from proteus import *
 from twp_navier_stokes_p import *
-from dambreak_Ubbink_coarse import *
+from tank import *
 
 if timeDiscretization=='vbdf':
     timeIntegration = VBDF
@@ -62,4 +62,4 @@ useEisenstatWalker = True
 maxNonlinearIts = 50
 maxLineSearches = 0
 conservativeFlux = {0:'pwl-bdm-opt'}
-auxiliaryVariables=[pointGauges,lineGauges]
+#auxiliaryVariables=[pointGauges,lineGauges]

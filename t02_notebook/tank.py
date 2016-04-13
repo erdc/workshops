@@ -58,8 +58,8 @@ elif spaceOrder == 2:
         elementBoundaryQuadrature = SimplexGaussQuadrature(nd-1,4)
 
 # Domain and mesh
-#L = (0.584,0.350)
-L = (0.584 , 0.584)
+L = (0.584,0.350)
+#L = (0.584 , 0.584)
 obst_portions = (0.024,0.048) #(width,height)
 obst_x_start = 0.292 # start x coordinate of the obstacle; caution to be in the domain's range
 obst_x_end = obst_x_start + obst_portions[0] # end x coordinate of the obstacle; caution to be in the domain's range
@@ -67,7 +67,6 @@ obst = (obst_x_start,obst_portions[1],obst_x_end) #coordinates of the obstacle t
 
 
 he = L[0]/float(4*Refinement-1)
-he *=2.0
 #he*=0.5
 #he*=0.5
 #he*=0.5
@@ -240,15 +239,15 @@ else:
 
 
 
-        regions=[[0.146 ,0.292]]
+        regions=[[0.1*L[0] ,0.5*L[1]]]
         regionFlags=[1]
-        for gaugeName,gaugeCoordinates in pointGauges.locations.iteritems():
-            vertices.append(gaugeCoordinates)
-            vertexFlags.append(pointGauges.flags[gaugeName])
-        for gaugeName,gaugeLines in lineGauges.linepoints.iteritems():
-            for gaugeCoordinates in gaugeLines:
-                vertices.append(gaugeCoordinates)
-                vertexFlags.append(lineGauges.flags[gaugeName])
+        #for gaugeName,gaugeCoordinates in pointGauges.locations.iteritems():
+        #    vertices.append(gaugeCoordinates)
+        #    vertexFlags.append(pointGauges.flags[gaugeName])
+        #for gaugeName,gaugeLines in lineGauges.linepoints.iteritems():
+        #    for gaugeCoordinates in gaugeLines:
+        #        vertices.append(gaugeCoordinates)
+        #        vertexFlags.append(lineGauges.flags[gaugeName])
         domain = Domain.PlanarStraightLineGraphDomain(vertices=vertices,
                                                       vertexFlags=vertexFlags,
                                                       segments=segments,
@@ -264,27 +263,27 @@ else:
 
 logEvent("""Mesh generated using: tetgen -%s %s"""  % (triangleOptions,domain.polyfile+".poly"))
 # Time stepping
-T=0.4
-dt_fixed = 0.01
+T=0.3
+dt_fixed = 0.02
 dt_init = min(0.1*dt_fixed,0.001)
-runCFL=0.33
+runCFL=0.9
 nDTout = int(round(T/dt_fixed))
 
 # Numerical parameters
 ns_forceStrongDirichlet = False#True
 if useMetrics:
-    ns_shockCapturingFactor  = 0.9
+    ns_shockCapturingFactor  = 0.5
     ns_lag_shockCapturing = True
     ns_lag_subgridError = True
-    ls_shockCapturingFactor  = 0.9
+    ls_shockCapturingFactor  = 0.5
     ls_lag_shockCapturing = True
     ls_sc_uref  = 1.0
     ls_sc_beta  = 1.5
-    vof_shockCapturingFactor = 0.9
+    vof_shockCapturingFactor = 0.5
     vof_lag_shockCapturing = True
     vof_sc_uref = 1.0
     vof_sc_beta = 1.5
-    rd_shockCapturingFactor  = 0.9
+    rd_shockCapturingFactor  = 0.5
     rd_lag_shockCapturing = False
     epsFact_density    = 1.5
     epsFact_viscosity  = epsFact_curvature  = epsFact_vof = epsFact_consrv_heaviside = epsFact_consrv_dirac = epsFact_density

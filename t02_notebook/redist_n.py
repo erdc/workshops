@@ -1,6 +1,6 @@
 from proteus import *
 from redist_p import *
-from dambreak_Ubbink_coarse import *
+from tank import *
 
 nl_atol_res = rd_nl_atol_res
 tolFac = 0.0
@@ -63,4 +63,4 @@ if useSuperlu:
 
 linear_solver_options_prefix = 'rdls_'
 
-auxiliaryVariables=[lineGauges_phi]
+#auxiliaryVariables=[lineGauges_phi]

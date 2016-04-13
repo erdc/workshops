@@ -1,5 +1,5 @@
 from proteus import *
-from dambreak_Ubbink_coarse import *
+from tank import *
 from vof_p import *
 
 if timeDiscretization=='vbdf':

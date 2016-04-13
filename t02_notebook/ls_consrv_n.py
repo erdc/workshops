@@ -1,5 +1,5 @@
 from proteus import *
-from dambreak_Ubbink_coarse import *
+from tank import *
 from ls_consrv_p import *
 
 timeIntegrator  = ForwardIntegrator
