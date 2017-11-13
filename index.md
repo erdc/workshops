@@ -1,68 +1,62 @@
 ---
 layout: default
-title: ERDC-FSI April 2016
+title: Proteus November 2017
 ---
 
-# ERDC Fluid-Structure Interaction R&D Workshop, April 14-15, 2016
+# ERDC Proteus Workshop, Nov 15-16, 2017
 
-Both the DoD and industry increasingly demand high-fidelity models of
-Fluid-Structure Interaction (FSI). Examples include waves and currents
-interacting with
+The [Proteus Computational Methods and Simulation Toolkit](https://github.com/erdc/proteus) is a Python package for solving partial differential equations. It is one of the core ERDC tools being developed to support Fluid-Structure Interaction analysis for a range of applications, including:
 
 - moored platforms and bridges,
 - flood protection structures,
 - granular materials (soil and sea ice), and
 - autonomous vessels and vehicles.
 
-**The overarching objective of this
-  meeting is to promote technical exchange in a small group setting to support
-  the development of new mechanistic theories and computational methods for
-  coupled fluid-solid systems, with specific attention to critical concerns of
-  the USACE and the DoD.**
+**The overarching objective of this meeting is to help researchers use and extend Proteus**
 
 # Agenda
 
-## Thursday, April 14
+## Wednesday, November 15
 
-Time | Topic | Presenter
------|-------|----------
-0800 | Opening Remarks | José Sánchez, Jane Smith, and Stacy Howington
-0845 | [Chrono: An open-source physics engine](abstracts/Negrut.html) | Dan Negrut 
-0930 | [Numerical modeling of wet particulate media in various limits](abstracts/Kamrin.html) |  Ken Kamrin 
+Time | Topic 
+-----|-------
+0900 | Participant introductions and target applications
+0930 | Using proteus on a jupyterhub
+0945 | Using proteus with docker
+1000 | Building/modifying the stack with hashdist
 1015 | Coffee Break |
-1030 | [ERDC-GSL ground vehicles R&D](abstracts/Goodin.html) | Chris Goodin 
-1050 | [ERDC-CRREL sea ice R&D](abstracts/Song.html) | Arnold Song 
-1115 | [Space–time FSI computation: it’s worth it](abstracts/Tezduyar.html) | Tayfun Tezduyar 
-1200 | Lunch |
-1300 | [Multi-scale modeling of tsunami forces on coastal structures](abstracts/Motley.html) | Mike Motley 
-1345 | [Adaptive unstructured approaches for problems with fluid-structure and multiphase interactions at extreme scale](abstracts/Sahni.html) | Onkar Sahni and Mark Shephard
-1430 | Coffee Break |
-1445 | [The shifted Nitsche method: a new approach to embedded/immersed boundary conditions](abstracts/Scovazzi.html) | Guglielmo Scovazzi
-1530 | [Invariant domains preserving ALE approximation of hyperbolic systems with continuous finite elements](abstracts/Guermond.html) | Jean-Luc Guermond and Bojan Popov
-1615 | [ERDC-CHL wave-vegetation interaction R&D](abstracts/Anderson.html) | Mary Anderson
-1635 | [ERDC-EL fish and autonomous agent R&D](abstracts/Goodwin.html) | Andy Goodwin and David Smith
-1700 | Closing |
-1830 | Dinner at 10-South Rooftop Bar & Grill([Map](https://goo.gl/maps/wrdrkbT8gvC2)) |
+1030 | Git version control for R&D with Proteus
+1100 | Defining the physics of a problem
+1130 | Lunch 
+1245 | Defining the numerics of a problem 
+1315 | Defining a multi-physics problem
+1330 | `proteus.Domain`
+1345 | `proteus.TransportCoefficients`
+1400 | Boundary and Initial Conditions 
+1430 | Coffee Break
+1530 | `proteus.Transport` and optimized models
+1545 | `proteus.mprans` and FSI analysis
+1600 | Two-phase flow
+1615 | Two-phase FSI
+1645 | Three-phase flow
+1700 | Day 1 wrap up
+1830 | Dinner at 10-South Rooftop Bar & Grill([Map](https://goo.gl/maps/wrdrkbT8gvC2))
 
-## Friday, April 15
+## Thursday, November 16
 
-Time | Topic | Presenter
------|-------|----------
-0800 | [Introduction to Proteus and basic tutorials](abstracts/Kees1.html) | Chris Kees
-0845 | [Simulating waves: proteus.WaveTools and wave/structure tutorials](abstracts/Dimakopoulos.html) | Aggelos Dimakopoulos
-0930 | [Simulating structures: proteus.Geometry and floating structure tutorials](abstracts/deLataillade.html) | Tristan de Lataillade
-1015 | Coffee Break |
-1030 | [Using the hashdist tool to manage HPC software distributions](abstracts/Kees2.html) | Chris Kees
-1045 | [Using Proteus for fast prototyping and numerical methods research](abstracts/Bentley.html) | Alistair Bentley
-1100 | [Proteus roadmap and discussion](abstracts/Kees3.html) | Chris Kees 
-1200 | Lunch |
-1300 | Prioritization of FSI applications |
-1345 | Identification of short-term technological gaps |
-1430 | Coffee Break |
-1445 | Indentification of long-term technological gaps |
-1530 | Small group R&D project development |
-1615 | Presentation of R&D project ideas |
-1700 | Closing remarks |
+Time | Topic
+-----|-------
+0900 | Progress updates
+0930 | The `parun` CLI
+0945 | Writing scripts and automated tests
+1015 | Coffee Break
+1030 | `proteus.WaveTools`
+1045 | `proteus.mprans.SpatialTools`
+1100 | `protues.mprans.BoundaryConditions`
+1130 | Lunch
+1230 | Standing Meeting
+1245 | Sprints
+1700 | Day 2 wrap up
 
 ## Location and Directions
 
@@ -71,6 +65,21 @@ Time | Topic | Presenter
 You will proceed through the front gate on Halls Ferry and continue down the hill past the red brick ACE-IT building, over the spillway, and to a four-way stop. Turn left at the four-way stop onto Delaware road and proceed up the hill and into the CHL parking lot on the left. Park in any spot labeled visitor  or any unlabeled spot. Check in and receive your badge in the CHL foyer.
 
 ## [Wiki](https://github.com/erdc-cm/workshops/wiki)
+
+## Participants
+
+- Arnold Song (CRREL)
+- Brendan West (CRREL)
+- Matt Parno (CRREL)
+- Mary Anderson (CHL)
+- Jim Lewis (CHL)
+- Gaurav Savant (CHL)
+- Yong Yang (CHL)
+- Amanda Hines (ITL)
+- Grace Pratt (ITL)
+- Tristan de Lataillade (Edinburgh/HR Wallingford)
+- Greg Burgreen (MSU)
+- Graham Hubbard (MSU)
 
 ## Point of Contact
 
