@@ -5,15 +5,14 @@ title: Proteus November 2017
 
 # ERDC Proteus Workshop, Nov 15-16, 2017
 
-The [Proteus Computational Methods and Simulation Toolkit](github.com/erdc/proteus) is a Python package for solving partial differential equations. It is one of the core ERDC tools being developed to support Fluid-Structure Interaction analysis for a range of applications including
+The [Proteus Computational Methods and Simulation Toolkit](https://github.com/erdc/proteus) is a Python package for solving partial differential equations. It is one of the core ERDC tools being developed to support Fluid-Structure Interaction analysis for a range of applications, including:
 
 - moored platforms and bridges,
 - flood protection structures,
 - granular materials (soil and sea ice), and
 - autonomous vessels and vehicles.
 
-**The overarching objective of this
-  meeting is to help researchers to use and extend Proteus**
+**The overarching objective of this meeting is to help researchers use and extend Proteus**
 
 # Agenda
 
@@ -66,6 +65,21 @@ Time | Topic
 You will proceed through the front gate on Halls Ferry and continue down the hill past the red brick ACE-IT building, over the spillway, and to a four-way stop. Turn left at the four-way stop onto Delaware road and proceed up the hill and into the CHL parking lot on the left. Park in any spot labeled visitor  or any unlabeled spot. Check in and receive your badge in the CHL foyer.
 
 ## [Wiki](https://github.com/erdc-cm/workshops/wiki)
+
+## Participants
+
+- Arnold Song (CRREL)
+- Brendan West (CRREL)
+- Matt Parno (CRREL)
+- Mary Anderson (CHL)
+- Jim Lewis (CHL)
+- Gaurav Savant (CHL)
+- Yong Yang (CHL)
+- Amanda Hines (ITL)
+- Grace Pratt (ITL)
+- Tristan de Lataillade (Edinburgh/HR Wallingford)
+- Greg Burgreen (MSU)
+- Graham Hubbard (MSU)
 
 ## Point of Contact
 
