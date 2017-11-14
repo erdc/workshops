@@ -71,6 +71,7 @@ You will proceed through the front gate on Halls Ferry and continue down the hil
 - Arnold Song (CRREL)
 - Brendan West (CRREL)
 - Matt Parno (CRREL)
+- Abigail Stehno (CHL)
 - Mary Anderson (CHL)
 - Jim Lewis (CHL)
 - Gaurav Savant (CHL)
@@ -80,6 +81,7 @@ You will proceed through the front gate on Halls Ferry and continue down the hil
 - Tristan de Lataillade (Edinburgh/HR Wallingford)
 - Greg Burgreen (MSU)
 - Graham Hubbard (MSU)
+- Xiao Wang (MSU)
 
 ## Point of Contact
 
