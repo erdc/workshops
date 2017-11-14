@@ -14,6 +14,10 @@ The [Proteus Computational Methods and Simulation Toolkit](https://github.com/er
 
 **The overarching objective of this meeting is to help researchers use and extend Proteus**
 
+# Location
+
+**Rm 519** (Coastal Processes Classroom), Coastal and Hydraulics Laboratory
+
 # Agenda
 
 ## Wednesday, November 15
