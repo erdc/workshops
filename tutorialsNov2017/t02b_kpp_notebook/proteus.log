@@ -1,0 +1,1854 @@
+[       0] Initializing NumericalSolution for ladr_2d
+ System includes: 
+ladr_2d
+
+[       0] Setting Archiver(s)
+[       0] Setting up MultilevelMesh
+[       0] Building one multilevel mesh for all models
+[       0] Generating mesh for ladr_2d
+[       0] Calling Triangle to generate 2D mesh forladr_2d
+[       0] TriangleBaseMesh nbase=1 baseFlags= VApq33Dena0.00250000 
+[       0] Generating 1-level mesh from coarse Triangle mesh
+[       0] Partitioning mesh among 1 processors using partitioningType = 1
+[       0] Number of Subdomain Elements Owned= 10926
+[       0] Number of Subdomain Elements = 10926
+[       0] Number of Subdomain Nodes Owned= 5594
+[       0] Number of Subdomain Nodes = 5594
+[       0] Number of Subdomain elementBoundaries Owned= 16519
+[       0] Number of Subdomain elementBoundaries = 16519
+[       0] Number of Subdomain Edges Owned= 16519
+[       0] Number of Subdomain Edges = 16519
+[       0] Finished partitioning
+[       0] *** Global ***
+Number of triangles  : 10926
+Number of edges : 16519
+Number of nodes : 5594
+
+*** Local ***
+Number of triangles  : 10926
+Number of edges : 16519
+Number of nodes : 5594
+
+[       0] Setting up MultilevelTransport for ladr_2d
+[       0] Building Transport for each mesh
+[       0] Generating Trial Space
+[       0] Generating Test Space
+[       0] Allocating u
+[       0] Allocating phi
+[       0] Setting Boundary Conditions
+[       0] Setting Boundary Conditions-1
+[       0] Setting Boundary Conditions-2
+[       0] Setting Boundary Conditions-2a
+[       0] Setting Boundary Conditions-3
+[       0] Setting Boundary Conditions-4
+[       0] Initializing OneLevelTransport
+[       0] Shallow copy of trial shape is being used for test shape w 
+[       0] Shallow copy of trial shape is being used for test shape grad(w) 
+[       0] Shallow copy of trial shape is being used for test shape w 
+[       0] Updating local to global mappings
+[       0] Building time integration object
+[       0] Calculating numerical quadrature formulas
+[       0] Element Quadrature
+[       0] Element Boundary Quadrature
+[       0] Global Exterior Element Boundary Quadrature
+[       0] Allocating residual and solution vectors
+[       0] Allocating Jacobian
+[       0] Building sparse matrix structure
+[       0] Allocating parallel storage
+[       0] Building Mesh Transfers
+[       0] Setting ladr_2d stepController to proteus.StepControl.Min_dt_cfl_controller
+[       0] Setting up MultilevelLinearSolver forladr_2d
+[       0] multilevelLinearSolverChooser type= proteus.LinearSolvers.LU
+[       0] Setting up MultilevelNonLinearSolver for ladr_2d
+[       0] Finished setting up models and solvers
+[       0] Setting up SimTools for ladr_2d
+[       1] Gauge for u[0] at -2.000000e+00 -2.500000e+00 0.000000e+00 is closest to node 0
+[       1] Gauge for u[1] at -1.956360e+00 -2.456360e+00 0.000000e+00 is closest to node 2551
+[       1] Gauge for u[2] at -1.924954e+00 -2.424954e+00 0.000000e+00 is closest to node 2492
+[       1] Gauge for u[3] at -1.896470e+00 -2.396470e+00 0.000000e+00 is closest to node 2484
+[       1] Gauge for u[4] at -1.891749e+00 -2.391749e+00 0.000000e+00 is closest to node 2484
+[       1] Gauge for u[5] at -1.888253e+00 -2.388253e+00 0.000000e+00 is closest to node 2484
+[       1] Gauge for u[6] at -1.868365e+00 -2.368365e+00 0.000000e+00 is closest to node 2487
+[       1] Gauge for u[7] at -1.839341e+00 -2.339341e+00 0.000000e+00 is closest to node 2471
+[       1] Gauge for u[8] at -1.834415e+00 -2.334415e+00 0.000000e+00 is closest to node 2471
+[       1] Gauge for u[9] at -1.819851e+00 -2.319851e+00 0.000000e+00 is closest to node 2476
+[       1] Gauge for u[10] at -1.808290e+00 -2.308290e+00 0.000000e+00 is closest to node 2476
+[       1] Gauge for u[11] at -1.805476e+00 -2.305476e+00 0.000000e+00 is closest to node 2476
+[       1] Gauge for u[12] at -1.780115e+00 -2.280115e+00 0.000000e+00 is closest to node 2316
+[       1] Gauge for u[13] at -1.774517e+00 -2.274517e+00 0.000000e+00 is closest to node 2316
+[       1] Gauge for u[14] at -1.732287e+00 -2.232287e+00 0.000000e+00 is closest to node 2420
+[       1] Gauge for u[15] at -1.728515e+00 -2.228515e+00 0.000000e+00 is closest to node 2420
+[       1] Gauge for u[16] at -1.724701e+00 -2.224701e+00 0.000000e+00 is closest to node 2420
+[       1] Gauge for u[17] at -1.707740e+00 -2.207740e+00 0.000000e+00 is closest to node 2552
+[       1] Gauge for u[18] at -1.694988e+00 -2.194988e+00 0.000000e+00 is closest to node 2552
+[       1] Gauge for u[19] at -1.691378e+00 -2.191378e+00 0.000000e+00 is closest to node 2552
+[       1] Gauge for u[20] at -1.663659e+00 -2.163659e+00 0.000000e+00 is closest to node 2495
+[       1] Gauge for u[21] at -1.644329e+00 -2.144329e+00 0.000000e+00 is closest to node 5104
+[       1] Gauge for u[22] at -1.636510e+00 -2.136510e+00 0.000000e+00 is closest to node 5104
+[       1] Gauge for u[23] at -1.613457e+00 -2.113457e+00 0.000000e+00 is closest to node 2215
+[       1] Gauge for u[24] at -1.587584e+00 -2.087584e+00 0.000000e+00 is closest to node 2294
+[       1] Gauge for u[25] at -1.565231e+00 -2.065231e+00 0.000000e+00 is closest to node 2296
+[       1] Gauge for u[26] at -1.546698e+00 -2.046698e+00 0.000000e+00 is closest to node 2296
+[       1] Gauge for u[27] at -1.517877e+00 -2.017877e+00 0.000000e+00 is closest to node 2405
+[       1] Gauge for u[28] at -1.512340e+00 -2.012340e+00 0.000000e+00 is closest to node 2405
+[       1] Gauge for u[29] at -1.487193e+00 -1.987193e+00 0.000000e+00 is closest to node 2403
+[       1] Gauge for u[30] at -1.482729e+00 -1.982729e+00 0.000000e+00 is closest to node 2403
+[       1] Gauge for u[31] at -1.456106e+00 -1.956106e+00 0.000000e+00 is closest to node 2283
+[       1] Gauge for u[32] at -1.427747e+00 -1.927747e+00 0.000000e+00 is closest to node 2286
+[       1] Gauge for u[33] at -1.418257e+00 -1.918257e+00 0.000000e+00 is closest to node 2286
+[       1] Gauge for u[34] at -1.393778e+00 -1.893778e+00 0.000000e+00 is closest to node 2280
+[       1] Gauge for u[35] at -1.378471e+00 -1.878471e+00 0.000000e+00 is closest to node 2280
+[       1] Gauge for u[36] at -1.350197e+00 -1.850197e+00 0.000000e+00 is closest to node 2084
+[       1] Gauge for u[37] at -1.343288e+00 -1.843288e+00 0.000000e+00 is closest to node 2084
+[       1] Gauge for u[38] at -1.339002e+00 -1.839002e+00 0.000000e+00 is closest to node 2084
+[       1] Gauge for u[39] at -1.328156e+00 -1.828156e+00 0.000000e+00 is closest to node 2084
+[       1] Gauge for u[40] at -1.288099e+00 -1.788099e+00 0.000000e+00 is closest to node 2098
+[       1] Gauge for u[41] at -1.258764e+00 -1.758764e+00 0.000000e+00 is closest to node 2077
+[       1] Gauge for u[42] at -1.252373e+00 -1.752373e+00 0.000000e+00 is closest to node 2077
+[       1] Gauge for u[43] at -1.234345e+00 -1.734345e+00 0.000000e+00 is closest to node 2077
+[       1] Gauge for u[44] at -1.206169e+00 -1.706169e+00 0.000000e+00 is closest to node 2003
+[       1] Gauge for u[45] at -1.199223e+00 -1.699223e+00 0.000000e+00 is closest to node 2003
+[       1] Gauge for u[46] at -1.165140e+00 -1.665140e+00 0.000000e+00 is closest to node 2075
+[       1] Gauge for u[47] at -1.162259e+00 -1.662259e+00 0.000000e+00 is closest to node 2075
+[       1] Gauge for u[48] at -1.159897e+00 -1.659897e+00 0.000000e+00 is closest to node 2075
+[       1] Gauge for u[49] at -1.128147e+00 -1.628147e+00 0.000000e+00 is closest to node 2085
+[       1] Gauge for u[50] at -1.100685e+00 -1.600685e+00 0.000000e+00 is closest to node 2081
+[       1] Gauge for u[51] at -1.090589e+00 -1.590589e+00 0.000000e+00 is closest to node 2081
+[       1] Gauge for u[52] at -1.057729e+00 -1.557729e+00 0.000000e+00 is closest to node 5069
+[       1] Gauge for u[53] at -1.047083e+00 -1.547083e+00 0.000000e+00 is closest to node 5069
+[       1] Gauge for u[54] at -1.022155e+00 -1.522155e+00 0.000000e+00 is closest to node 1899
+[       1] Gauge for u[55] at -1.000022e+00 -1.500022e+00 0.000000e+00 is closest to node 2276
+[       1] Gauge for u[56] at -9.951356e-01 -1.495136e+00 0.000000e+00 is closest to node 2276
+[       1] Gauge for u[57] at -9.883148e-01 -1.488315e+00 0.000000e+00 is closest to node 2276
+[       1] Gauge for u[58] at -9.597312e-01 -1.459731e+00 0.000000e+00 is closest to node 1752
+[       1] Gauge for u[59] at -9.342055e-01 -1.434206e+00 0.000000e+00 is closest to node 1753
+[       1] Gauge for u[60] at -9.187279e-01 -1.418728e+00 0.000000e+00 is closest to node 1753
+[       1] Gauge for u[61] at -8.973132e-01 -1.397313e+00 0.000000e+00 is closest to node 1751
+[       1] Gauge for u[62] at -8.811113e-01 -1.381111e+00 0.000000e+00 is closest to node 1751
+[       1] Gauge for u[63] at -8.435057e-01 -1.343506e+00 0.000000e+00 is closest to node 1746
+[       1] Gauge for u[64] at -8.394010e-01 -1.339401e+00 0.000000e+00 is closest to node 1746
+[       1] Gauge for u[65] at -8.352119e-01 -1.335212e+00 0.000000e+00 is closest to node 1746
+[       1] Gauge for u[66] at -8.034299e-01 -1.303430e+00 0.000000e+00 is closest to node 1643
+[       1] Gauge for u[67] at -7.868439e-01 -1.286844e+00 0.000000e+00 is closest to node 1643
+[       1] Gauge for u[68] at -7.593220e-01 -1.259322e+00 0.000000e+00 is closest to node 1641
+[       1] Gauge for u[69] at -7.441940e-01 -1.244194e+00 0.000000e+00 is closest to node 1641
+[       1] Gauge for u[70] at -7.066600e-01 -1.206660e+00 0.000000e+00 is closest to node 1496
+[       1] Gauge for u[71] at -6.978834e-01 -1.197883e+00 0.000000e+00 is closest to node 1496
+[       1] Gauge for u[72] at -6.941846e-01 -1.194185e+00 0.000000e+00 is closest to node 1496
+[       1] Gauge for u[73] at -6.585693e-01 -1.158569e+00 0.000000e+00 is closest to node 1571
+[       1] Gauge for u[74] at -6.566176e-01 -1.156618e+00 0.000000e+00 is closest to node 1571
+[       1] Gauge for u[75] at -6.258284e-01 -1.125828e+00 0.000000e+00 is closest to node 1572
+[       1] Gauge for u[76] at -6.103634e-01 -1.110363e+00 0.000000e+00 is closest to node 1572
+[       1] Gauge for u[77] at -5.691709e-01 -1.069171e+00 0.000000e+00 is closest to node 1573
+[       1] Gauge for u[78] at -5.658419e-01 -1.065842e+00 0.000000e+00 is closest to node 1573
+[       1] Gauge for u[79] at -5.256085e-01 -1.025608e+00 0.000000e+00 is closest to node 1579
+[       1] Gauge for u[80] at -5.175427e-01 -1.017543e+00 0.000000e+00 is closest to node 1579
+[       1] Gauge for u[81] at -4.804558e-01 -9.804558e-01 0.000000e+00 is closest to node 1578
+[       1] Gauge for u[82] at -4.766301e-01 -9.766301e-01 0.000000e+00 is closest to node 1578
+[       1] Gauge for u[83] at -4.757101e-01 -9.757101e-01 0.000000e+00 is closest to node 1578
+[       1] Gauge for u[84] at -4.526339e-01 -9.526339e-01 0.000000e+00 is closest to node 1720
+[       1] Gauge for u[85] at -4.370444e-01 -9.370444e-01 0.000000e+00 is closest to node 1722
+[       1] Gauge for u[86] at -4.263229e-01 -9.263229e-01 0.000000e+00 is closest to node 1722
+[       1] Gauge for u[87] at -4.002463e-01 -9.002463e-01 0.000000e+00 is closest to node 1652
+[       1] Gauge for u[88] at -3.758723e-01 -8.758723e-01 0.000000e+00 is closest to node 1772
+[       1] Gauge for u[89] at -3.577575e-01 -8.577575e-01 0.000000e+00 is closest to node 1772
+[       1] Gauge for u[90] at -3.474463e-01 -8.474463e-01 0.000000e+00 is closest to node 1772
+[       1] Gauge for u[91] at -3.300128e-01 -8.300128e-01 0.000000e+00 is closest to node 1773
+[       1] Gauge for u[92] at -3.118390e-01 -8.118390e-01 0.000000e+00 is closest to node 1773
+[       1] Gauge for u[93] at -2.823322e-01 -7.823322e-01 0.000000e+00 is closest to node 1774
+[       1] Gauge for u[94] at -2.599120e-01 -7.599120e-01 0.000000e+00 is closest to node 1775
+[       1] Gauge for u[95] at -2.427167e-01 -7.427167e-01 0.000000e+00 is closest to node 1778
+[       1] Gauge for u[96] at -2.290973e-01 -7.290973e-01 0.000000e+00 is closest to node 1778
+[       1] Gauge for u[97] at -2.105797e-01 -7.105797e-01 0.000000e+00 is closest to node 1779
+[       1] Gauge for u[98] at -1.916195e-01 -6.916195e-01 0.000000e+00 is closest to node 1818
+[       1] Gauge for u[99] at -1.744296e-01 -6.744296e-01 0.000000e+00 is closest to node 1818
+[       1] Gauge for u[100] at -1.547500e-01 -6.547500e-01 0.000000e+00 is closest to node 1820
+[       1] Gauge for u[101] at -1.351578e-01 -6.351578e-01 0.000000e+00 is closest to node 1819
+[       1] Gauge for u[102] at -1.288473e-01 -6.288473e-01 0.000000e+00 is closest to node 1819
+[       1] Gauge for u[103] at -1.227950e-01 -6.227950e-01 0.000000e+00 is closest to node 1819
+[       1] Gauge for u[104] at -9.124059e-02 -5.912406e-01 0.000000e+00 is closest to node 1942
+[       1] Gauge for u[105] at -7.922106e-02 -5.792211e-01 0.000000e+00 is closest to node 1942
+[       1] Gauge for u[106] at -5.086626e-02 -5.508663e-01 0.000000e+00 is closest to node 1882
+[       1] Gauge for u[107] at -3.873052e-02 -5.387305e-01 0.000000e+00 is closest to node 1882
+[       1] Gauge for u[108] at -2.220446e-16 -5.000000e-01 0.000000e+00 is closest to node 4
+[       1] Gauge for u[109] at 2.820974e-02 -4.717903e-01 0.000000e+00 is closest to node 2032
+[       1] Gauge for u[110] at 3.946893e-02 -4.605311e-01 0.000000e+00 is closest to node 2032
+[       1] Gauge for u[111] at 6.306890e-02 -4.369311e-01 0.000000e+00 is closest to node 1975
+[       1] Gauge for u[112] at 8.041707e-02 -4.195829e-01 0.000000e+00 is closest to node 1975
+[       1] Gauge for u[113] at 1.171909e-01 -3.828091e-01 0.000000e+00 is closest to node 1971
+[       1] Gauge for u[114] at 1.297735e-01 -3.702265e-01 0.000000e+00 is closest to node 1971
+[       1] Gauge for u[115] at 1.620966e-01 -3.379034e-01 0.000000e+00 is closest to node 2135
+[       1] Gauge for u[116] at 1.729121e-01 -3.270879e-01 0.000000e+00 is closest to node 2135
+[       1] Gauge for u[117] at 1.773640e-01 -3.226360e-01 0.000000e+00 is closest to node 2135
+[       1] Gauge for u[118] at 2.147926e-01 -2.852074e-01 0.000000e+00 is closest to node 2158
+[       1] Gauge for u[119] at 2.462137e-01 -2.537863e-01 0.000000e+00 is closest to node 1968
+[       1] Gauge for u[120] at 2.501382e-01 -2.498618e-01 0.000000e+00 is closest to node 1968
+[       1] Gauge for u[121] at 2.532067e-01 -2.467933e-01 0.000000e+00 is closest to node 1968
+[       1] Gauge for u[122] at 2.919090e-01 -2.080910e-01 0.000000e+00 is closest to node 1962
+[       1] Gauge for u[123] at 3.076521e-01 -1.923479e-01 0.000000e+00 is closest to node 1969
+[       1] Gauge for u[124] at 3.252281e-01 -1.747719e-01 0.000000e+00 is closest to node 1969
+[       1] Gauge for u[125] at 3.512680e-01 -1.487320e-01 0.000000e+00 is closest to node 1965
+[       1] Gauge for u[126] at 3.645435e-01 -1.354565e-01 0.000000e+00 is closest to node 1965
+[       1] Gauge for u[127] at 3.919774e-01 -1.080226e-01 0.000000e+00 is closest to node 2131
+[       1] Gauge for u[128] at 4.159666e-01 -8.403335e-02 0.000000e+00 is closest to node 2131
+[       1] Gauge for u[129] at 4.219789e-01 -7.802113e-02 0.000000e+00 is closest to node 2131
+[       1] Gauge for u[130] at 4.532719e-01 -4.672814e-02 0.000000e+00 is closest to node 2425
+[       1] Gauge for u[131] at 4.634369e-01 -3.656306e-02 0.000000e+00 is closest to node 2425
+[       1] Gauge for u[132] at 4.934980e-01 -6.502027e-03 0.000000e+00 is closest to node 2247
+[       1] Gauge for u[133] at 5.068186e-01 6.818589e-03 0.000000e+00 is closest to node 2247
+[       1] Gauge for u[134] at 5.478200e-01 4.782000e-02 0.000000e+00 is closest to node 2117
+[       1] Gauge for u[135] at 5.582467e-01 5.824674e-02 0.000000e+00 is closest to node 2117
+[       1] Gauge for u[136] at 5.885546e-01 8.855462e-02 0.000000e+00 is closest to node 2329
+[       1] Gauge for u[137] at 5.974184e-01 9.741835e-02 0.000000e+00 is closest to node 2329
+[       1] Gauge for u[138] at 6.189105e-01 1.189105e-01 0.000000e+00 is closest to node 2328
+[       1] Gauge for u[139] at 6.308369e-01 1.308369e-01 0.000000e+00 is closest to node 2328
+[       1] Gauge for u[140] at 6.531242e-01 1.531242e-01 0.000000e+00 is closest to node 2258
+[       1] Gauge for u[141] at 6.602494e-01 1.602494e-01 0.000000e+00 is closest to node 2258
+[       1] Gauge for u[142] at 6.951202e-01 1.951202e-01 0.000000e+00 is closest to node 2336
+[       1] Gauge for u[143] at 6.971378e-01 1.971378e-01 0.000000e+00 is closest to node 2336
+[       1] Gauge for u[144] at 6.992428e-01 1.992428e-01 0.000000e+00 is closest to node 2336
+[       1] Gauge for u[145] at 7.324411e-01 2.324411e-01 0.000000e+00 is closest to node 2260
+[       1] Gauge for u[146] at 7.589963e-01 2.589963e-01 0.000000e+00 is closest to node 2260
+[       1] Gauge for u[147] at 7.851539e-01 2.851539e-01 0.000000e+00 is closest to node 2670
+[       1] Gauge for u[148] at 8.136386e-01 3.136386e-01 0.000000e+00 is closest to node 2668
+[       1] Gauge for u[149] at 8.150636e-01 3.150636e-01 0.000000e+00 is closest to node 2668
+[       1] Gauge for u[150] at 8.163011e-01 3.163011e-01 0.000000e+00 is closest to node 2668
+[       1] Gauge for u[151] at 8.438984e-01 3.438984e-01 0.000000e+00 is closest to node 2665
+[       1] Gauge for u[152] at 8.779345e-01 3.779345e-01 0.000000e+00 is closest to node 5165
+[       1] Gauge for u[153] at 8.939140e-01 3.939140e-01 0.000000e+00 is closest to node 2669
+[       1] Gauge for u[154] at 9.018739e-01 4.018739e-01 0.000000e+00 is closest to node 2669
+[       1] Gauge for u[155] at 9.380228e-01 4.380228e-01 0.000000e+00 is closest to node 3115
+[       1] Gauge for u[156] at 9.478858e-01 4.478858e-01 0.000000e+00 is closest to node 3115
+[       1] Gauge for u[157] at 9.508507e-01 4.508507e-01 0.000000e+00 is closest to node 3115
+[       1] Gauge for u[158] at 1.000000e+00 5.000000e-01 0.000000e+00 is closest to node 11
+[       1] Gauge for u[159] at 1.040967e+00 5.409667e-01 0.000000e+00 is closest to node 3358
+[       1] Gauge for u[160] at 1.060647e+00 5.606473e-01 0.000000e+00 is closest to node 3358
+[       1] Gauge for u[161] at 1.080156e+00 5.801558e-01 0.000000e+00 is closest to node 3295
+[       1] Gauge for u[162] at 1.098849e+00 5.988492e-01 0.000000e+00 is closest to node 3295
+[       1] Gauge for u[163] at 1.125814e+00 6.258136e-01 0.000000e+00 is closest to node 3890
+[       1] Gauge for u[164] at 1.150320e+00 6.503203e-01 0.000000e+00 is closest to node 3888
+[       1] Gauge for u[165] at 1.157676e+00 6.576763e-01 0.000000e+00 is closest to node 3888
+[       1] Gauge for u[166] at 1.164240e+00 6.642405e-01 0.000000e+00 is closest to node 3888
+[       1] Gauge for u[167] at 1.194122e+00 6.941215e-01 0.000000e+00 is closest to node 3773
+[       1] Gauge for u[168] at 1.214995e+00 7.149945e-01 0.000000e+00 is closest to node 4075
+[       1] Gauge for u[169] at 1.223714e+00 7.237138e-01 0.000000e+00 is closest to node 4075
+[       1] Gauge for u[170] at 1.245003e+00 7.450026e-01 0.000000e+00 is closest to node 4075
+[       1] Gauge for u[171] at 1.259647e+00 7.596474e-01 0.000000e+00 is closest to node 4073
+[       1] Gauge for u[172] at 1.285104e+00 7.851040e-01 0.000000e+00 is closest to node 4202
+[       1] Gauge for u[173] at 1.289942e+00 7.899415e-01 0.000000e+00 is closest to node 4202
+[       1] Gauge for u[174] at 1.322362e+00 8.223623e-01 0.000000e+00 is closest to node 4205
+[       1] Gauge for u[175] at 1.326895e+00 8.268955e-01 0.000000e+00 is closest to node 4205
+[       1] Gauge for u[176] at 1.335214e+00 8.352138e-01 0.000000e+00 is closest to node 4205
+[       1] Gauge for u[177] at 1.357652e+00 8.576524e-01 0.000000e+00 is closest to node 4203
+[       1] Gauge for u[178] at 1.373838e+00 8.738379e-01 0.000000e+00 is closest to node 4203
+[       1] Gauge for u[179] at 1.392636e+00 8.926357e-01 0.000000e+00 is closest to node 4335
+[       1] Gauge for u[180] at 1.405576e+00 9.055764e-01 0.000000e+00 is closest to node 4335
+[       1] Gauge for u[181] at 1.429618e+00 9.296182e-01 0.000000e+00 is closest to node 4337
+[       1] Gauge for u[182] at 1.451757e+00 9.517571e-01 0.000000e+00 is closest to node 4336
+[       1] Gauge for u[183] at 1.462577e+00 9.625775e-01 0.000000e+00 is closest to node 4336
+[       1] Gauge for u[184] at 1.473466e+00 9.734662e-01 0.000000e+00 is closest to node 4336
+[       1] Gauge for u[185] at 1.514024e+00 1.014024e+00 0.000000e+00 is closest to node 4344
+[       1] Gauge for u[186] at 1.546811e+00 1.046811e+00 0.000000e+00 is closest to node 4621
+[       1] Gauge for u[187] at 1.549595e+00 1.049595e+00 0.000000e+00 is closest to node 4621
+[       1] Gauge for u[188] at 1.583936e+00 1.083936e+00 0.000000e+00 is closest to node 4556
+[       1] Gauge for u[189] at 1.584385e+00 1.084385e+00 0.000000e+00 is closest to node 4556
+[       1] Gauge for u[190] at 1.625340e+00 1.125340e+00 0.000000e+00 is closest to node 4554
+[       1] Gauge for u[191] at 1.633131e+00 1.133131e+00 0.000000e+00 is closest to node 4554
+[       1] Gauge for u[192] at 1.646881e+00 1.146881e+00 0.000000e+00 is closest to node 4554
+[       1] Gauge for u[193] at 1.671263e+00 1.171263e+00 0.000000e+00 is closest to node 4555
+[       1] Gauge for u[194] at 1.682708e+00 1.182708e+00 0.000000e+00 is closest to node 4555
+[       1] Gauge for u[195] at 1.698259e+00 1.198259e+00 0.000000e+00 is closest to node 4555
+[       1] Gauge for u[196] at 1.716237e+00 1.216237e+00 0.000000e+00 is closest to node 4675
+[       1] Gauge for u[197] at 1.737519e+00 1.237519e+00 0.000000e+00 is closest to node 4676
+[       1] Gauge for u[198] at 1.753099e+00 1.253099e+00 0.000000e+00 is closest to node 4676
+[       1] Gauge for u[199] at 1.785085e+00 1.285085e+00 0.000000e+00 is closest to node 4740
+[       1] Gauge for u[200] at 1.796499e+00 1.296499e+00 0.000000e+00 is closest to node 4740
+[       1] Gauge for u[201] at 1.801173e+00 1.301173e+00 0.000000e+00 is closest to node 4740
+[       1] Gauge for u[202] at 1.836967e+00 1.336967e+00 0.000000e+00 is closest to node 4755
+[       1] Gauge for u[203] at 1.844973e+00 1.344973e+00 0.000000e+00 is closest to node 4755
+[       1] Gauge for u[204] at 1.881453e+00 1.381453e+00 0.000000e+00 is closest to node 4756
+[       1] Gauge for u[205] at 1.890748e+00 1.390748e+00 0.000000e+00 is closest to node 4756
+[       1] Gauge for u[206] at 1.900846e+00 1.400846e+00 0.000000e+00 is closest to node 4756
+[       1] Gauge for u[207] at 1.927466e+00 1.427466e+00 0.000000e+00 is closest to node 4763
+[       1] Gauge for u[208] at 1.945268e+00 1.445268e+00 0.000000e+00 is closest to node 4763
+[       1] Gauge for u[209] at 1.968750e+00 1.468750e+00 0.000000e+00 is closest to node 4772
+[       1] Gauge for u[210] at 2.000000e+00 1.500000e+00 0.000000e+00 is closest to node 2
+[       1] Gauge for: u at -2.000000e+00 -2.500000e+00 0.000000e+00 is on local operator row 0
+[       1] Gauge for: u at -1.956360e+00 -2.456360e+00 0.000000e+00 is on local operator row 1
+[       1] Gauge for: u at -1.924954e+00 -2.424954e+00 0.000000e+00 is on local operator row 2
+[       1] Gauge for: u at -1.896470e+00 -2.396470e+00 0.000000e+00 is on local operator row 3
+[       1] Gauge for: u at -1.891749e+00 -2.391749e+00 0.000000e+00 is on local operator row 4
+[       1] Gauge for: u at -1.888253e+00 -2.388253e+00 0.000000e+00 is on local operator row 5
+[       1] Gauge for: u at -1.868365e+00 -2.368365e+00 0.000000e+00 is on local operator row 6
+[       1] Gauge for: u at -1.839341e+00 -2.339341e+00 0.000000e+00 is on local operator row 7
+[       1] Gauge for: u at -1.834415e+00 -2.334415e+00 0.000000e+00 is on local operator row 8
+[       1] Gauge for: u at -1.819851e+00 -2.319851e+00 0.000000e+00 is on local operator row 9
+[       1] Gauge for: u at -1.808290e+00 -2.308290e+00 0.000000e+00 is on local operator row 10
+[       1] Gauge for: u at -1.805476e+00 -2.305476e+00 0.000000e+00 is on local operator row 11
+[       1] Gauge for: u at -1.780115e+00 -2.280115e+00 0.000000e+00 is on local operator row 12
+[       1] Gauge for: u at -1.774517e+00 -2.274517e+00 0.000000e+00 is on local operator row 13
+[       1] Gauge for: u at -1.732287e+00 -2.232287e+00 0.000000e+00 is on local operator row 14
+[       1] Gauge for: u at -1.728515e+00 -2.228515e+00 0.000000e+00 is on local operator row 15
+[       1] Gauge for: u at -1.724701e+00 -2.224701e+00 0.000000e+00 is on local operator row 16
+[       1] Gauge for: u at -1.707740e+00 -2.207740e+00 0.000000e+00 is on local operator row 17
+[       1] Gauge for: u at -1.694988e+00 -2.194988e+00 0.000000e+00 is on local operator row 18
+[       1] Gauge for: u at -1.691378e+00 -2.191378e+00 0.000000e+00 is on local operator row 19
+[       1] Gauge for: u at -1.663659e+00 -2.163659e+00 0.000000e+00 is on local operator row 20
+[       1] Gauge for: u at -1.644329e+00 -2.144329e+00 0.000000e+00 is on local operator row 21
+[       1] Gauge for: u at -1.636510e+00 -2.136510e+00 0.000000e+00 is on local operator row 22
+[       1] Gauge for: u at -1.613457e+00 -2.113457e+00 0.000000e+00 is on local operator row 23
+[       1] Gauge for: u at -1.587584e+00 -2.087584e+00 0.000000e+00 is on local operator row 24
+[       1] Gauge for: u at -1.565231e+00 -2.065231e+00 0.000000e+00 is on local operator row 25
+[       1] Gauge for: u at -1.546698e+00 -2.046698e+00 0.000000e+00 is on local operator row 26
+[       1] Gauge for: u at -1.517877e+00 -2.017877e+00 0.000000e+00 is on local operator row 27
+[       1] Gauge for: u at -1.512340e+00 -2.012340e+00 0.000000e+00 is on local operator row 28
+[       1] Gauge for: u at -1.487193e+00 -1.987193e+00 0.000000e+00 is on local operator row 29
+[       1] Gauge for: u at -1.482729e+00 -1.982729e+00 0.000000e+00 is on local operator row 30
+[       1] Gauge for: u at -1.456106e+00 -1.956106e+00 0.000000e+00 is on local operator row 31
+[       1] Gauge for: u at -1.427747e+00 -1.927747e+00 0.000000e+00 is on local operator row 32
+[       1] Gauge for: u at -1.418257e+00 -1.918257e+00 0.000000e+00 is on local operator row 33
+[       1] Gauge for: u at -1.393778e+00 -1.893778e+00 0.000000e+00 is on local operator row 34
+[       1] Gauge for: u at -1.378471e+00 -1.878471e+00 0.000000e+00 is on local operator row 35
+[       1] Gauge for: u at -1.350197e+00 -1.850197e+00 0.000000e+00 is on local operator row 36
+[       1] Gauge for: u at -1.343288e+00 -1.843288e+00 0.000000e+00 is on local operator row 37
+[       1] Gauge for: u at -1.339002e+00 -1.839002e+00 0.000000e+00 is on local operator row 38
+[       1] Gauge for: u at -1.328156e+00 -1.828156e+00 0.000000e+00 is on local operator row 39
+[       1] Gauge for: u at -1.288099e+00 -1.788099e+00 0.000000e+00 is on local operator row 40
+[       1] Gauge for: u at -1.258764e+00 -1.758764e+00 0.000000e+00 is on local operator row 41
+[       1] Gauge for: u at -1.252373e+00 -1.752373e+00 0.000000e+00 is on local operator row 42
+[       1] Gauge for: u at -1.234345e+00 -1.734345e+00 0.000000e+00 is on local operator row 43
+[       1] Gauge for: u at -1.206169e+00 -1.706169e+00 0.000000e+00 is on local operator row 44
+[       1] Gauge for: u at -1.199223e+00 -1.699223e+00 0.000000e+00 is on local operator row 45
+[       1] Gauge for: u at -1.165140e+00 -1.665140e+00 0.000000e+00 is on local operator row 46
+[       1] Gauge for: u at -1.162259e+00 -1.662259e+00 0.000000e+00 is on local operator row 47
+[       1] Gauge for: u at -1.159897e+00 -1.659897e+00 0.000000e+00 is on local operator row 48
+[       1] Gauge for: u at -1.128147e+00 -1.628147e+00 0.000000e+00 is on local operator row 49
+[       1] Gauge for: u at -1.100685e+00 -1.600685e+00 0.000000e+00 is on local operator row 50
+[       1] Gauge for: u at -1.090589e+00 -1.590589e+00 0.000000e+00 is on local operator row 51
+[       1] Gauge for: u at -1.057729e+00 -1.557729e+00 0.000000e+00 is on local operator row 52
+[       1] Gauge for: u at -1.047083e+00 -1.547083e+00 0.000000e+00 is on local operator row 53
+[       1] Gauge for: u at -1.022155e+00 -1.522155e+00 0.000000e+00 is on local operator row 54
+[       1] Gauge for: u at -1.000022e+00 -1.500022e+00 0.000000e+00 is on local operator row 55
+[       1] Gauge for: u at -9.951356e-01 -1.495136e+00 0.000000e+00 is on local operator row 56
+[       1] Gauge for: u at -9.883148e-01 -1.488315e+00 0.000000e+00 is on local operator row 57
+[       1] Gauge for: u at -9.597312e-01 -1.459731e+00 0.000000e+00 is on local operator row 58
+[       1] Gauge for: u at -9.342055e-01 -1.434206e+00 0.000000e+00 is on local operator row 59
+[       1] Gauge for: u at -9.187279e-01 -1.418728e+00 0.000000e+00 is on local operator row 60
+[       1] Gauge for: u at -8.973132e-01 -1.397313e+00 0.000000e+00 is on local operator row 61
+[       1] Gauge for: u at -8.811113e-01 -1.381111e+00 0.000000e+00 is on local operator row 62
+[       1] Gauge for: u at -8.435057e-01 -1.343506e+00 0.000000e+00 is on local operator row 63
+[       1] Gauge for: u at -8.394010e-01 -1.339401e+00 0.000000e+00 is on local operator row 64
+[       1] Gauge for: u at -8.352119e-01 -1.335212e+00 0.000000e+00 is on local operator row 65
+[       1] Gauge for: u at -8.034299e-01 -1.303430e+00 0.000000e+00 is on local operator row 66
+[       1] Gauge for: u at -7.868439e-01 -1.286844e+00 0.000000e+00 is on local operator row 67
+[       1] Gauge for: u at -7.593220e-01 -1.259322e+00 0.000000e+00 is on local operator row 68
+[       1] Gauge for: u at -7.441940e-01 -1.244194e+00 0.000000e+00 is on local operator row 69
+[       1] Gauge for: u at -7.066600e-01 -1.206660e+00 0.000000e+00 is on local operator row 70
+[       1] Gauge for: u at -6.978834e-01 -1.197883e+00 0.000000e+00 is on local operator row 71
+[       1] Gauge for: u at -6.941846e-01 -1.194185e+00 0.000000e+00 is on local operator row 72
+[       1] Gauge for: u at -6.585693e-01 -1.158569e+00 0.000000e+00 is on local operator row 73
+[       1] Gauge for: u at -6.566176e-01 -1.156618e+00 0.000000e+00 is on local operator row 74
+[       1] Gauge for: u at -6.258284e-01 -1.125828e+00 0.000000e+00 is on local operator row 75
+[       1] Gauge for: u at -6.103634e-01 -1.110363e+00 0.000000e+00 is on local operator row 76
+[       1] Gauge for: u at -5.691709e-01 -1.069171e+00 0.000000e+00 is on local operator row 77
+[       1] Gauge for: u at -5.658419e-01 -1.065842e+00 0.000000e+00 is on local operator row 78
+[       1] Gauge for: u at -5.256085e-01 -1.025608e+00 0.000000e+00 is on local operator row 79
+[       1] Gauge for: u at -5.175427e-01 -1.017543e+00 0.000000e+00 is on local operator row 80
+[       1] Gauge for: u at -4.804558e-01 -9.804558e-01 0.000000e+00 is on local operator row 81
+[       1] Gauge for: u at -4.766301e-01 -9.766301e-01 0.000000e+00 is on local operator row 82
+[       1] Gauge for: u at -4.757101e-01 -9.757101e-01 0.000000e+00 is on local operator row 83
+[       1] Gauge for: u at -4.526339e-01 -9.526339e-01 0.000000e+00 is on local operator row 84
+[       1] Gauge for: u at -4.370444e-01 -9.370444e-01 0.000000e+00 is on local operator row 85
+[       1] Gauge for: u at -4.263229e-01 -9.263229e-01 0.000000e+00 is on local operator row 86
+[       1] Gauge for: u at -4.002463e-01 -9.002463e-01 0.000000e+00 is on local operator row 87
+[       1] Gauge for: u at -3.758723e-01 -8.758723e-01 0.000000e+00 is on local operator row 88
+[       1] Gauge for: u at -3.577575e-01 -8.577575e-01 0.000000e+00 is on local operator row 89
+[       1] Gauge for: u at -3.474463e-01 -8.474463e-01 0.000000e+00 is on local operator row 90
+[       1] Gauge for: u at -3.300128e-01 -8.300128e-01 0.000000e+00 is on local operator row 91
+[       1] Gauge for: u at -3.118390e-01 -8.118390e-01 0.000000e+00 is on local operator row 92
+[       1] Gauge for: u at -2.823322e-01 -7.823322e-01 0.000000e+00 is on local operator row 93
+[       1] Gauge for: u at -2.599120e-01 -7.599120e-01 0.000000e+00 is on local operator row 94
+[       1] Gauge for: u at -2.427167e-01 -7.427167e-01 0.000000e+00 is on local operator row 95
+[       1] Gauge for: u at -2.290973e-01 -7.290973e-01 0.000000e+00 is on local operator row 96
+[       1] Gauge for: u at -2.105797e-01 -7.105797e-01 0.000000e+00 is on local operator row 97
+[       1] Gauge for: u at -1.916195e-01 -6.916195e-01 0.000000e+00 is on local operator row 98
+[       1] Gauge for: u at -1.744296e-01 -6.744296e-01 0.000000e+00 is on local operator row 99
+[       1] Gauge for: u at -1.547500e-01 -6.547500e-01 0.000000e+00 is on local operator row 100
+[       1] Gauge for: u at -1.351578e-01 -6.351578e-01 0.000000e+00 is on local operator row 101
+[       1] Gauge for: u at -1.288473e-01 -6.288473e-01 0.000000e+00 is on local operator row 102
+[       1] Gauge for: u at -1.227950e-01 -6.227950e-01 0.000000e+00 is on local operator row 103
+[       1] Gauge for: u at -9.124059e-02 -5.912406e-01 0.000000e+00 is on local operator row 104
+[       1] Gauge for: u at -7.922106e-02 -5.792211e-01 0.000000e+00 is on local operator row 105
+[       1] Gauge for: u at -5.086626e-02 -5.508663e-01 0.000000e+00 is on local operator row 106
+[       1] Gauge for: u at -3.873052e-02 -5.387305e-01 0.000000e+00 is on local operator row 107
+[       1] Gauge for: u at -2.220446e-16 -5.000000e-01 0.000000e+00 is on local operator row 108
+[       1] Gauge for: u at 2.820974e-02 -4.717903e-01 0.000000e+00 is on local operator row 109
+[       1] Gauge for: u at 3.946893e-02 -4.605311e-01 0.000000e+00 is on local operator row 110
+[       1] Gauge for: u at 6.306890e-02 -4.369311e-01 0.000000e+00 is on local operator row 111
+[       1] Gauge for: u at 8.041707e-02 -4.195829e-01 0.000000e+00 is on local operator row 112
+[       1] Gauge for: u at 1.171909e-01 -3.828091e-01 0.000000e+00 is on local operator row 113
+[       1] Gauge for: u at 1.297735e-01 -3.702265e-01 0.000000e+00 is on local operator row 114
+[       1] Gauge for: u at 1.620966e-01 -3.379034e-01 0.000000e+00 is on local operator row 115
+[       1] Gauge for: u at 1.729121e-01 -3.270879e-01 0.000000e+00 is on local operator row 116
+[       1] Gauge for: u at 1.773640e-01 -3.226360e-01 0.000000e+00 is on local operator row 117
+[       1] Gauge for: u at 2.147926e-01 -2.852074e-01 0.000000e+00 is on local operator row 118
+[       1] Gauge for: u at 2.462137e-01 -2.537863e-01 0.000000e+00 is on local operator row 119
+[       1] Gauge for: u at 2.501382e-01 -2.498618e-01 0.000000e+00 is on local operator row 120
+[       1] Gauge for: u at 2.532067e-01 -2.467933e-01 0.000000e+00 is on local operator row 121
+[       1] Gauge for: u at 2.919090e-01 -2.080910e-01 0.000000e+00 is on local operator row 122
+[       1] Gauge for: u at 3.076521e-01 -1.923479e-01 0.000000e+00 is on local operator row 123
+[       1] Gauge for: u at 3.252281e-01 -1.747719e-01 0.000000e+00 is on local operator row 124
+[       1] Gauge for: u at 3.512680e-01 -1.487320e-01 0.000000e+00 is on local operator row 125
+[       1] Gauge for: u at 3.645435e-01 -1.354565e-01 0.000000e+00 is on local operator row 126
+[       1] Gauge for: u at 3.919774e-01 -1.080226e-01 0.000000e+00 is on local operator row 127
+[       1] Gauge for: u at 4.159666e-01 -8.403335e-02 0.000000e+00 is on local operator row 128
+[       1] Gauge for: u at 4.219789e-01 -7.802113e-02 0.000000e+00 is on local operator row 129
+[       1] Gauge for: u at 4.532719e-01 -4.672814e-02 0.000000e+00 is on local operator row 130
+[       1] Gauge for: u at 4.634369e-01 -3.656306e-02 0.000000e+00 is on local operator row 131
+[       1] Gauge for: u at 4.934980e-01 -6.502027e-03 0.000000e+00 is on local operator row 132
+[       1] Gauge for: u at 5.068186e-01 6.818589e-03 0.000000e+00 is on local operator row 133
+[       1] Gauge for: u at 5.478200e-01 4.782000e-02 0.000000e+00 is on local operator row 134
+[       1] Gauge for: u at 5.582467e-01 5.824674e-02 0.000000e+00 is on local operator row 135
+[       1] Gauge for: u at 5.885546e-01 8.855462e-02 0.000000e+00 is on local operator row 136
+[       1] Gauge for: u at 5.974184e-01 9.741835e-02 0.000000e+00 is on local operator row 137
+[       1] Gauge for: u at 6.189105e-01 1.189105e-01 0.000000e+00 is on local operator row 138
+[       1] Gauge for: u at 6.308369e-01 1.308369e-01 0.000000e+00 is on local operator row 139
+[       1] Gauge for: u at 6.531242e-01 1.531242e-01 0.000000e+00 is on local operator row 140
+[       1] Gauge for: u at 6.602494e-01 1.602494e-01 0.000000e+00 is on local operator row 141
+[       1] Gauge for: u at 6.951202e-01 1.951202e-01 0.000000e+00 is on local operator row 142
+[       1] Gauge for: u at 6.971378e-01 1.971378e-01 0.000000e+00 is on local operator row 143
+[       1] Gauge for: u at 6.992428e-01 1.992428e-01 0.000000e+00 is on local operator row 144
+[       1] Gauge for: u at 7.324411e-01 2.324411e-01 0.000000e+00 is on local operator row 145
+[       1] Gauge for: u at 7.589963e-01 2.589963e-01 0.000000e+00 is on local operator row 146
+[       1] Gauge for: u at 7.851539e-01 2.851539e-01 0.000000e+00 is on local operator row 147
+[       1] Gauge for: u at 8.136386e-01 3.136386e-01 0.000000e+00 is on local operator row 148
+[       1] Gauge for: u at 8.150636e-01 3.150636e-01 0.000000e+00 is on local operator row 149
+[       1] Gauge for: u at 8.163011e-01 3.163011e-01 0.000000e+00 is on local operator row 150
+[       1] Gauge for: u at 8.438984e-01 3.438984e-01 0.000000e+00 is on local operator row 151
+[       1] Gauge for: u at 8.779345e-01 3.779345e-01 0.000000e+00 is on local operator row 152
+[       1] Gauge for: u at 8.939140e-01 3.939140e-01 0.000000e+00 is on local operator row 153
+[       1] Gauge for: u at 9.018739e-01 4.018739e-01 0.000000e+00 is on local operator row 154
+[       1] Gauge for: u at 9.380228e-01 4.380228e-01 0.000000e+00 is on local operator row 155
+[       1] Gauge for: u at 9.478858e-01 4.478858e-01 0.000000e+00 is on local operator row 156
+[       1] Gauge for: u at 9.508507e-01 4.508507e-01 0.000000e+00 is on local operator row 157
+[       1] Gauge for: u at 1.000000e+00 5.000000e-01 0.000000e+00 is on local operator row 158
+[       1] Gauge for: u at 1.040967e+00 5.409667e-01 0.000000e+00 is on local operator row 159
+[       1] Gauge for: u at 1.060647e+00 5.606473e-01 0.000000e+00 is on local operator row 160
+[       1] Gauge for: u at 1.080156e+00 5.801558e-01 0.000000e+00 is on local operator row 161
+[       1] Gauge for: u at 1.098849e+00 5.988492e-01 0.000000e+00 is on local operator row 162
+[       1] Gauge for: u at 1.125814e+00 6.258136e-01 0.000000e+00 is on local operator row 163
+[       1] Gauge for: u at 1.150320e+00 6.503203e-01 0.000000e+00 is on local operator row 164
+[       1] Gauge for: u at 1.157676e+00 6.576763e-01 0.000000e+00 is on local operator row 165
+[       1] Gauge for: u at 1.164240e+00 6.642405e-01 0.000000e+00 is on local operator row 166
+[       1] Gauge for: u at 1.194122e+00 6.941215e-01 0.000000e+00 is on local operator row 167
+[       1] Gauge for: u at 1.214995e+00 7.149945e-01 0.000000e+00 is on local operator row 168
+[       1] Gauge for: u at 1.223714e+00 7.237138e-01 0.000000e+00 is on local operator row 169
+[       1] Gauge for: u at 1.245003e+00 7.450026e-01 0.000000e+00 is on local operator row 170
+[       1] Gauge for: u at 1.259647e+00 7.596474e-01 0.000000e+00 is on local operator row 171
+[       1] Gauge for: u at 1.285104e+00 7.851040e-01 0.000000e+00 is on local operator row 172
+[       1] Gauge for: u at 1.289942e+00 7.899415e-01 0.000000e+00 is on local operator row 173
+[       1] Gauge for: u at 1.322362e+00 8.223623e-01 0.000000e+00 is on local operator row 174
+[       1] Gauge for: u at 1.326895e+00 8.268955e-01 0.000000e+00 is on local operator row 175
+[       1] Gauge for: u at 1.335214e+00 8.352138e-01 0.000000e+00 is on local operator row 176
+[       1] Gauge for: u at 1.357652e+00 8.576524e-01 0.000000e+00 is on local operator row 177
+[       1] Gauge for: u at 1.373838e+00 8.738379e-01 0.000000e+00 is on local operator row 178
+[       1] Gauge for: u at 1.392636e+00 8.926357e-01 0.000000e+00 is on local operator row 179
+[       1] Gauge for: u at 1.405576e+00 9.055764e-01 0.000000e+00 is on local operator row 180
+[       1] Gauge for: u at 1.429618e+00 9.296182e-01 0.000000e+00 is on local operator row 181
+[       1] Gauge for: u at 1.451757e+00 9.517571e-01 0.000000e+00 is on local operator row 182
+[       1] Gauge for: u at 1.462577e+00 9.625775e-01 0.000000e+00 is on local operator row 183
+[       1] Gauge for: u at 1.473466e+00 9.734662e-01 0.000000e+00 is on local operator row 184
+[       1] Gauge for: u at 1.514024e+00 1.014024e+00 0.000000e+00 is on local operator row 185
+[       1] Gauge for: u at 1.546811e+00 1.046811e+00 0.000000e+00 is on local operator row 186
+[       1] Gauge for: u at 1.549595e+00 1.049595e+00 0.000000e+00 is on local operator row 187
+[       1] Gauge for: u at 1.583936e+00 1.083936e+00 0.000000e+00 is on local operator row 188
+[       1] Gauge for: u at 1.584385e+00 1.084385e+00 0.000000e+00 is on local operator row 189
+[       1] Gauge for: u at 1.625340e+00 1.125340e+00 0.000000e+00 is on local operator row 190
+[       1] Gauge for: u at 1.633131e+00 1.133131e+00 0.000000e+00 is on local operator row 191
+[       1] Gauge for: u at 1.646881e+00 1.146881e+00 0.000000e+00 is on local operator row 192
+[       1] Gauge for: u at 1.671263e+00 1.171263e+00 0.000000e+00 is on local operator row 193
+[       1] Gauge for: u at 1.682708e+00 1.182708e+00 0.000000e+00 is on local operator row 194
+[       1] Gauge for: u at 1.698259e+00 1.198259e+00 0.000000e+00 is on local operator row 195
+[       1] Gauge for: u at 1.716237e+00 1.216237e+00 0.000000e+00 is on local operator row 196
+[       1] Gauge for: u at 1.737519e+00 1.237519e+00 0.000000e+00 is on local operator row 197
+[       1] Gauge for: u at 1.753099e+00 1.253099e+00 0.000000e+00 is on local operator row 198
+[       1] Gauge for: u at 1.785085e+00 1.285085e+00 0.000000e+00 is on local operator row 199
+[       1] Gauge for: u at 1.796499e+00 1.296499e+00 0.000000e+00 is on local operator row 200
+[       1] Gauge for: u at 1.801173e+00 1.301173e+00 0.000000e+00 is on local operator row 201
+[       1] Gauge for: u at 1.836967e+00 1.336967e+00 0.000000e+00 is on local operator row 202
+[       1] Gauge for: u at 1.844973e+00 1.344973e+00 0.000000e+00 is on local operator row 203
+[       1] Gauge for: u at 1.881453e+00 1.381453e+00 0.000000e+00 is on local operator row 204
+[       1] Gauge for: u at 1.890748e+00 1.390748e+00 0.000000e+00 is on local operator row 205
+[       1] Gauge for: u at 1.900846e+00 1.400846e+00 0.000000e+00 is on local operator row 206
+[       1] Gauge for: u at 1.927466e+00 1.427466e+00 0.000000e+00 is on local operator row 207
+[       1] Gauge for: u at 1.945268e+00 1.445268e+00 0.000000e+00 is on local operator row 208
+[       1] Gauge for: u at 1.968750e+00 1.468750e+00 0.000000e+00 is on local operator row 209
+[       1] Gauge for: u at 2.000000e+00 1.500000e+00 0.000000e+00 is on local operator row 210
+[       1] Using tnList from so = ladr_2d
+[       1] Time sequence[0.0, 0.001, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+[       1] NAHeader Num Time Steps 11
+[       1] Setting ladr_2d systemStepController to object of type proteus.SplitOperator.Sequential_MinModelStep
+[       1] Finished NumericalSolution initialization
+[       2] Setting initial conditions
+[       2] Setting initial conditions for ladr_2d
+[       2] Setting initial conditions on model ladr_2d
+[       2] Attaching models and running spin-up step if requested
+[       2] Attaching models to model ladr_2d
+[       2] Attaching models to model ladr_2d
+[       2] Archiving initial conditions
+[       2] Writing initial mesh for  model = ladr_2d
+[       2] Writing initial conditions for  model = ladr_2d
+[       2] Syncing Archive
+[       2] Gathering Archive Time step
+[       2] Done Gathering Archive Time Step
+[       2] Done Syncing Archive
+[       2] Estimating initial time derivative and initializing time history for model ladr_2d
+[       2] Choosing initial time step for model ladr_2d
+[       2] Initializing time step on model ladr_2d to dt =  2.54439e-02
+[       2] Initializing time history for model step controller
+[       2] Initializing time step on system Default System to dt =  2.54439e-02
+[       2] Initializing step sequence for system Default System to [(0.025443885722114052, <proteus.Transport.MultilevelTransport instance at 0x7fc893a22ab8>)]
+[       2] Auxiliary variable calculations for model ladr_2d
+[       2] Calculate called at time 0
+[       2] Starting time stepping
+[       2] ==============================================================
+[       2] Solving over interval [ 0.00000e+00, 1.00000e-03]
+[       2] ==============================================================
+[       2] Min_dt_controller setSubsteps tList=[0.001] self.t_model=0.001 self.substeps= [0.001] 
+[       2] System time step t= 1.00000e-03, dt= 1.00000e-03
+[       2] Split operator iteration 0
+[       2] NumericalAnalytics Model ladr_2d 
+[       2] Model: ladr_2d
+[       2] NumericalAnalytics Time Step 0.001
+[       2] Fractional step  1.00000e-03 for model ladr_2d
+[       2] Step exact called for model ladr_2d
+[       2] StepControl base stepExact t_model= 0.001 tOut= 0.001 t_model_last= 0.0 dt_model= 0.001 setting to 0.001 
+[       2] Min_dt_controller setSubsteps tList=[0.001] self.t_model=0.001 self.substeps= [0.001] 
+[       2] Model step t= 1.00000e-03, dt= 1.00000e-03 for model ladr_2d
+[       2] Model substep t= 1.00000e-03 for model ladr_2d
+[       2] Model substep t= 1.00000e-03 for model ladr_2d model.timeIntegration.t=  1.00000e-03
+[       2]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  4.84576e+00
+[       2]    Newton it 0 norm(r) =  4.84576e+00  		 norm(r)/(rtol*norm(r0)+atol) = 48457.6 test=r
+[       2]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.30310e+00
+[       2]    Newton it 1 norm(r) =  4.30310e+00  		 norm(r)/(rtol*norm(r0)+atol) = 43031 test=r
+[       2]   NumericalAnalytics NewtonIteration: 2, NewtonNorm:  1.70497e+00
+[       2]    Newton it 2 norm(r) =  1.70497e+00  		 norm(r)/(rtol*norm(r0)+atol) = 17049.7 test=r
+[       2]   NumericalAnalytics NewtonIteration: 3, NewtonNorm:  8.83832e-01
+[       2]    Newton it 3 norm(r) =  8.83832e-01  		 norm(r)/(rtol*norm(r0)+atol) = 8838.32 test=r
+[       2]   NumericalAnalytics NewtonIteration: 4, NewtonNorm:  4.28963e-01
+[       2]    Newton it 4 norm(r) =  4.28963e-01  		 norm(r)/(rtol*norm(r0)+atol) = 4289.63 test=r
+[       2]   NumericalAnalytics NewtonIteration: 5, NewtonNorm:  2.08886e-01
+[       2]    Newton it 5 norm(r) =  2.08886e-01  		 norm(r)/(rtol*norm(r0)+atol) = 2088.86 test=r
+[       2]   NumericalAnalytics NewtonIteration: 6, NewtonNorm:  1.03235e-01
+[       2]    Newton it 6 norm(r) =  1.03235e-01  		 norm(r)/(rtol*norm(r0)+atol) = 1032.35 test=r
+[       2]   NumericalAnalytics NewtonIteration: 7, NewtonNorm:  5.52506e-02
+[       2]    Newton it 7 norm(r) =  5.52506e-02  		 norm(r)/(rtol*norm(r0)+atol) = 552.506 test=r
+[       3]   NumericalAnalytics NewtonIteration: 8, NewtonNorm:  3.24326e-02
+[       3]    Newton it 8 norm(r) =  3.24326e-02  		 norm(r)/(rtol*norm(r0)+atol) = 324.326 test=r
+[       3]   NumericalAnalytics NewtonIteration: 9, NewtonNorm:  2.04578e-02
+[       3]    Newton it 9 norm(r) =  2.04578e-02  		 norm(r)/(rtol*norm(r0)+atol) = 204.578 test=r
+[       3]   NumericalAnalytics NewtonIteration: 10, NewtonNorm:  1.33895e-02
+[       3]    Newton it 10 norm(r) =  1.33895e-02  		 norm(r)/(rtol*norm(r0)+atol) = 133.895 test=r
+[       3]   NumericalAnalytics NewtonIteration: 11, NewtonNorm:  8.86975e-03
+[       3]    Newton it 11 norm(r) =  8.86975e-03  		 norm(r)/(rtol*norm(r0)+atol) = 88.6975 test=r
+[       3]   NumericalAnalytics NewtonIteration: 12, NewtonNorm:  5.88473e-03
+[       3]    Newton it 12 norm(r) =  5.88473e-03  		 norm(r)/(rtol*norm(r0)+atol) = 58.8473 test=r
+[       3]   NumericalAnalytics NewtonIteration: 13, NewtonNorm:  3.90360e-03
+[       3]    Newton it 13 norm(r) =  3.90360e-03  		 norm(r)/(rtol*norm(r0)+atol) = 39.036 test=r
+[       3]   NumericalAnalytics NewtonIteration: 14, NewtonNorm:  2.59427e-03
+[       3]    Newton it 14 norm(r) =  2.59427e-03  		 norm(r)/(rtol*norm(r0)+atol) = 25.9427 test=r
+[       3]   NumericalAnalytics NewtonIteration: 15, NewtonNorm:  1.73246e-03
+[       3]    Newton it 15 norm(r) =  1.73246e-03  		 norm(r)/(rtol*norm(r0)+atol) = 17.3246 test=r
+[       3]   NumericalAnalytics NewtonIteration: 16, NewtonNorm:  1.16556e-03
+[       3]    Newton it 16 norm(r) =  1.16556e-03  		 norm(r)/(rtol*norm(r0)+atol) = 11.6556 test=r
+[       3]   NumericalAnalytics NewtonIteration: 17, NewtonNorm:  7.91416e-04
+[       3]    Newton it 17 norm(r) =  7.91416e-04  		 norm(r)/(rtol*norm(r0)+atol) = 7.91416 test=r
+[       3]   NumericalAnalytics NewtonIteration: 18, NewtonNorm:  5.42980e-04
+[       3]    Newton it 18 norm(r) =  5.42980e-04  		 norm(r)/(rtol*norm(r0)+atol) = 5.4298 test=r
+[       3]   NumericalAnalytics NewtonIteration: 19, NewtonNorm:  3.76660e-04
+[       3]    Newton it 19 norm(r) =  3.76660e-04  		 norm(r)/(rtol*norm(r0)+atol) = 3.7666 test=r
+[       3]   NumericalAnalytics NewtonIteration: 20, NewtonNorm:  2.64235e-04
+[       3]    Newton it 20 norm(r) =  2.64235e-04  		 norm(r)/(rtol*norm(r0)+atol) = 2.64235 test=r
+[       3]   NumericalAnalytics NewtonIteration: 21, NewtonNorm:  1.87421e-04
+[       3]    Newton it 21 norm(r) =  1.87421e-04  		 norm(r)/(rtol*norm(r0)+atol) = 1.87421 test=r
+[       3]   NumericalAnalytics NewtonIteration: 22, NewtonNorm:  1.34329e-04
+[       3]    Newton it 22 norm(r) =  1.34329e-04  		 norm(r)/(rtol*norm(r0)+atol) = 1.34329 test=r
+[       3]   NumericalAnalytics NewtonIteration: 22, NewtonNorm:  9.71924e-05
+[       3]    Newton it 23 norm(r) =  9.71924e-05  		 norm(r)/(rtol*norm(r0)+atol) =  9.71924e-01
+[       3] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.0 t_model_last= 0.0  setting to t_stepSequence= 0.001 
+[       3] Step Taken, t_stepSequence= 0.001 Model step t= 1.00000e-03, dt= 1.00000e-03 for model ladr_2d
+[       3] Step Taken, Model step t= 1.00000e-03, dt= 1.00000e-03 for model ladr_2d
+[       3] Min_dt_controller setSubsteps tList=[0.003] self.t_model=0.003 self.substeps= [0.003] 
+[       3] Step Taken, System time step t= 1.00000e-03, dt= 1.00000e-03
+[       3] SplitOperator_Min choose_dt_system t_system_last= 0.001 dt_system= 0.002 t_system= 0.003 
+[       3] Potential System time step t= 3.00000e-03, dt= 2.00000e-03 for next step
+[       3] Calculate called at time 0.001
+[       3] Writing mesh header for  model = ladr_2d at time t=0.001
+[       3] Writing solution for  model = ladr_2d
+[       3] Syncing Archive
+[       3] Gathering Archive Time step
+[       3] Done Gathering Archive Time Step
+[       3] Done Syncing Archive
+[       3] ==============================================================
+[       3] Solving over interval [ 1.00000e-03, 1.00000e-01]
+[       3] ==============================================================
+[       3] Min_dt_controller setSubsteps tList=[0.003] self.t_model=0.003 self.substeps= [0.003] 
+[       3] System time step t= 3.00000e-03, dt= 2.00000e-03
+[       3] Split operator iteration 0
+[       3] NumericalAnalytics Model ladr_2d 
+[       3] Model: ladr_2d
+[       3] NumericalAnalytics Time Step 0.003
+[       3] Fractional step  3.00000e-03 for model ladr_2d
+[       3] Step exact called for model ladr_2d
+[       3] StepControl base stepExact t_model= 0.003 tOut= 0.003 t_model_last= 0.001 dt_model= 0.002 setting to 0.002 
+[       3] Min_dt_controller setSubsteps tList=[0.003] self.t_model=0.003 self.substeps= [0.003] 
+[       3] Model step t= 3.00000e-03, dt= 2.00000e-03 for model ladr_2d
+[       3] Model substep t= 3.00000e-03 for model ladr_2d
+[       3] Model substep t= 3.00000e-03 for model ladr_2d model.timeIntegration.t=  3.00000e-03
+[       3]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  4.01937e+00
+[       3]    Newton it 0 norm(r) =  4.01937e+00  		 norm(r)/(rtol*norm(r0)+atol) = 40193.7 test=r
+[       3]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.40651e-02
+[       3]    Newton it 1 norm(r) =  1.40651e-02  		 norm(r)/(rtol*norm(r0)+atol) = 140.651 test=r
+[       3]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.89553e-07
+[       3]    Newton it 2 norm(r) =  3.89553e-07  		 norm(r)/(rtol*norm(r0)+atol) =  3.89553e-03
+[       3] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.001 t_model_last= 0.001  setting to t_stepSequence= 0.003 
+[       3] Step Taken, t_stepSequence= 0.003 Model step t= 3.00000e-03, dt= 2.00000e-03 for model ladr_2d
+[       3] Step Taken, Model step t= 3.00000e-03, dt= 2.00000e-03 for model ladr_2d
+[       3] Min_dt_controller setSubsteps tList=[0.007] self.t_model=0.007 self.substeps= [0.007] 
+[       3] Step Taken, System time step t= 3.00000e-03, dt= 2.00000e-03
+[       3] SplitOperator_Min choose_dt_system t_system_last= 0.003 dt_system= 0.004 t_system= 0.007 
+[       3] Potential System time step t= 7.00000e-03, dt= 4.00000e-03 for next step
+[       3] Min_dt_controller setSubsteps tList=[0.007] self.t_model=0.007 self.substeps= [0.007] 
+[       3] Calculate called at time 0.003
+[       3] System time step t= 7.00000e-03, dt= 4.00000e-03
+[       3] Split operator iteration 0
+[       3] NumericalAnalytics Model ladr_2d 
+[       3] Model: ladr_2d
+[       3] NumericalAnalytics Time Step 0.007
+[       3] Fractional step  7.00000e-03 for model ladr_2d
+[       3] Step exact called for model ladr_2d
+[       3] StepControl base stepExact t_model= 0.007 tOut= 0.007 t_model_last= 0.003 dt_model= 0.004 setting to 0.004 
+[       3] Min_dt_controller setSubsteps tList=[0.007] self.t_model=0.007 self.substeps= [0.007] 
+[       3] Model step t= 7.00000e-03, dt= 4.00000e-03 for model ladr_2d
+[       3] Model substep t= 7.00000e-03 for model ladr_2d
+[       3] Model substep t= 7.00000e-03 for model ladr_2d model.timeIntegration.t=  7.00000e-03
+[       4]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  3.54883e+00
+[       4]    Newton it 0 norm(r) =  3.54883e+00  		 norm(r)/(rtol*norm(r0)+atol) = 35488.3 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.03489e-02
+[       4]    Newton it 1 norm(r) =  3.03489e-02  		 norm(r)/(rtol*norm(r0)+atol) = 303.489 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.22848e-06
+[       4]    Newton it 2 norm(r) =  3.22848e-06  		 norm(r)/(rtol*norm(r0)+atol) =  3.22848e-02
+[       4] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.003 t_model_last= 0.003  setting to t_stepSequence= 0.007 
+[       4] Step Taken, t_stepSequence= 0.007 Model step t= 7.00000e-03, dt= 4.00000e-03 for model ladr_2d
+[       4] Step Taken, Model step t= 7.00000e-03, dt= 4.00000e-03 for model ladr_2d
+[       4] Min_dt_controller setSubsteps tList=[0.015] self.t_model=0.015 self.substeps= [0.015] 
+[       4] Step Taken, System time step t= 7.00000e-03, dt= 4.00000e-03
+[       4] SplitOperator_Min choose_dt_system t_system_last= 0.007 dt_system= 0.008 t_system= 0.015 
+[       4] Potential System time step t= 1.50000e-02, dt= 8.00000e-03 for next step
+[       4] Min_dt_controller setSubsteps tList=[0.015] self.t_model=0.015 self.substeps= [0.015] 
+[       4] Calculate called at time 0.007
+[       4] System time step t= 1.50000e-02, dt= 8.00000e-03
+[       4] Split operator iteration 0
+[       4] NumericalAnalytics Model ladr_2d 
+[       4] Model: ladr_2d
+[       4] NumericalAnalytics Time Step 0.015
+[       4] Fractional step  1.50000e-02 for model ladr_2d
+[       4] Step exact called for model ladr_2d
+[       4] StepControl base stepExact t_model= 0.015 tOut= 0.015 t_model_last= 0.007 dt_model= 0.008 setting to 0.008 
+[       4] Min_dt_controller setSubsteps tList=[0.015] self.t_model=0.015 self.substeps= [0.015] 
+[       4] Model step t= 1.50000e-02, dt= 8.00000e-03 for model ladr_2d
+[       4] Model substep t= 1.50000e-02 for model ladr_2d
+[       4] Model substep t= 1.50000e-02 for model ladr_2d model.timeIntegration.t=  1.50000e-02
+[       4]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  3.43459e+00
+[       4]    Newton it 0 norm(r) =  3.43459e+00  		 norm(r)/(rtol*norm(r0)+atol) = 34345.9 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  7.95667e-02
+[       4]    Newton it 1 norm(r) =  7.95667e-02  		 norm(r)/(rtol*norm(r0)+atol) = 795.667 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.97788e-05
+[       4]    Newton it 2 norm(r) =  2.97788e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.97788e-01
+[       4] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.007 t_model_last= 0.007  setting to t_stepSequence= 0.015 
+[       4] Step Taken, t_stepSequence= 0.015 Model step t= 1.50000e-02, dt= 8.00000e-03 for model ladr_2d
+[       4] Step Taken, Model step t= 1.50000e-02, dt= 8.00000e-03 for model ladr_2d
+[       4] Min_dt_controller setSubsteps tList=[0.031] self.t_model=0.031 self.substeps= [0.031] 
+[       4] Step Taken, System time step t= 1.50000e-02, dt= 8.00000e-03
+[       4] SplitOperator_Min choose_dt_system t_system_last= 0.015 dt_system= 0.016 t_system= 0.031 
+[       4] Potential System time step t= 3.10000e-02, dt= 1.60000e-02 for next step
+[       4] Min_dt_controller setSubsteps tList=[0.031] self.t_model=0.031 self.substeps= [0.031] 
+[       4] Calculate called at time 0.015
+[       4] System time step t= 3.10000e-02, dt= 1.60000e-02
+[       4] Split operator iteration 0
+[       4] NumericalAnalytics Model ladr_2d 
+[       4] Model: ladr_2d
+[       4] NumericalAnalytics Time Step 0.031
+[       4] Fractional step  3.10000e-02 for model ladr_2d
+[       4] Step exact called for model ladr_2d
+[       4] StepControl base stepExact t_model= 0.031 tOut= 0.031 t_model_last= 0.015 dt_model= 0.016 setting to 0.016 
+[       4] Min_dt_controller setSubsteps tList=[0.031] self.t_model=0.031 self.substeps= [0.031] 
+[       4] Model step t= 3.10000e-02, dt= 1.60000e-02 for model ladr_2d
+[       4] Model substep t= 3.10000e-02 for model ladr_2d
+[       4] Model substep t= 3.10000e-02 for model ladr_2d model.timeIntegration.t=  3.10000e-02
+[       4]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  2.95160e+00
+[       4]    Newton it 0 norm(r) =  2.95160e+00  		 norm(r)/(rtol*norm(r0)+atol) = 29516 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.33971e-01
+[       4]    Newton it 1 norm(r) =  1.33971e-01  		 norm(r)/(rtol*norm(r0)+atol) = 1339.71 test=r
+[       4]   NumericalAnalytics NewtonIteration: 2, NewtonNorm:  2.05631e-04
+[       4]    Newton it 2 norm(r) =  2.05631e-04  		 norm(r)/(rtol*norm(r0)+atol) = 2.05631 test=r
+[       4]   NumericalAnalytics NewtonIteration: 2, NewtonNorm:  1.13198e-09
+[       4]    Newton it 3 norm(r) =  1.13198e-09  		 norm(r)/(rtol*norm(r0)+atol) =  1.13198e-05
+[       4] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.015 t_model_last= 0.015  setting to t_stepSequence= 0.031 
+[       4] Step Taken, t_stepSequence= 0.031 Model step t= 3.10000e-02, dt= 1.60000e-02 for model ladr_2d
+[       4] Step Taken, Model step t= 3.10000e-02, dt= 1.60000e-02 for model ladr_2d
+[       4] Min_dt_controller setSubsteps tList=[0.05644388572211405] self.t_model=0.0564438857221 self.substeps= [0.05644388572211405] 
+[       4] Step Taken, System time step t= 3.10000e-02, dt= 1.60000e-02
+[       4] SplitOperator_Min choose_dt_system t_system_last= 0.031 dt_system= 0.0254438857221 t_system= 0.0564438857221 
+[       4] Potential System time step t= 5.64439e-02, dt= 2.54439e-02 for next step
+[       4] Min_dt_controller setSubsteps tList=[0.05644388572211405] self.t_model=0.0564438857221 self.substeps= [0.05644388572211405] 
+[       4] Calculate called at time 0.031
+[       4] System time step t= 5.64439e-02, dt= 2.54439e-02
+[       4] Split operator iteration 0
+[       4] NumericalAnalytics Model ladr_2d 
+[       4] Model: ladr_2d
+[       4] NumericalAnalytics Time Step 0.05644388572211405
+[       4] Fractional step  5.64439e-02 for model ladr_2d
+[       4] Step exact called for model ladr_2d
+[       4] StepControl base stepExact t_model= 0.0564438857221 tOut= 0.0564438857221 t_model_last= 0.031 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       4] Min_dt_controller setSubsteps tList=[0.05644388572211405] self.t_model=0.0564438857221 self.substeps= [0.05644388572211405] 
+[       4] Model step t= 5.64439e-02, dt= 2.54439e-02 for model ladr_2d
+[       4] Model substep t= 5.64439e-02 for model ladr_2d
+[       4] Model substep t= 5.64439e-02 for model ladr_2d model.timeIntegration.t=  5.64439e-02
+[       4]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  2.10227e+00
+[       4]    Newton it 0 norm(r) =  2.10227e+00  		 norm(r)/(rtol*norm(r0)+atol) = 21022.7 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.40022e-01
+[       4]    Newton it 1 norm(r) =  1.40022e-01  		 norm(r)/(rtol*norm(r0)+atol) = 1400.22 test=r
+[       4]   NumericalAnalytics NewtonIteration: 2, NewtonNorm:  4.55465e-04
+[       4]    Newton it 2 norm(r) =  4.55465e-04  		 norm(r)/(rtol*norm(r0)+atol) = 4.55465 test=r
+[       4]   NumericalAnalytics NewtonIteration: 2, NewtonNorm:  1.27234e-08
+[       4]    Newton it 3 norm(r) =  1.27234e-08  		 norm(r)/(rtol*norm(r0)+atol) =  1.27234e-04
+[       4] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.031 t_model_last= 0.031  setting to t_stepSequence= 0.0564438857221 
+[       4] Step Taken, t_stepSequence= 0.0564438857221 Model step t= 5.64439e-02, dt= 2.54439e-02 for model ladr_2d
+[       4] Step Taken, Model step t= 5.64439e-02, dt= 2.54439e-02 for model ladr_2d
+[       4] Min_dt_controller setSubsteps tList=[0.0818877714442281] self.t_model=0.0818877714442 self.substeps= [0.0818877714442281] 
+[       4] Step Taken, System time step t= 5.64439e-02, dt= 2.54439e-02
+[       4] SplitOperator_Min choose_dt_system t_system_last= 0.0564438857221 dt_system= 0.0254438857221 t_system= 0.0818877714442 
+[       4] Potential System time step t= 8.18878e-02, dt= 2.54439e-02 for next step
+[       4] Min_dt_controller setSubsteps tList=[0.0818877714442281] self.t_model=0.0818877714442 self.substeps= [0.0818877714442281] 
+[       4] Calculate called at time 0.0564439
+[       4] System time step t= 8.18878e-02, dt= 2.54439e-02
+[       4] Split operator iteration 0
+[       4] NumericalAnalytics Model ladr_2d 
+[       4] Model: ladr_2d
+[       4] NumericalAnalytics Time Step 0.0818877714442281
+[       4] Fractional step  8.18878e-02 for model ladr_2d
+[       4] Step exact called for model ladr_2d
+[       4] StepControl base stepExact t_model= 0.0818877714442 tOut= 0.0818877714442 t_model_last= 0.0564438857221 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       4] Min_dt_controller setSubsteps tList=[0.0818877714442281] self.t_model=0.0818877714442 self.substeps= [0.0818877714442281] 
+[       4] Model step t= 8.18878e-02, dt= 2.54439e-02 for model ladr_2d
+[       4] Model substep t= 8.18878e-02 for model ladr_2d
+[       4] Model substep t= 8.18878e-02 for model ladr_2d model.timeIntegration.t=  8.18878e-02
+[       4]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  1.48915e+00
+[       4]    Newton it 0 norm(r) =  1.48915e+00  		 norm(r)/(rtol*norm(r0)+atol) = 14891.5 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.02837e-01
+[       4]    Newton it 1 norm(r) =  1.02837e-01  		 norm(r)/(rtol*norm(r0)+atol) = 1028.37 test=r
+[       4]   NumericalAnalytics NewtonIteration: 2, NewtonNorm:  6.04136e-04
+[       4]    Newton it 2 norm(r) =  6.04136e-04  		 norm(r)/(rtol*norm(r0)+atol) = 6.04136 test=r
+[       4]   NumericalAnalytics NewtonIteration: 2, NewtonNorm:  9.87391e-08
+[       4]    Newton it 3 norm(r) =  9.87391e-08  		 norm(r)/(rtol*norm(r0)+atol) =  9.87391e-04
+[       4] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.0564438857221 t_model_last= 0.0564438857221  setting to t_stepSequence= 0.0818877714442 
+[       4] Step Taken, t_stepSequence= 0.0818877714442 Model step t= 8.18878e-02, dt= 2.54439e-02 for model ladr_2d
+[       4] Step Taken, Model step t= 8.18878e-02, dt= 2.54439e-02 for model ladr_2d
+[       4] Min_dt_controller setSubsteps tList=[0.10733165716634215] self.t_model=0.107331657166 self.substeps= [0.10733165716634215] 
+[       4] Step Taken, System time step t= 8.18878e-02, dt= 2.54439e-02
+[       4] SplitOperator_Min choose_dt_system t_system_last= 0.0818877714442 dt_system= 0.0254438857221 t_system= 0.107331657166 
+[       4] Potential System time step t= 1.07332e-01, dt= 2.54439e-02 for next step
+[       4] Min_dt_controller setSubsteps tList=[0.1] self.t_model=0.1 self.substeps= [0.1] 
+[       4] Calculate called at time 0.0818878
+[       4] System time step t= 1.00000e-01, dt= 1.81122e-02
+[       4] Split operator iteration 0
+[       4] NumericalAnalytics Model ladr_2d 
+[       4] Model: ladr_2d
+[       4] NumericalAnalytics Time Step 0.1
+[       4] Fractional step  1.00000e-01 for model ladr_2d
+[       4] Step exact called for model ladr_2d
+[       4] StepControl base stepExact t_model= 0.1 tOut= 0.1 t_model_last= 0.0818877714442 dt_model= 0.0181122285558 setting to 0.0181122285558 
+[       4] Min_dt_controller setSubsteps tList=[0.1] self.t_model=0.1 self.substeps= [0.1] 
+[       4] Model step t= 1.00000e-01, dt= 1.81122e-02 for model ladr_2d
+[       4] Model substep t= 1.00000e-01 for model ladr_2d
+[       4] Model substep t= 1.00000e-01 for model ladr_2d model.timeIntegration.t=  1.00000e-01
+[       4]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  1.20015e+00
+[       4]    Newton it 0 norm(r) =  1.20015e+00  		 norm(r)/(rtol*norm(r0)+atol) = 12001.5 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.71461e-02
+[       4]    Newton it 1 norm(r) =  4.71461e-02  		 norm(r)/(rtol*norm(r0)+atol) = 471.461 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  7.68183e-05
+[       4]    Newton it 2 norm(r) =  7.68183e-05  		 norm(r)/(rtol*norm(r0)+atol) =  7.68183e-01
+[       4] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.0818877714442 t_model_last= 0.0818877714442  setting to t_stepSequence= 0.1 
+[       4] Step Taken, t_stepSequence= 0.1 Model step t= 1.00000e-01, dt= 1.81122e-02 for model ladr_2d
+[       4] Step Taken, Model step t= 1.00000e-01, dt= 1.81122e-02 for model ladr_2d
+[       4] Min_dt_controller setSubsteps tList=[0.12544388572211407] self.t_model=0.125443885722 self.substeps= [0.12544388572211407] 
+[       4] Step Taken, System time step t= 1.00000e-01, dt= 1.81122e-02
+[       4] SplitOperator_Min choose_dt_system t_system_last= 0.1 dt_system= 0.0254438857221 t_system= 0.125443885722 
+[       4] Potential System time step t= 1.25444e-01, dt= 2.54439e-02 for next step
+[       4] Calculate called at time 0.1
+[       4] Writing mesh header for  model = ladr_2d at time t=0.1
+[       4] Writing solution for  model = ladr_2d
+[       4] Syncing Archive
+[       4] Gathering Archive Time step
+[       4] Done Gathering Archive Time Step
+[       4] Done Syncing Archive
+[       4] ==============================================================
+[       4] Solving over interval [ 1.00000e-01, 2.00000e-01]
+[       4] ==============================================================
+[       4] Min_dt_controller setSubsteps tList=[0.12544388572211407] self.t_model=0.125443885722 self.substeps= [0.12544388572211407] 
+[       4] System time step t= 1.25444e-01, dt= 2.54439e-02
+[       4] Split operator iteration 0
+[       4] NumericalAnalytics Model ladr_2d 
+[       4] Model: ladr_2d
+[       4] NumericalAnalytics Time Step 0.12544388572211407
+[       4] Fractional step  1.25444e-01 for model ladr_2d
+[       4] Step exact called for model ladr_2d
+[       4] StepControl base stepExact t_model= 0.125443885722 tOut= 0.125443885722 t_model_last= 0.1 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       4] Min_dt_controller setSubsteps tList=[0.12544388572211407] self.t_model=0.125443885722 self.substeps= [0.12544388572211407] 
+[       4] Model step t= 1.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       4] Model substep t= 1.25444e-01 for model ladr_2d
+[       4] Model substep t= 1.25444e-01 for model ladr_2d model.timeIntegration.t=  1.25444e-01
+[       4]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  1.11248e+00
+[       4]    Newton it 0 norm(r) =  1.11248e+00  		 norm(r)/(rtol*norm(r0)+atol) = 11124.8 test=r
+[       4]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  7.14030e-02
+[       4]    Newton it 1 norm(r) =  7.14030e-02  		 norm(r)/(rtol*norm(r0)+atol) = 714.03 test=r
+[       5]   NumericalAnalytics NewtonIteration: 2, NewtonNorm:  2.46700e-04
+[       5]    Newton it 2 norm(r) =  2.46700e-04  		 norm(r)/(rtol*norm(r0)+atol) = 2.467 test=r
+[       5]   NumericalAnalytics NewtonIteration: 2, NewtonNorm:  8.42709e-09
+[       5]    Newton it 3 norm(r) =  8.42709e-09  		 norm(r)/(rtol*norm(r0)+atol) =  8.42709e-05
+[       5] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.1 t_model_last= 0.1  setting to t_stepSequence= 0.125443885722 
+[       5] Step Taken, t_stepSequence= 0.125443885722 Model step t= 1.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Step Taken, Model step t= 1.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Min_dt_controller setSubsteps tList=[0.15088777144422813] self.t_model=0.150887771444 self.substeps= [0.15088777144422813] 
+[       5] Step Taken, System time step t= 1.25444e-01, dt= 2.54439e-02
+[       5] SplitOperator_Min choose_dt_system t_system_last= 0.125443885722 dt_system= 0.0254438857221 t_system= 0.150887771444 
+[       5] Potential System time step t= 1.50888e-01, dt= 2.54439e-02 for next step
+[       5] Min_dt_controller setSubsteps tList=[0.15088777144422813] self.t_model=0.150887771444 self.substeps= [0.15088777144422813] 
+[       5] Calculate called at time 0.125444
+[       5] System time step t= 1.50888e-01, dt= 2.54439e-02
+[       5] Split operator iteration 0
+[       5] NumericalAnalytics Model ladr_2d 
+[       5] Model: ladr_2d
+[       5] NumericalAnalytics Time Step 0.15088777144422813
+[       5] Fractional step  1.50888e-01 for model ladr_2d
+[       5] Step exact called for model ladr_2d
+[       5] StepControl base stepExact t_model= 0.150887771444 tOut= 0.150887771444 t_model_last= 0.125443885722 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       5] Min_dt_controller setSubsteps tList=[0.15088777144422813] self.t_model=0.150887771444 self.substeps= [0.15088777144422813] 
+[       5] Model step t= 1.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Model substep t= 1.50888e-01 for model ladr_2d
+[       5] Model substep t= 1.50888e-01 for model ladr_2d model.timeIntegration.t=  1.50888e-01
+[       5]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  8.81350e-01
+[       5]    Newton it 0 norm(r) =  8.81350e-01  		 norm(r)/(rtol*norm(r0)+atol) = 8813.5 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.43553e-02
+[       5]    Newton it 1 norm(r) =  4.43553e-02  		 norm(r)/(rtol*norm(r0)+atol) = 443.553 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  9.45009e-05
+[       5]    Newton it 2 norm(r) =  9.45009e-05  		 norm(r)/(rtol*norm(r0)+atol) =  9.45009e-01
+[       5] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.125443885722 t_model_last= 0.125443885722  setting to t_stepSequence= 0.150887771444 
+[       5] Step Taken, t_stepSequence= 0.150887771444 Model step t= 1.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Step Taken, Model step t= 1.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Min_dt_controller setSubsteps tList=[0.1763316571663422] self.t_model=0.176331657166 self.substeps= [0.1763316571663422] 
+[       5] Step Taken, System time step t= 1.50888e-01, dt= 2.54439e-02
+[       5] SplitOperator_Min choose_dt_system t_system_last= 0.150887771444 dt_system= 0.0254438857221 t_system= 0.176331657166 
+[       5] Potential System time step t= 1.76332e-01, dt= 2.54439e-02 for next step
+[       5] Min_dt_controller setSubsteps tList=[0.1763316571663422] self.t_model=0.176331657166 self.substeps= [0.1763316571663422] 
+[       5] Calculate called at time 0.150888
+[       5] System time step t= 1.76332e-01, dt= 2.54439e-02
+[       5] Split operator iteration 0
+[       5] NumericalAnalytics Model ladr_2d 
+[       5] Model: ladr_2d
+[       5] NumericalAnalytics Time Step 0.1763316571663422
+[       5] Fractional step  1.76332e-01 for model ladr_2d
+[       5] Step exact called for model ladr_2d
+[       5] StepControl base stepExact t_model= 0.176331657166 tOut= 0.176331657166 t_model_last= 0.150887771444 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       5] Min_dt_controller setSubsteps tList=[0.1763316571663422] self.t_model=0.176331657166 self.substeps= [0.1763316571663422] 
+[       5] Model step t= 1.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Model substep t= 1.76332e-01 for model ladr_2d
+[       5] Model substep t= 1.76332e-01 for model ladr_2d model.timeIntegration.t=  1.76332e-01
+[       5]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  8.03075e-01
+[       5]    Newton it 0 norm(r) =  8.03075e-01  		 norm(r)/(rtol*norm(r0)+atol) = 8030.75 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.59823e-02
+[       5]    Newton it 1 norm(r) =  3.59823e-02  		 norm(r)/(rtol*norm(r0)+atol) = 359.823 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  5.86068e-05
+[       5]    Newton it 2 norm(r) =  5.86068e-05  		 norm(r)/(rtol*norm(r0)+atol) =  5.86068e-01
+[       5] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.150887771444 t_model_last= 0.150887771444  setting to t_stepSequence= 0.176331657166 
+[       5] Step Taken, t_stepSequence= 0.176331657166 Model step t= 1.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Step Taken, Model step t= 1.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Min_dt_controller setSubsteps tList=[0.20177554288845626] self.t_model=0.201775542888 self.substeps= [0.20177554288845626] 
+[       5] Step Taken, System time step t= 1.76332e-01, dt= 2.54439e-02
+[       5] SplitOperator_Min choose_dt_system t_system_last= 0.176331657166 dt_system= 0.0254438857221 t_system= 0.201775542888 
+[       5] Potential System time step t= 2.01776e-01, dt= 2.54439e-02 for next step
+[       5] Min_dt_controller setSubsteps tList=[0.2] self.t_model=0.2 self.substeps= [0.2] 
+[       5] Calculate called at time 0.176332
+[       5] System time step t= 2.00000e-01, dt= 2.36683e-02
+[       5] Split operator iteration 0
+[       5] NumericalAnalytics Model ladr_2d 
+[       5] Model: ladr_2d
+[       5] NumericalAnalytics Time Step 0.2
+[       5] Fractional step  2.00000e-01 for model ladr_2d
+[       5] Step exact called for model ladr_2d
+[       5] StepControl base stepExact t_model= 0.2 tOut= 0.2 t_model_last= 0.176331657166 dt_model= 0.0236683428337 setting to 0.0236683428337 
+[       5] Min_dt_controller setSubsteps tList=[0.2] self.t_model=0.2 self.substeps= [0.2] 
+[       5] Model step t= 2.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       5] Model substep t= 2.00000e-01 for model ladr_2d
+[       5] Model substep t= 2.00000e-01 for model ladr_2d model.timeIntegration.t=  2.00000e-01
+[       5]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  7.55344e-01
+[       5]    Newton it 0 norm(r) =  7.55344e-01  		 norm(r)/(rtol*norm(r0)+atol) = 7553.44 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.02520e-02
+[       5]    Newton it 1 norm(r) =  3.02520e-02  		 norm(r)/(rtol*norm(r0)+atol) = 302.52 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.89918e-05
+[       5]    Newton it 2 norm(r) =  3.89918e-05  		 norm(r)/(rtol*norm(r0)+atol) =  3.89918e-01
+[       5] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.176331657166 t_model_last= 0.176331657166  setting to t_stepSequence= 0.2 
+[       5] Step Taken, t_stepSequence= 0.2 Model step t= 2.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       5] Step Taken, Model step t= 2.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       5] Min_dt_controller setSubsteps tList=[0.22544388572211407] self.t_model=0.225443885722 self.substeps= [0.22544388572211407] 
+[       5] Step Taken, System time step t= 2.00000e-01, dt= 2.36683e-02
+[       5] SplitOperator_Min choose_dt_system t_system_last= 0.2 dt_system= 0.0254438857221 t_system= 0.225443885722 
+[       5] Potential System time step t= 2.25444e-01, dt= 2.54439e-02 for next step
+[       5] Calculate called at time 0.2
+[       5] Writing mesh header for  model = ladr_2d at time t=0.2
+[       5] Writing solution for  model = ladr_2d
+[       5] Syncing Archive
+[       5] Gathering Archive Time step
+[       5] Done Gathering Archive Time Step
+[       5] Done Syncing Archive
+[       5] ==============================================================
+[       5] Solving over interval [ 2.00000e-01, 3.00000e-01]
+[       5] ==============================================================
+[       5] Min_dt_controller setSubsteps tList=[0.22544388572211407] self.t_model=0.225443885722 self.substeps= [0.22544388572211407] 
+[       5] System time step t= 2.25444e-01, dt= 2.54439e-02
+[       5] Split operator iteration 0
+[       5] NumericalAnalytics Model ladr_2d 
+[       5] Model: ladr_2d
+[       5] NumericalAnalytics Time Step 0.22544388572211407
+[       5] Fractional step  2.25444e-01 for model ladr_2d
+[       5] Step exact called for model ladr_2d
+[       5] StepControl base stepExact t_model= 0.225443885722 tOut= 0.225443885722 t_model_last= 0.2 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       5] Min_dt_controller setSubsteps tList=[0.22544388572211407] self.t_model=0.225443885722 self.substeps= [0.22544388572211407] 
+[       5] Model step t= 2.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Model substep t= 2.25444e-01 for model ladr_2d
+[       5] Model substep t= 2.25444e-01 for model ladr_2d model.timeIntegration.t=  2.25444e-01
+[       5]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  7.21618e-01
+[       5]    Newton it 0 norm(r) =  7.21618e-01  		 norm(r)/(rtol*norm(r0)+atol) = 7216.18 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.28907e-02
+[       5]    Newton it 1 norm(r) =  3.28907e-02  		 norm(r)/(rtol*norm(r0)+atol) = 328.907 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.63513e-05
+[       5]    Newton it 2 norm(r) =  4.63513e-05  		 norm(r)/(rtol*norm(r0)+atol) =  4.63513e-01
+[       5] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.2 t_model_last= 0.2  setting to t_stepSequence= 0.225443885722 
+[       5] Step Taken, t_stepSequence= 0.225443885722 Model step t= 2.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Step Taken, Model step t= 2.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Min_dt_controller setSubsteps tList=[0.25088777144422814] self.t_model=0.250887771444 self.substeps= [0.25088777144422814] 
+[       5] Step Taken, System time step t= 2.25444e-01, dt= 2.54439e-02
+[       5] SplitOperator_Min choose_dt_system t_system_last= 0.225443885722 dt_system= 0.0254438857221 t_system= 0.250887771444 
+[       5] Potential System time step t= 2.50888e-01, dt= 2.54439e-02 for next step
+[       5] Min_dt_controller setSubsteps tList=[0.25088777144422814] self.t_model=0.250887771444 self.substeps= [0.25088777144422814] 
+[       5] Calculate called at time 0.225444
+[       5] System time step t= 2.50888e-01, dt= 2.54439e-02
+[       5] Split operator iteration 0
+[       5] NumericalAnalytics Model ladr_2d 
+[       5] Model: ladr_2d
+[       5] NumericalAnalytics Time Step 0.25088777144422814
+[       5] Fractional step  2.50888e-01 for model ladr_2d
+[       5] Step exact called for model ladr_2d
+[       5] StepControl base stepExact t_model= 0.250887771444 tOut= 0.250887771444 t_model_last= 0.225443885722 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       5] Min_dt_controller setSubsteps tList=[0.25088777144422814] self.t_model=0.250887771444 self.substeps= [0.25088777144422814] 
+[       5] Model step t= 2.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Model substep t= 2.50888e-01 for model ladr_2d
+[       5] Model substep t= 2.50888e-01 for model ladr_2d model.timeIntegration.t=  2.50888e-01
+[       5]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  6.80963e-01
+[       5]    Newton it 0 norm(r) =  6.80963e-01  		 norm(r)/(rtol*norm(r0)+atol) = 6809.63 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.02090e-02
+[       5]    Newton it 1 norm(r) =  3.02090e-02  		 norm(r)/(rtol*norm(r0)+atol) = 302.09 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.38574e-05
+[       5]    Newton it 2 norm(r) =  4.38574e-05  		 norm(r)/(rtol*norm(r0)+atol) =  4.38574e-01
+[       5] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.225443885722 t_model_last= 0.225443885722  setting to t_stepSequence= 0.250887771444 
+[       5] Step Taken, t_stepSequence= 0.250887771444 Model step t= 2.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Step Taken, Model step t= 2.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Min_dt_controller setSubsteps tList=[0.27633165716634217] self.t_model=0.276331657166 self.substeps= [0.27633165716634217] 
+[       5] Step Taken, System time step t= 2.50888e-01, dt= 2.54439e-02
+[       5] SplitOperator_Min choose_dt_system t_system_last= 0.250887771444 dt_system= 0.0254438857221 t_system= 0.276331657166 
+[       5] Potential System time step t= 2.76332e-01, dt= 2.54439e-02 for next step
+[       5] Min_dt_controller setSubsteps tList=[0.27633165716634217] self.t_model=0.276331657166 self.substeps= [0.27633165716634217] 
+[       5] Calculate called at time 0.250888
+[       5] System time step t= 2.76332e-01, dt= 2.54439e-02
+[       5] Split operator iteration 0
+[       5] NumericalAnalytics Model ladr_2d 
+[       5] Model: ladr_2d
+[       5] NumericalAnalytics Time Step 0.27633165716634217
+[       5] Fractional step  2.76332e-01 for model ladr_2d
+[       5] Step exact called for model ladr_2d
+[       5] StepControl base stepExact t_model= 0.276331657166 tOut= 0.276331657166 t_model_last= 0.250887771444 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       5] Min_dt_controller setSubsteps tList=[0.27633165716634217] self.t_model=0.276331657166 self.substeps= [0.27633165716634217] 
+[       5] Model step t= 2.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Model substep t= 2.76332e-01 for model ladr_2d
+[       5] Model substep t= 2.76332e-01 for model ladr_2d model.timeIntegration.t=  2.76332e-01
+[       5]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  6.55881e-01
+[       5]    Newton it 0 norm(r) =  6.55881e-01  		 norm(r)/(rtol*norm(r0)+atol) = 6558.81 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.88348e-02
+[       5]    Newton it 1 norm(r) =  2.88348e-02  		 norm(r)/(rtol*norm(r0)+atol) = 288.348 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.85842e-05
+[       5]    Newton it 2 norm(r) =  3.85842e-05  		 norm(r)/(rtol*norm(r0)+atol) =  3.85842e-01
+[       5] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.250887771444 t_model_last= 0.250887771444  setting to t_stepSequence= 0.276331657166 
+[       5] Step Taken, t_stepSequence= 0.276331657166 Model step t= 2.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Step Taken, Model step t= 2.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Min_dt_controller setSubsteps tList=[0.3017755428884562] self.t_model=0.301775542888 self.substeps= [0.3017755428884562] 
+[       5] Step Taken, System time step t= 2.76332e-01, dt= 2.54439e-02
+[       5] SplitOperator_Min choose_dt_system t_system_last= 0.276331657166 dt_system= 0.0254438857221 t_system= 0.301775542888 
+[       5] Potential System time step t= 3.01776e-01, dt= 2.54439e-02 for next step
+[       5] Min_dt_controller setSubsteps tList=[0.3] self.t_model=0.3 self.substeps= [0.3] 
+[       5] Calculate called at time 0.276332
+[       5] System time step t= 3.00000e-01, dt= 2.36683e-02
+[       5] Split operator iteration 0
+[       5] NumericalAnalytics Model ladr_2d 
+[       5] Model: ladr_2d
+[       5] NumericalAnalytics Time Step 0.3
+[       5] Fractional step  3.00000e-01 for model ladr_2d
+[       5] Step exact called for model ladr_2d
+[       5] StepControl base stepExact t_model= 0.3 tOut= 0.3 t_model_last= 0.276331657166 dt_model= 0.0236683428337 setting to 0.0236683428337 
+[       5] Min_dt_controller setSubsteps tList=[0.3] self.t_model=0.3 self.substeps= [0.3] 
+[       5] Model step t= 3.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       5] Model substep t= 3.00000e-01 for model ladr_2d
+[       5] Model substep t= 3.00000e-01 for model ladr_2d model.timeIntegration.t=  3.00000e-01
+[       5]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  6.22316e-01
+[       5]    Newton it 0 norm(r) =  6.22316e-01  		 norm(r)/(rtol*norm(r0)+atol) = 6223.16 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.34344e-02
+[       5]    Newton it 1 norm(r) =  2.34344e-02  		 norm(r)/(rtol*norm(r0)+atol) = 234.344 test=r
+[       5]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.57668e-05
+[       5]    Newton it 2 norm(r) =  2.57668e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.57668e-01
+[       5] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.276331657166 t_model_last= 0.276331657166  setting to t_stepSequence= 0.3 
+[       5] Step Taken, t_stepSequence= 0.3 Model step t= 3.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       5] Step Taken, Model step t= 3.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       5] Min_dt_controller setSubsteps tList=[0.325443885722114] self.t_model=0.325443885722 self.substeps= [0.325443885722114] 
+[       5] Step Taken, System time step t= 3.00000e-01, dt= 2.36683e-02
+[       5] SplitOperator_Min choose_dt_system t_system_last= 0.3 dt_system= 0.0254438857221 t_system= 0.325443885722 
+[       5] Potential System time step t= 3.25444e-01, dt= 2.54439e-02 for next step
+[       5] Calculate called at time 0.3
+[       5] Writing mesh header for  model = ladr_2d at time t=0.3
+[       5] Writing solution for  model = ladr_2d
+[       5] Syncing Archive
+[       5] Gathering Archive Time step
+[       5] Done Gathering Archive Time Step
+[       5] Done Syncing Archive
+[       5] ==============================================================
+[       5] Solving over interval [ 3.00000e-01, 4.00000e-01]
+[       5] ==============================================================
+[       5] Min_dt_controller setSubsteps tList=[0.325443885722114] self.t_model=0.325443885722 self.substeps= [0.325443885722114] 
+[       5] System time step t= 3.25444e-01, dt= 2.54439e-02
+[       5] Split operator iteration 0
+[       5] NumericalAnalytics Model ladr_2d 
+[       5] Model: ladr_2d
+[       5] NumericalAnalytics Time Step 0.325443885722114
+[       5] Fractional step  3.25444e-01 for model ladr_2d
+[       5] Step exact called for model ladr_2d
+[       5] StepControl base stepExact t_model= 0.325443885722 tOut= 0.325443885722 t_model_last= 0.3 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       5] Min_dt_controller setSubsteps tList=[0.325443885722114] self.t_model=0.325443885722 self.substeps= [0.325443885722114] 
+[       5] Model step t= 3.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       5] Model substep t= 3.25444e-01 for model ladr_2d
+[       5] Model substep t= 3.25444e-01 for model ladr_2d model.timeIntegration.t=  3.25444e-01
+[       5]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  6.08354e-01
+[       5]    Newton it 0 norm(r) =  6.08354e-01  		 norm(r)/(rtol*norm(r0)+atol) = 6083.54 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.58927e-02
+[       6]    Newton it 1 norm(r) =  2.58927e-02  		 norm(r)/(rtol*norm(r0)+atol) = 258.927 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.78672e-05
+[       6]    Newton it 2 norm(r) =  3.78672e-05  		 norm(r)/(rtol*norm(r0)+atol) =  3.78672e-01
+[       6] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.3 t_model_last= 0.3  setting to t_stepSequence= 0.325443885722 
+[       6] Step Taken, t_stepSequence= 0.325443885722 Model step t= 3.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Step Taken, Model step t= 3.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Min_dt_controller setSubsteps tList=[0.35088777144422806] self.t_model=0.350887771444 self.substeps= [0.35088777144422806] 
+[       6] Step Taken, System time step t= 3.25444e-01, dt= 2.54439e-02
+[       6] SplitOperator_Min choose_dt_system t_system_last= 0.325443885722 dt_system= 0.0254438857221 t_system= 0.350887771444 
+[       6] Potential System time step t= 3.50888e-01, dt= 2.54439e-02 for next step
+[       6] Min_dt_controller setSubsteps tList=[0.35088777144422806] self.t_model=0.350887771444 self.substeps= [0.35088777144422806] 
+[       6] Calculate called at time 0.325444
+[       6] System time step t= 3.50888e-01, dt= 2.54439e-02
+[       6] Split operator iteration 0
+[       6] NumericalAnalytics Model ladr_2d 
+[       6] Model: ladr_2d
+[       6] NumericalAnalytics Time Step 0.35088777144422806
+[       6] Fractional step  3.50888e-01 for model ladr_2d
+[       6] Step exact called for model ladr_2d
+[       6] StepControl base stepExact t_model= 0.350887771444 tOut= 0.350887771444 t_model_last= 0.325443885722 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       6] Min_dt_controller setSubsteps tList=[0.35088777144422806] self.t_model=0.350887771444 self.substeps= [0.35088777144422806] 
+[       6] Model step t= 3.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Model substep t= 3.50888e-01 for model ladr_2d
+[       6] Model substep t= 3.50888e-01 for model ladr_2d model.timeIntegration.t=  3.50888e-01
+[       6]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.88978e-01
+[       6]    Newton it 0 norm(r) =  5.88978e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5889.78 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.50630e-02
+[       6]    Newton it 1 norm(r) =  2.50630e-02  		 norm(r)/(rtol*norm(r0)+atol) = 250.63 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.96055e-05
+[       6]    Newton it 2 norm(r) =  3.96055e-05  		 norm(r)/(rtol*norm(r0)+atol) =  3.96055e-01
+[       6] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.325443885722 t_model_last= 0.325443885722  setting to t_stepSequence= 0.350887771444 
+[       6] Step Taken, t_stepSequence= 0.350887771444 Model step t= 3.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Step Taken, Model step t= 3.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Min_dt_controller setSubsteps tList=[0.3763316571663421] self.t_model=0.376331657166 self.substeps= [0.3763316571663421] 
+[       6] Step Taken, System time step t= 3.50888e-01, dt= 2.54439e-02
+[       6] SplitOperator_Min choose_dt_system t_system_last= 0.350887771444 dt_system= 0.0254438857221 t_system= 0.376331657166 
+[       6] Potential System time step t= 3.76332e-01, dt= 2.54439e-02 for next step
+[       6] Min_dt_controller setSubsteps tList=[0.3763316571663421] self.t_model=0.376331657166 self.substeps= [0.3763316571663421] 
+[       6] Calculate called at time 0.350888
+[       6] System time step t= 3.76332e-01, dt= 2.54439e-02
+[       6] Split operator iteration 0
+[       6] NumericalAnalytics Model ladr_2d 
+[       6] Model: ladr_2d
+[       6] NumericalAnalytics Time Step 0.3763316571663421
+[       6] Fractional step  3.76332e-01 for model ladr_2d
+[       6] Step exact called for model ladr_2d
+[       6] StepControl base stepExact t_model= 0.376331657166 tOut= 0.376331657166 t_model_last= 0.350887771444 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       6] Min_dt_controller setSubsteps tList=[0.3763316571663421] self.t_model=0.376331657166 self.substeps= [0.3763316571663421] 
+[       6] Model step t= 3.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Model substep t= 3.76332e-01 for model ladr_2d
+[       6] Model substep t= 3.76332e-01 for model ladr_2d model.timeIntegration.t=  3.76332e-01
+[       6]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.88942e-01
+[       6]    Newton it 0 norm(r) =  5.88942e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5889.42 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.58471e-02
+[       6]    Newton it 1 norm(r) =  2.58471e-02  		 norm(r)/(rtol*norm(r0)+atol) = 258.471 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.90846e-05
+[       6]    Newton it 2 norm(r) =  4.90846e-05  		 norm(r)/(rtol*norm(r0)+atol) =  4.90846e-01
+[       6] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.350887771444 t_model_last= 0.350887771444  setting to t_stepSequence= 0.376331657166 
+[       6] Step Taken, t_stepSequence= 0.376331657166 Model step t= 3.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Step Taken, Model step t= 3.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Min_dt_controller setSubsteps tList=[0.4017755428884561] self.t_model=0.401775542888 self.substeps= [0.4017755428884561] 
+[       6] Step Taken, System time step t= 3.76332e-01, dt= 2.54439e-02
+[       6] SplitOperator_Min choose_dt_system t_system_last= 0.376331657166 dt_system= 0.0254438857221 t_system= 0.401775542888 
+[       6] Potential System time step t= 4.01776e-01, dt= 2.54439e-02 for next step
+[       6] Min_dt_controller setSubsteps tList=[0.4] self.t_model=0.4 self.substeps= [0.4] 
+[       6] Calculate called at time 0.376332
+[       6] System time step t= 4.00000e-01, dt= 2.36683e-02
+[       6] Split operator iteration 0
+[       6] NumericalAnalytics Model ladr_2d 
+[       6] Model: ladr_2d
+[       6] NumericalAnalytics Time Step 0.4
+[       6] Fractional step  4.00000e-01 for model ladr_2d
+[       6] Step exact called for model ladr_2d
+[       6] StepControl base stepExact t_model= 0.4 tOut= 0.4 t_model_last= 0.376331657166 dt_model= 0.0236683428337 setting to 0.0236683428337 
+[       6] Min_dt_controller setSubsteps tList=[0.4] self.t_model=0.4 self.substeps= [0.4] 
+[       6] Model step t= 4.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       6] Model substep t= 4.00000e-01 for model ladr_2d
+[       6] Model substep t= 4.00000e-01 for model ladr_2d model.timeIntegration.t=  4.00000e-01
+[       6]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.82373e-01
+[       6]    Newton it 0 norm(r) =  5.82373e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5823.73 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.13658e-02
+[       6]    Newton it 1 norm(r) =  2.13658e-02  		 norm(r)/(rtol*norm(r0)+atol) = 213.658 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.51216e-05
+[       6]    Newton it 2 norm(r) =  2.51216e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.51216e-01
+[       6] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.376331657166 t_model_last= 0.376331657166  setting to t_stepSequence= 0.4 
+[       6] Step Taken, t_stepSequence= 0.4 Model step t= 4.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       6] Step Taken, Model step t= 4.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       6] Min_dt_controller setSubsteps tList=[0.42544388572211406] self.t_model=0.425443885722 self.substeps= [0.42544388572211406] 
+[       6] Step Taken, System time step t= 4.00000e-01, dt= 2.36683e-02
+[       6] SplitOperator_Min choose_dt_system t_system_last= 0.4 dt_system= 0.0254438857221 t_system= 0.425443885722 
+[       6] Potential System time step t= 4.25444e-01, dt= 2.54439e-02 for next step
+[       6] Calculate called at time 0.4
+[       6] Writing mesh header for  model = ladr_2d at time t=0.4
+[       6] Writing solution for  model = ladr_2d
+[       6] Syncing Archive
+[       6] Gathering Archive Time step
+[       6] Done Gathering Archive Time Step
+[       6] Done Syncing Archive
+[       6] ==============================================================
+[       6] Solving over interval [ 4.00000e-01, 5.00000e-01]
+[       6] ==============================================================
+[       6] Min_dt_controller setSubsteps tList=[0.42544388572211406] self.t_model=0.425443885722 self.substeps= [0.42544388572211406] 
+[       6] System time step t= 4.25444e-01, dt= 2.54439e-02
+[       6] Split operator iteration 0
+[       6] NumericalAnalytics Model ladr_2d 
+[       6] Model: ladr_2d
+[       6] NumericalAnalytics Time Step 0.42544388572211406
+[       6] Fractional step  4.25444e-01 for model ladr_2d
+[       6] Step exact called for model ladr_2d
+[       6] StepControl base stepExact t_model= 0.425443885722 tOut= 0.425443885722 t_model_last= 0.4 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       6] Min_dt_controller setSubsteps tList=[0.42544388572211406] self.t_model=0.425443885722 self.substeps= [0.42544388572211406] 
+[       6] Model step t= 4.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Model substep t= 4.25444e-01 for model ladr_2d
+[       6] Model substep t= 4.25444e-01 for model ladr_2d model.timeIntegration.t=  4.25444e-01
+[       6]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.77082e-01
+[       6]    Newton it 0 norm(r) =  5.77082e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5770.82 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.47947e-02
+[       6]    Newton it 1 norm(r) =  2.47947e-02  		 norm(r)/(rtol*norm(r0)+atol) = 247.947 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.71507e-05
+[       6]    Newton it 2 norm(r) =  3.71507e-05  		 norm(r)/(rtol*norm(r0)+atol) =  3.71507e-01
+[       6] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.4 t_model_last= 0.4  setting to t_stepSequence= 0.425443885722 
+[       6] Step Taken, t_stepSequence= 0.425443885722 Model step t= 4.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Step Taken, Model step t= 4.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Min_dt_controller setSubsteps tList=[0.4508877714442281] self.t_model=0.450887771444 self.substeps= [0.4508877714442281] 
+[       6] Step Taken, System time step t= 4.25444e-01, dt= 2.54439e-02
+[       6] SplitOperator_Min choose_dt_system t_system_last= 0.425443885722 dt_system= 0.0254438857221 t_system= 0.450887771444 
+[       6] Potential System time step t= 4.50888e-01, dt= 2.54439e-02 for next step
+[       6] Min_dt_controller setSubsteps tList=[0.4508877714442281] self.t_model=0.450887771444 self.substeps= [0.4508877714442281] 
+[       6] Calculate called at time 0.425444
+[       6] System time step t= 4.50888e-01, dt= 2.54439e-02
+[       6] Split operator iteration 0
+[       6] NumericalAnalytics Model ladr_2d 
+[       6] Model: ladr_2d
+[       6] NumericalAnalytics Time Step 0.4508877714442281
+[       6] Fractional step  4.50888e-01 for model ladr_2d
+[       6] Step exact called for model ladr_2d
+[       6] StepControl base stepExact t_model= 0.450887771444 tOut= 0.450887771444 t_model_last= 0.425443885722 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       6] Min_dt_controller setSubsteps tList=[0.4508877714442281] self.t_model=0.450887771444 self.substeps= [0.4508877714442281] 
+[       6] Model step t= 4.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Model substep t= 4.50888e-01 for model ladr_2d
+[       6] Model substep t= 4.50888e-01 for model ladr_2d model.timeIntegration.t=  4.50888e-01
+[       6]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.64528e-01
+[       6]    Newton it 0 norm(r) =  5.64528e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5645.28 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.47461e-02
+[       6]    Newton it 1 norm(r) =  2.47461e-02  		 norm(r)/(rtol*norm(r0)+atol) = 247.461 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.14824e-05
+[       6]    Newton it 2 norm(r) =  4.14824e-05  		 norm(r)/(rtol*norm(r0)+atol) =  4.14824e-01
+[       6] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.425443885722 t_model_last= 0.425443885722  setting to t_stepSequence= 0.450887771444 
+[       6] Step Taken, t_stepSequence= 0.450887771444 Model step t= 4.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Step Taken, Model step t= 4.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Min_dt_controller setSubsteps tList=[0.4763316571663421] self.t_model=0.476331657166 self.substeps= [0.4763316571663421] 
+[       6] Step Taken, System time step t= 4.50888e-01, dt= 2.54439e-02
+[       6] SplitOperator_Min choose_dt_system t_system_last= 0.450887771444 dt_system= 0.0254438857221 t_system= 0.476331657166 
+[       6] Potential System time step t= 4.76332e-01, dt= 2.54439e-02 for next step
+[       6] Min_dt_controller setSubsteps tList=[0.4763316571663421] self.t_model=0.476331657166 self.substeps= [0.4763316571663421] 
+[       6] Calculate called at time 0.450888
+[       6] System time step t= 4.76332e-01, dt= 2.54439e-02
+[       6] Split operator iteration 0
+[       6] NumericalAnalytics Model ladr_2d 
+[       6] Model: ladr_2d
+[       6] NumericalAnalytics Time Step 0.4763316571663421
+[       6] Fractional step  4.76332e-01 for model ladr_2d
+[       6] Step exact called for model ladr_2d
+[       6] StepControl base stepExact t_model= 0.476331657166 tOut= 0.476331657166 t_model_last= 0.450887771444 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       6] Min_dt_controller setSubsteps tList=[0.4763316571663421] self.t_model=0.476331657166 self.substeps= [0.4763316571663421] 
+[       6] Model step t= 4.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Model substep t= 4.76332e-01 for model ladr_2d
+[       6] Model substep t= 4.76332e-01 for model ladr_2d model.timeIntegration.t=  4.76332e-01
+[       6]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.64832e-01
+[       6]    Newton it 0 norm(r) =  5.64832e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5648.32 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.37186e-02
+[       6]    Newton it 1 norm(r) =  2.37186e-02  		 norm(r)/(rtol*norm(r0)+atol) = 237.186 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.21382e-05
+[       6]    Newton it 2 norm(r) =  4.21382e-05  		 norm(r)/(rtol*norm(r0)+atol) =  4.21382e-01
+[       6] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.450887771444 t_model_last= 0.450887771444  setting to t_stepSequence= 0.476331657166 
+[       6] Step Taken, t_stepSequence= 0.476331657166 Model step t= 4.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Step Taken, Model step t= 4.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Min_dt_controller setSubsteps tList=[0.5017755428884562] self.t_model=0.501775542888 self.substeps= [0.5017755428884562] 
+[       6] Step Taken, System time step t= 4.76332e-01, dt= 2.54439e-02
+[       6] SplitOperator_Min choose_dt_system t_system_last= 0.476331657166 dt_system= 0.0254438857221 t_system= 0.501775542888 
+[       6] Potential System time step t= 5.01776e-01, dt= 2.54439e-02 for next step
+[       6] Min_dt_controller setSubsteps tList=[0.5] self.t_model=0.5 self.substeps= [0.5] 
+[       6] Calculate called at time 0.476332
+[       6] System time step t= 5.00000e-01, dt= 2.36683e-02
+[       6] Split operator iteration 0
+[       6] NumericalAnalytics Model ladr_2d 
+[       6] Model: ladr_2d
+[       6] NumericalAnalytics Time Step 0.5
+[       6] Fractional step  5.00000e-01 for model ladr_2d
+[       6] Step exact called for model ladr_2d
+[       6] StepControl base stepExact t_model= 0.5 tOut= 0.5 t_model_last= 0.476331657166 dt_model= 0.0236683428337 setting to 0.0236683428337 
+[       6] Min_dt_controller setSubsteps tList=[0.5] self.t_model=0.5 self.substeps= [0.5] 
+[       6] Model step t= 5.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       6] Model substep t= 5.00000e-01 for model ladr_2d
+[       6] Model substep t= 5.00000e-01 for model ladr_2d model.timeIntegration.t=  5.00000e-01
+[       6]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.55086e-01
+[       6]    Newton it 0 norm(r) =  5.55086e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5550.86 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.97764e-02
+[       6]    Newton it 1 norm(r) =  1.97764e-02  		 norm(r)/(rtol*norm(r0)+atol) = 197.764 test=r
+[       6]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.59932e-05
+[       6]    Newton it 2 norm(r) =  2.59932e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.59932e-01
+[       6] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.476331657166 t_model_last= 0.476331657166  setting to t_stepSequence= 0.5 
+[       6] Step Taken, t_stepSequence= 0.5 Model step t= 5.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       6] Step Taken, Model step t= 5.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       6] Min_dt_controller setSubsteps tList=[0.5254438857221141] self.t_model=0.525443885722 self.substeps= [0.5254438857221141] 
+[       6] Step Taken, System time step t= 5.00000e-01, dt= 2.36683e-02
+[       6] SplitOperator_Min choose_dt_system t_system_last= 0.5 dt_system= 0.0254438857221 t_system= 0.525443885722 
+[       6] Potential System time step t= 5.25444e-01, dt= 2.54439e-02 for next step
+[       6] Calculate called at time 0.5
+[       6] Writing mesh header for  model = ladr_2d at time t=0.5
+[       6] Writing solution for  model = ladr_2d
+[       6] Syncing Archive
+[       6] Gathering Archive Time step
+[       6] Done Gathering Archive Time Step
+[       6] Done Syncing Archive
+[       6] ==============================================================
+[       6] Solving over interval [ 5.00000e-01, 6.00000e-01]
+[       6] ==============================================================
+[       6] Min_dt_controller setSubsteps tList=[0.5254438857221141] self.t_model=0.525443885722 self.substeps= [0.5254438857221141] 
+[       6] System time step t= 5.25444e-01, dt= 2.54439e-02
+[       6] Split operator iteration 0
+[       6] NumericalAnalytics Model ladr_2d 
+[       6] Model: ladr_2d
+[       6] NumericalAnalytics Time Step 0.5254438857221141
+[       6] Fractional step  5.25444e-01 for model ladr_2d
+[       6] Step exact called for model ladr_2d
+[       6] StepControl base stepExact t_model= 0.525443885722 tOut= 0.525443885722 t_model_last= 0.5 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       6] Min_dt_controller setSubsteps tList=[0.5254438857221141] self.t_model=0.525443885722 self.substeps= [0.5254438857221141] 
+[       6] Model step t= 5.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       6] Model substep t= 5.25444e-01 for model ladr_2d
+[       6] Model substep t= 5.25444e-01 for model ladr_2d model.timeIntegration.t=  5.25444e-01
+[       6]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.60628e-01
+[       6]    Newton it 0 norm(r) =  5.60628e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5606.28 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.29436e-02
+[       7]    Newton it 1 norm(r) =  2.29436e-02  		 norm(r)/(rtol*norm(r0)+atol) = 229.436 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.21858e-05
+[       7]    Newton it 2 norm(r) =  4.21858e-05  		 norm(r)/(rtol*norm(r0)+atol) =  4.21858e-01
+[       7] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.5 t_model_last= 0.5  setting to t_stepSequence= 0.525443885722 
+[       7] Step Taken, t_stepSequence= 0.525443885722 Model step t= 5.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Step Taken, Model step t= 5.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Min_dt_controller setSubsteps tList=[0.5508877714442282] self.t_model=0.550887771444 self.substeps= [0.5508877714442282] 
+[       7] Step Taken, System time step t= 5.25444e-01, dt= 2.54439e-02
+[       7] SplitOperator_Min choose_dt_system t_system_last= 0.525443885722 dt_system= 0.0254438857221 t_system= 0.550887771444 
+[       7] Potential System time step t= 5.50888e-01, dt= 2.54439e-02 for next step
+[       7] Min_dt_controller setSubsteps tList=[0.5508877714442282] self.t_model=0.550887771444 self.substeps= [0.5508877714442282] 
+[       7] Calculate called at time 0.525444
+[       7] System time step t= 5.50888e-01, dt= 2.54439e-02
+[       7] Split operator iteration 0
+[       7] NumericalAnalytics Model ladr_2d 
+[       7] Model: ladr_2d
+[       7] NumericalAnalytics Time Step 0.5508877714442282
+[       7] Fractional step  5.50888e-01 for model ladr_2d
+[       7] Step exact called for model ladr_2d
+[       7] StepControl base stepExact t_model= 0.550887771444 tOut= 0.550887771444 t_model_last= 0.525443885722 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       7] Min_dt_controller setSubsteps tList=[0.5508877714442282] self.t_model=0.550887771444 self.substeps= [0.5508877714442282] 
+[       7] Model step t= 5.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Model substep t= 5.50888e-01 for model ladr_2d
+[       7] Model substep t= 5.50888e-01 for model ladr_2d model.timeIntegration.t=  5.50888e-01
+[       7]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.46528e-01
+[       7]    Newton it 0 norm(r) =  5.46528e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5465.28 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.19731e-02
+[       7]    Newton it 1 norm(r) =  2.19731e-02  		 norm(r)/(rtol*norm(r0)+atol) = 219.731 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.25772e-05
+[       7]    Newton it 2 norm(r) =  4.25772e-05  		 norm(r)/(rtol*norm(r0)+atol) =  4.25772e-01
+[       7] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.525443885722 t_model_last= 0.525443885722  setting to t_stepSequence= 0.550887771444 
+[       7] Step Taken, t_stepSequence= 0.550887771444 Model step t= 5.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Step Taken, Model step t= 5.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Min_dt_controller setSubsteps tList=[0.5763316571663423] self.t_model=0.576331657166 self.substeps= [0.5763316571663423] 
+[       7] Step Taken, System time step t= 5.50888e-01, dt= 2.54439e-02
+[       7] SplitOperator_Min choose_dt_system t_system_last= 0.550887771444 dt_system= 0.0254438857221 t_system= 0.576331657166 
+[       7] Potential System time step t= 5.76332e-01, dt= 2.54439e-02 for next step
+[       7] Min_dt_controller setSubsteps tList=[0.5763316571663423] self.t_model=0.576331657166 self.substeps= [0.5763316571663423] 
+[       7] Calculate called at time 0.550888
+[       7] System time step t= 5.76332e-01, dt= 2.54439e-02
+[       7] Split operator iteration 0
+[       7] NumericalAnalytics Model ladr_2d 
+[       7] Model: ladr_2d
+[       7] NumericalAnalytics Time Step 0.5763316571663423
+[       7] Fractional step  5.76332e-01 for model ladr_2d
+[       7] Step exact called for model ladr_2d
+[       7] StepControl base stepExact t_model= 0.576331657166 tOut= 0.576331657166 t_model_last= 0.550887771444 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       7] Min_dt_controller setSubsteps tList=[0.5763316571663423] self.t_model=0.576331657166 self.substeps= [0.5763316571663423] 
+[       7] Model step t= 5.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Model substep t= 5.76332e-01 for model ladr_2d
+[       7] Model substep t= 5.76332e-01 for model ladr_2d model.timeIntegration.t=  5.76332e-01
+[       7]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.47696e-01
+[       7]    Newton it 0 norm(r) =  5.47696e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5476.96 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.20632e-02
+[       7]    Newton it 1 norm(r) =  2.20632e-02  		 norm(r)/(rtol*norm(r0)+atol) = 220.632 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.30686e-05
+[       7]    Newton it 2 norm(r) =  4.30686e-05  		 norm(r)/(rtol*norm(r0)+atol) =  4.30686e-01
+[       7] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.550887771444 t_model_last= 0.550887771444  setting to t_stepSequence= 0.576331657166 
+[       7] Step Taken, t_stepSequence= 0.576331657166 Model step t= 5.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Step Taken, Model step t= 5.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Min_dt_controller setSubsteps tList=[0.6017755428884564] self.t_model=0.601775542888 self.substeps= [0.6017755428884564] 
+[       7] Step Taken, System time step t= 5.76332e-01, dt= 2.54439e-02
+[       7] SplitOperator_Min choose_dt_system t_system_last= 0.576331657166 dt_system= 0.0254438857221 t_system= 0.601775542888 
+[       7] Potential System time step t= 6.01776e-01, dt= 2.54439e-02 for next step
+[       7] Min_dt_controller setSubsteps tList=[0.6] self.t_model=0.6 self.substeps= [0.6] 
+[       7] Calculate called at time 0.576332
+[       7] System time step t= 6.00000e-01, dt= 2.36683e-02
+[       7] Split operator iteration 0
+[       7] NumericalAnalytics Model ladr_2d 
+[       7] Model: ladr_2d
+[       7] NumericalAnalytics Time Step 0.6
+[       7] Fractional step  6.00000e-01 for model ladr_2d
+[       7] Step exact called for model ladr_2d
+[       7] StepControl base stepExact t_model= 0.6 tOut= 0.6 t_model_last= 0.576331657166 dt_model= 0.0236683428337 setting to 0.0236683428337 
+[       7] Min_dt_controller setSubsteps tList=[0.6] self.t_model=0.6 self.substeps= [0.6] 
+[       7] Model step t= 6.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       7] Model substep t= 6.00000e-01 for model ladr_2d
+[       7] Model substep t= 6.00000e-01 for model ladr_2d model.timeIntegration.t=  6.00000e-01
+[       7]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.38173e-01
+[       7]    Newton it 0 norm(r) =  5.38173e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5381.73 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.94143e-02
+[       7]    Newton it 1 norm(r) =  1.94143e-02  		 norm(r)/(rtol*norm(r0)+atol) = 194.143 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.63969e-05
+[       7]    Newton it 2 norm(r) =  2.63969e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.63969e-01
+[       7] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.576331657166 t_model_last= 0.576331657166  setting to t_stepSequence= 0.6 
+[       7] Step Taken, t_stepSequence= 0.6 Model step t= 6.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       7] Step Taken, Model step t= 6.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       7] Min_dt_controller setSubsteps tList=[0.6254438857221141] self.t_model=0.625443885722 self.substeps= [0.6254438857221141] 
+[       7] Step Taken, System time step t= 6.00000e-01, dt= 2.36683e-02
+[       7] SplitOperator_Min choose_dt_system t_system_last= 0.6 dt_system= 0.0254438857221 t_system= 0.625443885722 
+[       7] Potential System time step t= 6.25444e-01, dt= 2.54439e-02 for next step
+[       7] Calculate called at time 0.6
+[       7] Writing mesh header for  model = ladr_2d at time t=0.6
+[       7] Writing solution for  model = ladr_2d
+[       7] Syncing Archive
+[       7] Gathering Archive Time step
+[       7] Done Gathering Archive Time Step
+[       7] Done Syncing Archive
+[       7] ==============================================================
+[       7] Solving over interval [ 6.00000e-01, 7.00000e-01]
+[       7] ==============================================================
+[       7] Min_dt_controller setSubsteps tList=[0.6254438857221141] self.t_model=0.625443885722 self.substeps= [0.6254438857221141] 
+[       7] System time step t= 6.25444e-01, dt= 2.54439e-02
+[       7] Split operator iteration 0
+[       7] NumericalAnalytics Model ladr_2d 
+[       7] Model: ladr_2d
+[       7] NumericalAnalytics Time Step 0.6254438857221141
+[       7] Fractional step  6.25444e-01 for model ladr_2d
+[       7] Step exact called for model ladr_2d
+[       7] StepControl base stepExact t_model= 0.625443885722 tOut= 0.625443885722 t_model_last= 0.6 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       7] Min_dt_controller setSubsteps tList=[0.6254438857221141] self.t_model=0.625443885722 self.substeps= [0.6254438857221141] 
+[       7] Model step t= 6.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Model substep t= 6.25444e-01 for model ladr_2d
+[       7] Model substep t= 6.25444e-01 for model ladr_2d model.timeIntegration.t=  6.25444e-01
+[       7]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.45102e-01
+[       7]    Newton it 0 norm(r) =  5.45102e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5451.02 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.32324e-02
+[       7]    Newton it 1 norm(r) =  2.32324e-02  		 norm(r)/(rtol*norm(r0)+atol) = 232.324 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  4.73657e-05
+[       7]    Newton it 2 norm(r) =  4.73657e-05  		 norm(r)/(rtol*norm(r0)+atol) =  4.73657e-01
+[       7] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.6 t_model_last= 0.6  setting to t_stepSequence= 0.625443885722 
+[       7] Step Taken, t_stepSequence= 0.625443885722 Model step t= 6.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Step Taken, Model step t= 6.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Min_dt_controller setSubsteps tList=[0.6508877714442282] self.t_model=0.650887771444 self.substeps= [0.6508877714442282] 
+[       7] Step Taken, System time step t= 6.25444e-01, dt= 2.54439e-02
+[       7] SplitOperator_Min choose_dt_system t_system_last= 0.625443885722 dt_system= 0.0254438857221 t_system= 0.650887771444 
+[       7] Potential System time step t= 6.50888e-01, dt= 2.54439e-02 for next step
+[       7] Min_dt_controller setSubsteps tList=[0.6508877714442282] self.t_model=0.650887771444 self.substeps= [0.6508877714442282] 
+[       7] Calculate called at time 0.625444
+[       7] System time step t= 6.50888e-01, dt= 2.54439e-02
+[       7] Split operator iteration 0
+[       7] NumericalAnalytics Model ladr_2d 
+[       7] Model: ladr_2d
+[       7] NumericalAnalytics Time Step 0.6508877714442282
+[       7] Fractional step  6.50888e-01 for model ladr_2d
+[       7] Step exact called for model ladr_2d
+[       7] StepControl base stepExact t_model= 0.650887771444 tOut= 0.650887771444 t_model_last= 0.625443885722 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       7] Min_dt_controller setSubsteps tList=[0.6508877714442282] self.t_model=0.650887771444 self.substeps= [0.6508877714442282] 
+[       7] Model step t= 6.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Model substep t= 6.50888e-01 for model ladr_2d
+[       7] Model substep t= 6.50888e-01 for model ladr_2d model.timeIntegration.t=  6.50888e-01
+[       7]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.31286e-01
+[       7]    Newton it 0 norm(r) =  5.31286e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5312.86 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.17551e-02
+[       7]    Newton it 1 norm(r) =  2.17551e-02  		 norm(r)/(rtol*norm(r0)+atol) = 217.551 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.58316e-05
+[       7]    Newton it 2 norm(r) =  3.58316e-05  		 norm(r)/(rtol*norm(r0)+atol) =  3.58316e-01
+[       7] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.625443885722 t_model_last= 0.625443885722  setting to t_stepSequence= 0.650887771444 
+[       7] Step Taken, t_stepSequence= 0.650887771444 Model step t= 6.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Step Taken, Model step t= 6.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Min_dt_controller setSubsteps tList=[0.6763316571663422] self.t_model=0.676331657166 self.substeps= [0.6763316571663422] 
+[       7] Step Taken, System time step t= 6.50888e-01, dt= 2.54439e-02
+[       7] SplitOperator_Min choose_dt_system t_system_last= 0.650887771444 dt_system= 0.0254438857221 t_system= 0.676331657166 
+[       7] Potential System time step t= 6.76332e-01, dt= 2.54439e-02 for next step
+[       7] Min_dt_controller setSubsteps tList=[0.6763316571663422] self.t_model=0.676331657166 self.substeps= [0.6763316571663422] 
+[       7] Calculate called at time 0.650888
+[       7] System time step t= 6.76332e-01, dt= 2.54439e-02
+[       7] Split operator iteration 0
+[       7] NumericalAnalytics Model ladr_2d 
+[       7] Model: ladr_2d
+[       7] NumericalAnalytics Time Step 0.6763316571663422
+[       7] Fractional step  6.76332e-01 for model ladr_2d
+[       7] Step exact called for model ladr_2d
+[       7] StepControl base stepExact t_model= 0.676331657166 tOut= 0.676331657166 t_model_last= 0.650887771444 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       7] Min_dt_controller setSubsteps tList=[0.6763316571663422] self.t_model=0.676331657166 self.substeps= [0.6763316571663422] 
+[       7] Model step t= 6.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Model substep t= 6.76332e-01 for model ladr_2d
+[       7] Model substep t= 6.76332e-01 for model ladr_2d model.timeIntegration.t=  6.76332e-01
+[       7]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.17717e-01
+[       7]    Newton it 0 norm(r) =  5.17717e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5177.17 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.13328e-02
+[       7]    Newton it 1 norm(r) =  2.13328e-02  		 norm(r)/(rtol*norm(r0)+atol) = 213.328 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.37739e-05
+[       7]    Newton it 2 norm(r) =  3.37739e-05  		 norm(r)/(rtol*norm(r0)+atol) =  3.37739e-01
+[       7] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.650887771444 t_model_last= 0.650887771444  setting to t_stepSequence= 0.676331657166 
+[       7] Step Taken, t_stepSequence= 0.676331657166 Model step t= 6.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Step Taken, Model step t= 6.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Min_dt_controller setSubsteps tList=[0.7017755428884563] self.t_model=0.701775542888 self.substeps= [0.7017755428884563] 
+[       7] Step Taken, System time step t= 6.76332e-01, dt= 2.54439e-02
+[       7] SplitOperator_Min choose_dt_system t_system_last= 0.676331657166 dt_system= 0.0254438857221 t_system= 0.701775542888 
+[       7] Potential System time step t= 7.01776e-01, dt= 2.54439e-02 for next step
+[       7] Min_dt_controller setSubsteps tList=[0.7] self.t_model=0.7 self.substeps= [0.7] 
+[       7] Calculate called at time 0.676332
+[       7] System time step t= 7.00000e-01, dt= 2.36683e-02
+[       7] Split operator iteration 0
+[       7] NumericalAnalytics Model ladr_2d 
+[       7] Model: ladr_2d
+[       7] NumericalAnalytics Time Step 0.7
+[       7] Fractional step  7.00000e-01 for model ladr_2d
+[       7] Step exact called for model ladr_2d
+[       7] StepControl base stepExact t_model= 0.7 tOut= 0.7 t_model_last= 0.676331657166 dt_model= 0.0236683428337 setting to 0.0236683428337 
+[       7] Min_dt_controller setSubsteps tList=[0.7] self.t_model=0.7 self.substeps= [0.7] 
+[       7] Model step t= 7.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       7] Model substep t= 7.00000e-01 for model ladr_2d
+[       7] Model substep t= 7.00000e-01 for model ladr_2d model.timeIntegration.t=  7.00000e-01
+[       7]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.08736e-01
+[       7]    Newton it 0 norm(r) =  5.08736e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5087.36 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.85246e-02
+[       7]    Newton it 1 norm(r) =  1.85246e-02  		 norm(r)/(rtol*norm(r0)+atol) = 185.246 test=r
+[       7]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.31894e-05
+[       7]    Newton it 2 norm(r) =  2.31894e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.31894e-01
+[       7] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.676331657166 t_model_last= 0.676331657166  setting to t_stepSequence= 0.7 
+[       7] Step Taken, t_stepSequence= 0.7 Model step t= 7.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       7] Step Taken, Model step t= 7.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       7] Min_dt_controller setSubsteps tList=[0.725443885722114] self.t_model=0.725443885722 self.substeps= [0.725443885722114] 
+[       7] Step Taken, System time step t= 7.00000e-01, dt= 2.36683e-02
+[       7] SplitOperator_Min choose_dt_system t_system_last= 0.7 dt_system= 0.0254438857221 t_system= 0.725443885722 
+[       7] Potential System time step t= 7.25444e-01, dt= 2.54439e-02 for next step
+[       7] Calculate called at time 0.7
+[       7] Writing mesh header for  model = ladr_2d at time t=0.7
+[       7] Writing solution for  model = ladr_2d
+[       7] Syncing Archive
+[       7] Gathering Archive Time step
+[       7] Done Gathering Archive Time Step
+[       7] Done Syncing Archive
+[       7] ==============================================================
+[       7] Solving over interval [ 7.00000e-01, 8.00000e-01]
+[       7] ==============================================================
+[       7] Min_dt_controller setSubsteps tList=[0.725443885722114] self.t_model=0.725443885722 self.substeps= [0.725443885722114] 
+[       7] System time step t= 7.25444e-01, dt= 2.54439e-02
+[       7] Split operator iteration 0
+[       7] NumericalAnalytics Model ladr_2d 
+[       7] Model: ladr_2d
+[       7] NumericalAnalytics Time Step 0.725443885722114
+[       7] Fractional step  7.25444e-01 for model ladr_2d
+[       7] Step exact called for model ladr_2d
+[       7] StepControl base stepExact t_model= 0.725443885722 tOut= 0.725443885722 t_model_last= 0.7 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       7] Min_dt_controller setSubsteps tList=[0.725443885722114] self.t_model=0.725443885722 self.substeps= [0.725443885722114] 
+[       7] Model step t= 7.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       7] Model substep t= 7.25444e-01 for model ladr_2d
+[       7] Model substep t= 7.25444e-01 for model ladr_2d model.timeIntegration.t=  7.25444e-01
+[       7]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.14226e-01
+[       7]    Newton it 0 norm(r) =  5.14226e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5142.26 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.10659e-02
+[       8]    Newton it 1 norm(r) =  2.10659e-02  		 norm(r)/(rtol*norm(r0)+atol) = 210.659 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  3.14431e-05
+[       8]    Newton it 2 norm(r) =  3.14431e-05  		 norm(r)/(rtol*norm(r0)+atol) =  3.14431e-01
+[       8] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.7 t_model_last= 0.7  setting to t_stepSequence= 0.725443885722 
+[       8] Step Taken, t_stepSequence= 0.725443885722 Model step t= 7.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Step Taken, Model step t= 7.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Min_dt_controller setSubsteps tList=[0.7508877714442281] self.t_model=0.750887771444 self.substeps= [0.7508877714442281] 
+[       8] Step Taken, System time step t= 7.25444e-01, dt= 2.54439e-02
+[       8] SplitOperator_Min choose_dt_system t_system_last= 0.725443885722 dt_system= 0.0254438857221 t_system= 0.750887771444 
+[       8] Potential System time step t= 7.50888e-01, dt= 2.54439e-02 for next step
+[       8] Min_dt_controller setSubsteps tList=[0.7508877714442281] self.t_model=0.750887771444 self.substeps= [0.7508877714442281] 
+[       8] Calculate called at time 0.725444
+[       8] System time step t= 7.50888e-01, dt= 2.54439e-02
+[       8] Split operator iteration 0
+[       8] NumericalAnalytics Model ladr_2d 
+[       8] Model: ladr_2d
+[       8] NumericalAnalytics Time Step 0.7508877714442281
+[       8] Fractional step  7.50888e-01 for model ladr_2d
+[       8] Step exact called for model ladr_2d
+[       8] StepControl base stepExact t_model= 0.750887771444 tOut= 0.750887771444 t_model_last= 0.725443885722 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       8] Min_dt_controller setSubsteps tList=[0.7508877714442281] self.t_model=0.750887771444 self.substeps= [0.7508877714442281] 
+[       8] Model step t= 7.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Model substep t= 7.50888e-01 for model ladr_2d
+[       8] Model substep t= 7.50888e-01 for model ladr_2d model.timeIntegration.t=  7.50888e-01
+[       8]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.10624e-01
+[       8]    Newton it 0 norm(r) =  5.10624e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5106.24 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.08626e-02
+[       8]    Newton it 1 norm(r) =  2.08626e-02  		 norm(r)/(rtol*norm(r0)+atol) = 208.626 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.59356e-05
+[       8]    Newton it 2 norm(r) =  2.59356e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.59356e-01
+[       8] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.725443885722 t_model_last= 0.725443885722  setting to t_stepSequence= 0.750887771444 
+[       8] Step Taken, t_stepSequence= 0.750887771444 Model step t= 7.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Step Taken, Model step t= 7.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Min_dt_controller setSubsteps tList=[0.7763316571663422] self.t_model=0.776331657166 self.substeps= [0.7763316571663422] 
+[       8] Step Taken, System time step t= 7.50888e-01, dt= 2.54439e-02
+[       8] SplitOperator_Min choose_dt_system t_system_last= 0.750887771444 dt_system= 0.0254438857221 t_system= 0.776331657166 
+[       8] Potential System time step t= 7.76332e-01, dt= 2.54439e-02 for next step
+[       8] Min_dt_controller setSubsteps tList=[0.7763316571663422] self.t_model=0.776331657166 self.substeps= [0.7763316571663422] 
+[       8] Calculate called at time 0.750888
+[       8] System time step t= 7.76332e-01, dt= 2.54439e-02
+[       8] Split operator iteration 0
+[       8] NumericalAnalytics Model ladr_2d 
+[       8] Model: ladr_2d
+[       8] NumericalAnalytics Time Step 0.7763316571663422
+[       8] Fractional step  7.76332e-01 for model ladr_2d
+[       8] Step exact called for model ladr_2d
+[       8] StepControl base stepExact t_model= 0.776331657166 tOut= 0.776331657166 t_model_last= 0.750887771444 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       8] Min_dt_controller setSubsteps tList=[0.7763316571663422] self.t_model=0.776331657166 self.substeps= [0.7763316571663422] 
+[       8] Model step t= 7.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Model substep t= 7.76332e-01 for model ladr_2d
+[       8] Model substep t= 7.76332e-01 for model ladr_2d model.timeIntegration.t=  7.76332e-01
+[       8]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.11661e-01
+[       8]    Newton it 0 norm(r) =  5.11661e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5116.61 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.03304e-02
+[       8]    Newton it 1 norm(r) =  2.03304e-02  		 norm(r)/(rtol*norm(r0)+atol) = 203.304 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.79144e-05
+[       8]    Newton it 2 norm(r) =  2.79144e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.79144e-01
+[       8] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.750887771444 t_model_last= 0.750887771444  setting to t_stepSequence= 0.776331657166 
+[       8] Step Taken, t_stepSequence= 0.776331657166 Model step t= 7.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Step Taken, Model step t= 7.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Min_dt_controller setSubsteps tList=[0.8017755428884563] self.t_model=0.801775542888 self.substeps= [0.8017755428884563] 
+[       8] Step Taken, System time step t= 7.76332e-01, dt= 2.54439e-02
+[       8] SplitOperator_Min choose_dt_system t_system_last= 0.776331657166 dt_system= 0.0254438857221 t_system= 0.801775542888 
+[       8] Potential System time step t= 8.01776e-01, dt= 2.54439e-02 for next step
+[       8] Min_dt_controller setSubsteps tList=[0.8] self.t_model=0.8 self.substeps= [0.8] 
+[       8] Calculate called at time 0.776332
+[       8] System time step t= 8.00000e-01, dt= 2.36683e-02
+[       8] Split operator iteration 0
+[       8] NumericalAnalytics Model ladr_2d 
+[       8] Model: ladr_2d
+[       8] NumericalAnalytics Time Step 0.8
+[       8] Fractional step  8.00000e-01 for model ladr_2d
+[       8] Step exact called for model ladr_2d
+[       8] StepControl base stepExact t_model= 0.8 tOut= 0.8 t_model_last= 0.776331657166 dt_model= 0.0236683428337 setting to 0.0236683428337 
+[       8] Min_dt_controller setSubsteps tList=[0.8] self.t_model=0.8 self.substeps= [0.8] 
+[       8] Model step t= 8.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       8] Model substep t= 8.00000e-01 for model ladr_2d
+[       8] Model substep t= 8.00000e-01 for model ladr_2d model.timeIntegration.t=  8.00000e-01
+[       8]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.07283e-01
+[       8]    Newton it 0 norm(r) =  5.07283e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5072.83 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.72027e-02
+[       8]    Newton it 1 norm(r) =  1.72027e-02  		 norm(r)/(rtol*norm(r0)+atol) = 172.027 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.95466e-05
+[       8]    Newton it 2 norm(r) =  1.95466e-05  		 norm(r)/(rtol*norm(r0)+atol) =  1.95466e-01
+[       8] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.776331657166 t_model_last= 0.776331657166  setting to t_stepSequence= 0.8 
+[       8] Step Taken, t_stepSequence= 0.8 Model step t= 8.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       8] Step Taken, Model step t= 8.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       8] Min_dt_controller setSubsteps tList=[0.8254438857221141] self.t_model=0.825443885722 self.substeps= [0.8254438857221141] 
+[       8] Step Taken, System time step t= 8.00000e-01, dt= 2.36683e-02
+[       8] SplitOperator_Min choose_dt_system t_system_last= 0.8 dt_system= 0.0254438857221 t_system= 0.825443885722 
+[       8] Potential System time step t= 8.25444e-01, dt= 2.54439e-02 for next step
+[       8] Calculate called at time 0.8
+[       8] Writing mesh header for  model = ladr_2d at time t=0.8
+[       8] Writing solution for  model = ladr_2d
+[       8] Syncing Archive
+[       8] Gathering Archive Time step
+[       8] Done Gathering Archive Time Step
+[       8] Done Syncing Archive
+[       8] ==============================================================
+[       8] Solving over interval [ 8.00000e-01, 9.00000e-01]
+[       8] ==============================================================
+[       8] Min_dt_controller setSubsteps tList=[0.8254438857221141] self.t_model=0.825443885722 self.substeps= [0.8254438857221141] 
+[       8] System time step t= 8.25444e-01, dt= 2.54439e-02
+[       8] Split operator iteration 0
+[       8] NumericalAnalytics Model ladr_2d 
+[       8] Model: ladr_2d
+[       8] NumericalAnalytics Time Step 0.8254438857221141
+[       8] Fractional step  8.25444e-01 for model ladr_2d
+[       8] Step exact called for model ladr_2d
+[       8] StepControl base stepExact t_model= 0.825443885722 tOut= 0.825443885722 t_model_last= 0.8 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       8] Min_dt_controller setSubsteps tList=[0.8254438857221141] self.t_model=0.825443885722 self.substeps= [0.8254438857221141] 
+[       8] Model step t= 8.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Model substep t= 8.25444e-01 for model ladr_2d
+[       8] Model substep t= 8.25444e-01 for model ladr_2d model.timeIntegration.t=  8.25444e-01
+[       8]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.13476e-01
+[       8]    Newton it 0 norm(r) =  5.13476e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5134.76 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.95511e-02
+[       8]    Newton it 1 norm(r) =  1.95511e-02  		 norm(r)/(rtol*norm(r0)+atol) = 195.511 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.38590e-05
+[       8]    Newton it 2 norm(r) =  2.38590e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.38590e-01
+[       8] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.8 t_model_last= 0.8  setting to t_stepSequence= 0.825443885722 
+[       8] Step Taken, t_stepSequence= 0.825443885722 Model step t= 8.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Step Taken, Model step t= 8.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Min_dt_controller setSubsteps tList=[0.8508877714442282] self.t_model=0.850887771444 self.substeps= [0.8508877714442282] 
+[       8] Step Taken, System time step t= 8.25444e-01, dt= 2.54439e-02
+[       8] SplitOperator_Min choose_dt_system t_system_last= 0.825443885722 dt_system= 0.0254438857221 t_system= 0.850887771444 
+[       8] Potential System time step t= 8.50888e-01, dt= 2.54439e-02 for next step
+[       8] Min_dt_controller setSubsteps tList=[0.8508877714442282] self.t_model=0.850887771444 self.substeps= [0.8508877714442282] 
+[       8] Calculate called at time 0.825444
+[       8] System time step t= 8.50888e-01, dt= 2.54439e-02
+[       8] Split operator iteration 0
+[       8] NumericalAnalytics Model ladr_2d 
+[       8] Model: ladr_2d
+[       8] NumericalAnalytics Time Step 0.8508877714442282
+[       8] Fractional step  8.50888e-01 for model ladr_2d
+[       8] Step exact called for model ladr_2d
+[       8] StepControl base stepExact t_model= 0.850887771444 tOut= 0.850887771444 t_model_last= 0.825443885722 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       8] Min_dt_controller setSubsteps tList=[0.8508877714442282] self.t_model=0.850887771444 self.substeps= [0.8508877714442282] 
+[       8] Model step t= 8.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Model substep t= 8.50888e-01 for model ladr_2d
+[       8] Model substep t= 8.50888e-01 for model ladr_2d model.timeIntegration.t=  8.50888e-01
+[       8]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.17344e-01
+[       8]    Newton it 0 norm(r) =  5.17344e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5173.44 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.00898e-02
+[       8]    Newton it 1 norm(r) =  2.00898e-02  		 norm(r)/(rtol*norm(r0)+atol) = 200.898 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.47474e-05
+[       8]    Newton it 2 norm(r) =  2.47474e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.47474e-01
+[       8] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.825443885722 t_model_last= 0.825443885722  setting to t_stepSequence= 0.850887771444 
+[       8] Step Taken, t_stepSequence= 0.850887771444 Model step t= 8.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Step Taken, Model step t= 8.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Min_dt_controller setSubsteps tList=[0.8763316571663423] self.t_model=0.876331657166 self.substeps= [0.8763316571663423] 
+[       8] Step Taken, System time step t= 8.50888e-01, dt= 2.54439e-02
+[       8] SplitOperator_Min choose_dt_system t_system_last= 0.850887771444 dt_system= 0.0254438857221 t_system= 0.876331657166 
+[       8] Potential System time step t= 8.76332e-01, dt= 2.54439e-02 for next step
+[       8] Min_dt_controller setSubsteps tList=[0.8763316571663423] self.t_model=0.876331657166 self.substeps= [0.8763316571663423] 
+[       8] Calculate called at time 0.850888
+[       8] System time step t= 8.76332e-01, dt= 2.54439e-02
+[       8] Split operator iteration 0
+[       8] NumericalAnalytics Model ladr_2d 
+[       8] Model: ladr_2d
+[       8] NumericalAnalytics Time Step 0.8763316571663423
+[       8] Fractional step  8.76332e-01 for model ladr_2d
+[       8] Step exact called for model ladr_2d
+[       8] StepControl base stepExact t_model= 0.876331657166 tOut= 0.876331657166 t_model_last= 0.850887771444 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       8] Min_dt_controller setSubsteps tList=[0.8763316571663423] self.t_model=0.876331657166 self.substeps= [0.8763316571663423] 
+[       8] Model step t= 8.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Model substep t= 8.76332e-01 for model ladr_2d
+[       8] Model substep t= 8.76332e-01 for model ladr_2d model.timeIntegration.t=  8.76332e-01
+[       8]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.17843e-01
+[       8]    Newton it 0 norm(r) =  5.17843e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5178.43 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.94674e-02
+[       8]    Newton it 1 norm(r) =  1.94674e-02  		 norm(r)/(rtol*norm(r0)+atol) = 194.674 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.07014e-05
+[       8]    Newton it 2 norm(r) =  2.07014e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.07014e-01
+[       8] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.850887771444 t_model_last= 0.850887771444  setting to t_stepSequence= 0.876331657166 
+[       8] Step Taken, t_stepSequence= 0.876331657166 Model step t= 8.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Step Taken, Model step t= 8.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Min_dt_controller setSubsteps tList=[0.9017755428884564] self.t_model=0.901775542888 self.substeps= [0.9017755428884564] 
+[       8] Step Taken, System time step t= 8.76332e-01, dt= 2.54439e-02
+[       8] SplitOperator_Min choose_dt_system t_system_last= 0.876331657166 dt_system= 0.0254438857221 t_system= 0.901775542888 
+[       8] Potential System time step t= 9.01776e-01, dt= 2.54439e-02 for next step
+[       8] Min_dt_controller setSubsteps tList=[0.9] self.t_model=0.9 self.substeps= [0.9] 
+[       8] Calculate called at time 0.876332
+[       8] System time step t= 9.00000e-01, dt= 2.36683e-02
+[       8] Split operator iteration 0
+[       8] NumericalAnalytics Model ladr_2d 
+[       8] Model: ladr_2d
+[       8] NumericalAnalytics Time Step 0.9
+[       8] Fractional step  9.00000e-01 for model ladr_2d
+[       8] Step exact called for model ladr_2d
+[       8] StepControl base stepExact t_model= 0.9 tOut= 0.9 t_model_last= 0.876331657166 dt_model= 0.0236683428337 setting to 0.0236683428337 
+[       8] Min_dt_controller setSubsteps tList=[0.9] self.t_model=0.9 self.substeps= [0.9] 
+[       8] Model step t= 9.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       8] Model substep t= 9.00000e-01 for model ladr_2d
+[       8] Model substep t= 9.00000e-01 for model ladr_2d model.timeIntegration.t=  9.00000e-01
+[       8]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.15133e-01
+[       8]    Newton it 0 norm(r) =  5.15133e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5151.33 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.73754e-02
+[       8]    Newton it 1 norm(r) =  1.73754e-02  		 norm(r)/(rtol*norm(r0)+atol) = 173.754 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.70786e-05
+[       8]    Newton it 2 norm(r) =  1.70786e-05  		 norm(r)/(rtol*norm(r0)+atol) =  1.70786e-01
+[       8] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.876331657166 t_model_last= 0.876331657166  setting to t_stepSequence= 0.9 
+[       8] Step Taken, t_stepSequence= 0.9 Model step t= 9.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       8] Step Taken, Model step t= 9.00000e-01, dt= 2.36683e-02 for model ladr_2d
+[       8] Min_dt_controller setSubsteps tList=[0.9254438857221141] self.t_model=0.925443885722 self.substeps= [0.9254438857221141] 
+[       8] Step Taken, System time step t= 9.00000e-01, dt= 2.36683e-02
+[       8] SplitOperator_Min choose_dt_system t_system_last= 0.9 dt_system= 0.0254438857221 t_system= 0.925443885722 
+[       8] Potential System time step t= 9.25444e-01, dt= 2.54439e-02 for next step
+[       8] Calculate called at time 0.9
+[       8] Writing mesh header for  model = ladr_2d at time t=0.9
+[       8] Writing solution for  model = ladr_2d
+[       8] Syncing Archive
+[       8] Gathering Archive Time step
+[       8] Done Gathering Archive Time Step
+[       8] Done Syncing Archive
+[       8] ==============================================================
+[       8] Solving over interval [ 9.00000e-01, 1.00000e+00]
+[       8] ==============================================================
+[       8] Min_dt_controller setSubsteps tList=[0.9254438857221141] self.t_model=0.925443885722 self.substeps= [0.9254438857221141] 
+[       8] System time step t= 9.25444e-01, dt= 2.54439e-02
+[       8] Split operator iteration 0
+[       8] NumericalAnalytics Model ladr_2d 
+[       8] Model: ladr_2d
+[       8] NumericalAnalytics Time Step 0.9254438857221141
+[       8] Fractional step  9.25444e-01 for model ladr_2d
+[       8] Step exact called for model ladr_2d
+[       8] StepControl base stepExact t_model= 0.925443885722 tOut= 0.925443885722 t_model_last= 0.9 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       8] Min_dt_controller setSubsteps tList=[0.9254438857221141] self.t_model=0.925443885722 self.substeps= [0.9254438857221141] 
+[       8] Model step t= 9.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Model substep t= 9.25444e-01 for model ladr_2d
+[       8] Model substep t= 9.25444e-01 for model ladr_2d model.timeIntegration.t=  9.25444e-01
+[       8]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.22027e-01
+[       8]    Newton it 0 norm(r) =  5.22027e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5220.27 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.98153e-02
+[       8]    Newton it 1 norm(r) =  1.98153e-02  		 norm(r)/(rtol*norm(r0)+atol) = 198.153 test=r
+[       8]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.18295e-05
+[       8]    Newton it 2 norm(r) =  2.18295e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.18295e-01
+[       8] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.9 t_model_last= 0.9  setting to t_stepSequence= 0.925443885722 
+[       8] Step Taken, t_stepSequence= 0.925443885722 Model step t= 9.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       8] Step Taken, Model step t= 9.25444e-01, dt= 2.54439e-02 for model ladr_2d
+[       9] Min_dt_controller setSubsteps tList=[0.9508877714442282] self.t_model=0.950887771444 self.substeps= [0.9508877714442282] 
+[       9] Step Taken, System time step t= 9.25444e-01, dt= 2.54439e-02
+[       9] SplitOperator_Min choose_dt_system t_system_last= 0.925443885722 dt_system= 0.0254438857221 t_system= 0.950887771444 
+[       9] Potential System time step t= 9.50888e-01, dt= 2.54439e-02 for next step
+[       9] Min_dt_controller setSubsteps tList=[0.9508877714442282] self.t_model=0.950887771444 self.substeps= [0.9508877714442282] 
+[       9] Calculate called at time 0.925444
+[       9] System time step t= 9.50888e-01, dt= 2.54439e-02
+[       9] Split operator iteration 0
+[       9] NumericalAnalytics Model ladr_2d 
+[       9] Model: ladr_2d
+[       9] NumericalAnalytics Time Step 0.9508877714442282
+[       9] Fractional step  9.50888e-01 for model ladr_2d
+[       9] Step exact called for model ladr_2d
+[       9] StepControl base stepExact t_model= 0.950887771444 tOut= 0.950887771444 t_model_last= 0.925443885722 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       9] Min_dt_controller setSubsteps tList=[0.9508877714442282] self.t_model=0.950887771444 self.substeps= [0.9508877714442282] 
+[       9] Model step t= 9.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       9] Model substep t= 9.50888e-01 for model ladr_2d
+[       9] Model substep t= 9.50888e-01 for model ladr_2d model.timeIntegration.t=  9.50888e-01
+[       9]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.16674e-01
+[       9]    Newton it 0 norm(r) =  5.16674e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5166.74 test=r
+[       9]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.94156e-02
+[       9]    Newton it 1 norm(r) =  1.94156e-02  		 norm(r)/(rtol*norm(r0)+atol) = 194.156 test=r
+[       9]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.18139e-05
+[       9]    Newton it 2 norm(r) =  2.18139e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.18139e-01
+[       9] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.925443885722 t_model_last= 0.925443885722  setting to t_stepSequence= 0.950887771444 
+[       9] Step Taken, t_stepSequence= 0.950887771444 Model step t= 9.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       9] Step Taken, Model step t= 9.50888e-01, dt= 2.54439e-02 for model ladr_2d
+[       9] Min_dt_controller setSubsteps tList=[0.9763316571663423] self.t_model=0.976331657166 self.substeps= [0.9763316571663423] 
+[       9] Step Taken, System time step t= 9.50888e-01, dt= 2.54439e-02
+[       9] SplitOperator_Min choose_dt_system t_system_last= 0.950887771444 dt_system= 0.0254438857221 t_system= 0.976331657166 
+[       9] Potential System time step t= 9.76332e-01, dt= 2.54439e-02 for next step
+[       9] Min_dt_controller setSubsteps tList=[0.9763316571663423] self.t_model=0.976331657166 self.substeps= [0.9763316571663423] 
+[       9] Calculate called at time 0.950888
+[       9] System time step t= 9.76332e-01, dt= 2.54439e-02
+[       9] Split operator iteration 0
+[       9] NumericalAnalytics Model ladr_2d 
+[       9] Model: ladr_2d
+[       9] NumericalAnalytics Time Step 0.9763316571663423
+[       9] Fractional step  9.76332e-01 for model ladr_2d
+[       9] Step exact called for model ladr_2d
+[       9] StepControl base stepExact t_model= 0.976331657166 tOut= 0.976331657166 t_model_last= 0.950887771444 dt_model= 0.0254438857221 setting to 0.0254438857221 
+[       9] Min_dt_controller setSubsteps tList=[0.9763316571663423] self.t_model=0.976331657166 self.substeps= [0.9763316571663423] 
+[       9] Model step t= 9.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       9] Model substep t= 9.76332e-01 for model ladr_2d
+[       9] Model substep t= 9.76332e-01 for model ladr_2d model.timeIntegration.t=  9.76332e-01
+[       9]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.15790e-01
+[       9]    Newton it 0 norm(r) =  5.15790e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5157.9 test=r
+[       9]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.96894e-02
+[       9]    Newton it 1 norm(r) =  1.96894e-02  		 norm(r)/(rtol*norm(r0)+atol) = 196.894 test=r
+[       9]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  2.51026e-05
+[       9]    Newton it 2 norm(r) =  2.51026e-05  		 norm(r)/(rtol*norm(r0)+atol) =  2.51026e-01
+[       9] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.950887771444 t_model_last= 0.950887771444  setting to t_stepSequence= 0.976331657166 
+[       9] Step Taken, t_stepSequence= 0.976331657166 Model step t= 9.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       9] Step Taken, Model step t= 9.76332e-01, dt= 2.54439e-02 for model ladr_2d
+[       9] Min_dt_controller setSubsteps tList=[1.0017755428884563] self.t_model=1.00177554289 self.substeps= [1.0017755428884563] 
+[       9] Step Taken, System time step t= 9.76332e-01, dt= 2.54439e-02
+[       9] SplitOperator_Min choose_dt_system t_system_last= 0.976331657166 dt_system= 0.0254438857221 t_system= 1.00177554289 
+[       9] Potential System time step t= 1.00178e+00, dt= 2.54439e-02 for next step
+[       9] Min_dt_controller setSubsteps tList=[1.0] self.t_model=1.0 self.substeps= [1.0] 
+[       9] Calculate called at time 0.976332
+[       9] System time step t= 1.00000e+00, dt= 2.36683e-02
+[       9] Split operator iteration 0
+[       9] NumericalAnalytics Model ladr_2d 
+[       9] Model: ladr_2d
+[       9] NumericalAnalytics Time Step 1.0
+[       9] Fractional step  1.00000e+00 for model ladr_2d
+[       9] Step exact called for model ladr_2d
+[       9] StepControl base stepExact t_model= 1.0 tOut= 1.0 t_model_last= 0.976331657166 dt_model= 0.0236683428337 setting to 0.0236683428337 
+[       9] Min_dt_controller setSubsteps tList=[1.0] self.t_model=1.0 self.substeps= [1.0] 
+[       9] Model step t= 1.00000e+00, dt= 2.36683e-02 for model ladr_2d
+[       9] Model substep t= 1.00000e+00 for model ladr_2d
+[       9] Model substep t= 1.00000e+00 for model ladr_2d model.timeIntegration.t=  1.00000e+00
+[       9]   NumericalAnalytics NewtonIteration: 0, NewtonNorm:  5.09482e-01
+[       9]    Newton it 0 norm(r) =  5.09482e-01  		 norm(r)/(rtol*norm(r0)+atol) = 5094.82 test=r
+[       9]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.61098e-02
+[       9]    Newton it 1 norm(r) =  1.61098e-02  		 norm(r)/(rtol*norm(r0)+atol) = 161.098 test=r
+[       9]   NumericalAnalytics NewtonIteration: 1, NewtonNorm:  1.43083e-05
+[       9]    Newton it 2 norm(r) =  1.43083e-05  		 norm(r)/(rtol*norm(r0)+atol) =  1.43083e-01
+[       9] SO_base modelStepTaken for model= ladr_2d t_system_last= 0.976331657166 t_model_last= 0.976331657166  setting to t_stepSequence= 1.0 
+[       9] Step Taken, t_stepSequence= 1.0 Model step t= 1.00000e+00, dt= 2.36683e-02 for model ladr_2d
+[       9] Step Taken, Model step t= 1.00000e+00, dt= 2.36683e-02 for model ladr_2d
+[       9] Min_dt_controller setSubsteps tList=[1.025443885722114] self.t_model=1.02544388572 self.substeps= [1.025443885722114] 
+[       9] Step Taken, System time step t= 1.00000e+00, dt= 2.36683e-02
+[       9] SplitOperator_Min choose_dt_system t_system_last= 1.0 dt_system= 0.0254438857221 t_system= 1.02544388572 
+[       9] Potential System time step t= 1.02544e+00, dt= 2.54439e-02 for next step
+[       9] Calculate called at time 1
+[       9] Writing mesh header for  model = ladr_2d at time t=1.0
+[       9] Writing solution for  model = ladr_2d
+[       9] Syncing Archive
+[       9] Gathering Archive Time step
+[       9] Done Gathering Archive Time Step
+[       9] Done Syncing Archive
+[       9] Finished calculating solution
+[       9] Closing solution archive for ladr_2d
+[       9] Closing Archive
+[       9] Done Closing Archive

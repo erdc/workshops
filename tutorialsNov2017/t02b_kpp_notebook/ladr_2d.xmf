@@ -1,0 +1,224 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid CollectionType="Temporal" GridType="Collection" Name="Mesh Spatial_Domain">
+      <Grid GridType="Uniform">
+        <Time Name="0" Value="0.0" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain0</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t0</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="1" Value="0.001" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain1</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain1</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t1</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="2" Value="0.1" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain2</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain2</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t2</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="3" Value="0.2" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain3</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain3</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t3</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="4" Value="0.3" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain4</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain4</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t4</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="5" Value="0.4" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain5</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain5</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t5</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="6" Value="0.5" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain6</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain6</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t6</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="7" Value="0.6" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain7</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain7</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t7</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="8" Value="0.7" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain8</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain8</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t8</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="9" Value="0.8" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain9</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain9</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t9</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="10" Value="0.9" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain10</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain10</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t10</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t10</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Name="11" Value="1.0" />
+        <Topology NumberOfElements="10926" Type="Triangle">
+          <DataItem DataType="Int" Dimensions="10926 3" Format="HDF">ladr_2d.h5:/elementsSpatial_Domain11</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="5594 3" Format="HDF" Precision="8">ladr_2d.h5:/nodesSpatial_Domain11</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="5594" Format="HDF">ladr_2d.h5:/nodeMaterialTypes_t11</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="10926" Format="HDF">ladr_2d.h5:/elementMaterialTypes_t11</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u">
+          <DataItem DataType="Float" Dimensions="5594" Format="HDF" Precision="8">ladr_2d.h5:/u_t11</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
