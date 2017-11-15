@@ -9,32 +9,55 @@ import pylab
 from proteus import SpatialTools as st
 import numpy as np
 
-def plot_domain(domain, elev=0, azim=0, flags=None):
+def plot_domain(domain, elev=0, azim=0, segmentFlags=None, vertexFlags=None, regionFlags=None):
     bc = domain.shape_list[0].BC_class
     st._assembleGeometry(domain, bc)
     if domain.nd == 2:
         lines = []
-        cmap = pylab.get_cmap("hsv")
+        cmap = pylab.get_cmap("jet")
         c = []
         shape_nb = float(len(domain.shape_list))
-        annotate_coords = []
-        annotate_label = []
+        annotate_coords_seg = []
+        annotate_label_seg = []
+        annotate_coords_ver = []
+        annotate_label_ver = []
+        annotate_coords_reg = []
+        annotate_label_reg = []
         start_global_flag = 0
-        if flags=='global': shapes = [domain];
-        if flags=='local' or flags is None: shapes = domain.shape_list
-        for i, shape in enumerate(shapes):
-            for s,sF in zip(shape.segments,shape.segmentFlags):
+        if segmentFlags=='global': shapes_s = [domain];
+        elif segmentFlags=='local' or segmentFlags is None: shapes_s = domain.shape_list
+        if vertexFlags=='global': shapes_v = [domain];
+        elif vertexFlags=='local' or vertexFlags is None: shapes_v = domain.shape_list
+        if regionFlags=='global': shapes_r = [domain];
+        elif regionFlags=='local' or regionFlags is None: shapes_r = domain.shape_list
+        for i, shape in enumerate(shapes_s):
+            for s,sF in zip(shape.segments, shape.segmentFlags):
                 lines.append([shape.vertices[s[0]], shape.vertices[s[1]]])
                 c.append(cmap(float(i/shape_nb)))
-                annotate_coords += [np.array((np.array(shape.vertices[s[0]])+np.array(shape.vertices[s[1]]))/2.).tolist()]
-                annotate_label += [sF]
+                annotate_coords_seg += [np.array((np.array(shape.vertices[s[0]])+np.array(shape.vertices[s[1]]))/2.).tolist()]
+                annotate_label_seg += [sF]
+        for i, shape in enumerate(shapes_v):
+            for v, vF in zip(shape.vertices, shape.vertexFlags):
+                annotate_coords_ver += [v]
+                annotate_label_ver += [vF]
+        for i, shape in enumerate(shapes_r):
+            for r, rF in zip(shape.regions, shape.regionFlags):
+                annotate_coords_reg += [r]
+                annotate_label_reg += [rF]
         lc = collections.LineCollection(lines,colors=c,linewidths=3)
         fig, ax = pyplot.subplots()
-        if flags is not None:
-            for i, label in enumerate(annotate_label):
-                ax.annotate(str(label), xy=annotate_coords[i], xycoords='data',
-                #bbox=dict(boxstyle="round", fc="0.8"))
-                )
+        if segmentFlags is not None:
+            for i, label in enumerate(annotate_label_seg):
+                ax.annotate(str(label), size=10, xy=annotate_coords_seg[i], xycoords='data',
+                bbox=dict(boxstyle="round", edgecolor='green', facecolor=(0,0,0,0)))
+        if vertexFlags is not None:
+            for i, label in enumerate(annotate_label_ver):
+                ax.annotate(str(label), size=10, xy=annotate_coords_ver[i], xycoords='data',
+                bbox=dict(boxstyle="round", edgecolor='blue', facecolor=(0,0,0,0)))
+        if regionFlags is not None:
+            for i, label in enumerate(annotate_label_reg):
+                ax.annotate(str(label), size=10, xy=annotate_coords_reg[i], xycoords='data',
+                bbox=dict(boxstyle="round", edgecolor='red', facecolor=(0,0,0,0)))
         ax.add_collection(lc)
         ax.margins(0.1)
         ax.set_aspect('equal')
