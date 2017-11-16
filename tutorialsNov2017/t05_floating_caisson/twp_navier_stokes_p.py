@@ -72,34 +72,26 @@ coefficients = RANS2P.Coefficients(epsFact=ct.epsFact_viscosity,
                                    barycenters=ct.domain.barycenters)
 
 
-dirichletConditions = {0: lambda x, flag: domain.bc[flag].p_dirichlet,
-                       1: lambda x, flag: domain.bc[flag].u_dirichlet,
-                       2: lambda x, flag: domain.bc[flag].v_dirichlet}
+dirichletConditions = {0: lambda x, flag: domain.bc[flag].p_dirichlet.init_cython(),
+                       1: lambda x, flag: domain.bc[flag].u_dirichlet.init_cython(),
+                       2: lambda x, flag: domain.bc[flag].v_dirichlet.init_cython()}
 
-advectiveFluxBoundaryConditions = {0: lambda x, flag: domain.bc[flag].p_advective,
-                                   1: lambda x, flag: domain.bc[flag].u_advective,
-                                   2: lambda x, flag: domain.bc[flag].v_advective}
+advectiveFluxBoundaryConditions = {0: lambda x, flag: domain.bc[flag].p_advective.init_cython(),
+                                   1: lambda x, flag: domain.bc[flag].u_advective.init_cython(),
+                                   2: lambda x, flag: domain.bc[flag].v_advective.init_cython()}
 
 diffusiveFluxBoundaryConditions = {0: {},
-                                   1: {1: lambda x, flag: domain.bc[flag].u_diffusive},
-                                   2: {2: lambda x, flag: domain.bc[flag].v_diffusive}}
+                                   1: {1: lambda x, flag: domain.bc[flag].u_diffusive.init_cython()},
+                                   2: {2: lambda x, flag: domain.bc[flag].v_diffusive.init_cython()}}
 
 if nd == 3:
-    dirichletConditions[3] = lambda x, flag: domain.bc[flag].w_dirichlet
-    advectiveFluxBoundaryConditions[3] = lambda x, flag: domain.bc[flag].w_advective
-    diffusiveFluxBoundaryConditions[3] = {3: lambda x, flag: domain.bc[flag].w_diffusive}
+    dirichletConditions[3] = lambda x, flag: domain.bc[flag].w_dirichlet.init_cython()
+    advectiveFluxBoundaryConditions[3] = lambda x, flag: domain.bc[flag].w_advective.init_cython()
+    diffusiveFluxBoundaryConditions[3] = {3: lambda x, flag: domain.bc[flag].w_diffusive.init_cython()}
 
-from proteus.ctransportCoefficients import smoothedHeaviside as sH
-from proteus.ctransportCoefficients import smoothedHeaviside_integral as sHi
-def twpflowPressure_init(x, t):
-    p_L = 0.0
-    phi_L = ct.tank.dim[nd-1] - ct.waterLevel
-    phi = x[nd-1] - ct.waterLevel
-    return p_L-ct.g[nd-1]*(ct.rho_0*(phi_L-phi)+(ct.rho_1-ct.rho_0)*(sHi(ct.epsFact_consrv_heaviside*ct.domain.MeshOptions.he,phi_L)
-                                                                     -sHi(ct.epsFact_consrv_heaviside*ct.domain.MeshOptions.he,phi)))
 class P_IC:
     def uOfXT(self, x, t):
-        return twpflowPressure_init(x, t)
+        return ct.twpflowPressure_init(x, t)
 
 class U_IC:
     def uOfXT(self, x, t):
