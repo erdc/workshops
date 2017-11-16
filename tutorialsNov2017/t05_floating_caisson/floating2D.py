@@ -25,7 +25,7 @@ opts=Context.Options([
     ("caisson_xcoord", None, "x-coord of the caisson"),
     ("caisson_ycoord", 1.41, "y-coord of the caisson"),
     ("caisson_width", 1., "Width of the caisson"),
-    ("free_x", (1.0, 1.0, 1.0), "Translational DOFs"),
+    ("free_x", (0.0, 1.0, 1.0), "Translational DOFs"),
     ("free_r", (1.0, 1.0, 1.0), "Rotational DOFs"),
     ("VCG", 0.135, "vertical position of the barycenter of the caisson"),
     ("caisson_mass", 125., "Mass of the caisson"),
