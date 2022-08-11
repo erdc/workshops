@@ -1,1 +1,1 @@
-http://erdc-cm.github.io/workshops
+http://erdc.github.io/workshops
